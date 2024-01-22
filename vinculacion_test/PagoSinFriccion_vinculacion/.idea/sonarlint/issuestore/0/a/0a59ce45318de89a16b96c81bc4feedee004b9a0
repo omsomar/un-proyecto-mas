@@ -1,0 +1,175 @@
+
+Fjavascript:S1472G"*Make those call arguments start on line 70(ÿ¨±Ö
+]javascript:S2137G"ADo not use "undefined" to declare a parameter - use another name.(ÿ¨±Ö
+vjavascript:S3776j"URefactor this function to reduce its Cognitive Complexity from 220 to the 15 allowed.(Ûşûüÿÿÿÿ
+@javascript:S1874"'$' is deprecated. Since v1.10(ï«¬£üÿÿÿÿ
+@javascript:S1874Æ"'_' is deprecated. Since v1.10(ìÔ†ùÿÿÿÿ
+Bjavascript:S1874…"&'fnAddData' is deprecated. Since v1.10(éÉ”
+Sjavascript:S1874«"1'fnAdjustColumnSizing' is deprecated. Since v1.10(„İŒØøÿÿÿÿ
+Kjavascript:S1874É")'fnClearTable' is deprecated. Since v1.10(Ìıè¨üÿÿÿÿ
+Fjavascript:S1874ë"$'fnClose' is deprecated. Since v1.10(ú›ó£şÿÿÿÿ
+Ejavascript:S1874ƒ"('fnDeleteRow' is deprecated. Since v1.10(×£¸
+Cjavascript:S1874¦"&'fnDestroy' is deprecated. Since v1.10(àñá…
+@javascript:S1874º"#'fnDraw' is deprecated. Since v1.10(À¡ù
+Bjavascript:S1874Õ"%'fnFilter' is deprecated. Since v1.10(´Ùœ±
+Hjavascript:S1874‰"&'fnGetData' is deprecated. Since v1.10(¿ûš¼ûÿÿÿÿ
+Djavascript:S1874«"''fnGetNodes' is deprecated. Since v1.10(Úäü
+Ljavascript:S1874Ñ"*'fnGetPosition' is deprecated. Since v1.10(¦«Äêøÿÿÿÿ
+Gjavascript:S1874ı"%'fnIsOpen' is deprecated. Since v1.10(“ê×öÿÿÿÿÿ
+@javascript:S1874¡"#'fnOpen' is deprecated. Since v1.10(ˆæ¬ı
+Kjavascript:S1874»")'fnPageChange' is deprecated. Since v1.10(áÊ­¦ıÿÿÿÿ
+Hjavascript:S1874Õ"+'fnSetColumnVis' is deprecated. Since v1.10(¼…Ú·
+Djavascript:S1874ï"''fnSettings' is deprecated. Since v1.10(—®éå
+Ejavascript:S1874„"#'fnSort' is deprecated. Since v1.10(¿›ã’ıÿÿÿÿ
+Hjavascript:S1874š"+'fnSortListener' is deprecated. Since v1.10(á¥‚¾
+Gjavascript:S1874¶"%'fnUpdate' is deprecated. Since v1.10(ÃŒÜæıÿÿÿÿ
+Hjavascript:S1874İ"+'fnVersionCheck' is deprecated. Since v1.10(ÃÚò‚
+Tjavascript:S1481ú"2Remove the declaration of the unused 'j' variable.(Üº™ìúÿÿÿÿ
+Wjavascript:S1481ú"5Remove the declaration of the unused 'jLen' variable.(Üº™ìúÿÿÿÿ
+Tjavascript:S1481ú"2Remove the declaration of the unused 'k' variable.(Üº™ìúÿÿÿÿ
+Wjavascript:S1481ú"5Remove the declaration of the unused 'kLen' variable.(Üº™ìúÿÿÿÿ
+Mjavascript:S1117ç"+'i' is already declared in the upper scope.(÷ŸµÀûÿÿÿÿ
+Hjavascript:S1117œ	"+'i' is already declared in the upper scope.(Ò™ 
+Qjavascript:S1135µ	"4Complete the task associated to this "TODO" comment.(œ½
+Hjavascript:S1117Ì	"+'i' is already declared in the upper scope.(•ÿÌ
+fjavascript:S3358™"DExtract this nested ternary operation into an independent statement.(²Ğ–ÿÿÿÿÿ
+]javascript:S1119¯";Refactor the code to remove this label and the need for it.(º¿ûşÿÿÿÿ
+fjavascript:S3358Ä"DExtract this nested ternary operation into an independent statement.(ã’°Ùøÿÿÿÿ
+qjavascript:S3776İ"TRefactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.(®”·Å
+qjavascript:S3776Ë"TRefactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.(ÿƒì÷
+Wjavascript:S1481Ñ"5Remove the declaration of the unused 'cell' variable.(î­Ñşÿÿÿÿÿ
+vjavascript:S3776’"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(â˜é¤şÿÿÿÿ
+Qjavascript:S1481ï"4Remove the declaration of the unused 'nTd' variable.(øÁ¼î
+Wjavascript:S1481ï":Remove the declaration of the unused 'sThisType' variable.(øÁ¼î
+vjavascript:S3776"TRefactor this function to reduce its Cognitive Complexity from 58 to the 15 allowed.(Ş•¹¦ûÿÿÿÿ
+vjavascript:S3776š"TRefactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.(“ş­Âúÿÿÿÿ
+<javascript:S1186¨"Unexpected empty function.(ß¸Ï°ÿÿÿÿÿ
+Ojavascript:S1854ó"2Remove this useless assignment to variable "data".(“Õš
+Vjavascript:S1135Ï"4Complete the task associated to this "TODO" comment.(Ğëõúÿÿÿÿ
+qjavascript:S3776Ó"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(•ÏÃæ
+qjavascript:S3776¡"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(œ¸”ê
+Tjavascript:S1481¦"2Remove the declaration of the unused 'o' variable.(¬™“øÿÿÿÿ
+ajavascript:S3358­"DExtract this nested ternary operation into an independent statement.(ß¢ù
+Njavascript:S1117±",'td' is already declared in the upper scope.(İ‹¸íşÿÿÿÿ
+Kjavascript:S1117¶".'attr' is already declared in the upper scope.(À¹Œ
+vjavascript:S3776"TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.(İñËŸÿÿÿÿÿ
+qjavascript:S3776‹"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(ØÓÊ¡
+qjavascript:S3776á"TRefactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.(¢†µ©
+Rjavascript:S1481ã"5Remove the declaration of the unused 'kLen' variable.(áÊ’¬
+qjavascript:S3776Ã"TRefactor this function to reduce its Cognitive Complexity from 37 to the 15 allowed.(Ç•ÿá
+Ojavascript:S1481Í"2Remove the declaration of the unused 'i' variable.(¶î¨Ã
+Rjavascript:S1481Í"5Remove the declaration of the unused 'iLen' variable.(¶î¨Ã
+Ojavascript:S1481Í"2Remove the declaration of the unused 'n' variable.(¶î¨Ã
+Wjavascript:S1481Ò":Remove the declaration of the unused 'iOpenRows' variable.(‡±İ 
+Tjavascript:S1854Ò"7Remove this useless assignment to variable "iOpenRows".(‡±İ 
+fjavascript:S3358ß"DExtract this nested ternary operation into an independent statement.(û²»¾øÿÿÿÿ
+qjavascript:S3776ö"TRefactor this function to reduce its Cognitive Complexity from 48 to the 15 allowed.(™§‚Û
+Vjavascript:S1135 "4Complete the task associated to this "TODO" comment.( ¥¦Øøÿÿÿÿ
+@javascript:S2310¼"Remove this assignment of "i".(ƒô¶üÿÿÿÿ
+Vjavascript:S1135Ç"4Complete the task associated to this "TODO" comment.(í¢ôÿÿÿÿÿ
+qjavascript:S3776’"TRefactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.(Õ¹Õ–
+Wjavascript:S1481–"5Remove the declaration of the unused 'jLen' variable.(÷Ü²€øÿÿÿÿ
+Hjavascript:S1117˜"+'i' is already declared in the upper scope.(îá™
+Hjavascript:S1117™"+'k' is already declared in the upper scope.(–öË‰
+vjavascript:S3776‚"TRefactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.(şÁ»šúÿÿÿÿ
+Mjavascript:S1117ğ"+'i' is already declared in the upper scope.(ºÙü¦ûÿÿÿÿ
+qjavascript:S3776Û "TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(ƒ¨¤ô
+Tjavascript:S1481ñ "2Remove the declaration of the unused 'n' variable.(î§¥‘ıÿÿÿÿ
+Qjavascript:S1854ñ "/Remove this useless assignment to variable "n".(î§¥‘ıÿÿÿÿ
+ajavascript:S3358…!"DExtract this nested ternary operation into an independent statement.(ç•¢¿
+Qjavascript:S1135Ä!"4Complete the task associated to this "TODO" comment.(‘Éê
+njavascript:S4138˜""LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(îë•ãùÿÿÿÿ
+qjavascript:S3776#"TRefactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.(¸ùÂ
+Xjavascript:S930‘%"7This function expects 3 arguments, but 4 were provided.(ë¹§Ïüÿÿÿÿ
+vjavascript:S3776–&"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(Úîä¢øÿÿÿÿ
+Ojavascript:S1117œ&"2'settings' is already declared in the upper scope.(Ã­ãã
+Ojavascript:S1117¬&"2'settings' is already declared in the upper scope.(Êøä•
+qjavascript:S3776Ó&"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(ªÛÀ
+qjavascript:S3776¼'"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(á™Ãù
+vjavascript:S3776Ú("TRefactor this function to reduce its Cognitive Complexity from 42 to the 15 allowed.(íüø—üÿÿÿÿ
+Cjavascript:S1110¡*"!Remove these useless parentheses.(ç•ş«ûÿÿÿÿ
+vjavascript:S3776õ*"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÈÕë×üÿÿÿÿ
+pjavascript:S3776œ+"TRefactor this function to reduce its Cognitive Complexity from 54 to the 15 allowed.(õ‰ó&
+Sjavascript:S1481«+"6Remove the declaration of the unused 'width' variable.(ŒÍ „
+Xjavascript:S1481«+";Remove the declaration of the unused 'outerWidth' variable.(ŒÍ „
+vjavascript:S3776ä-"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(±äŸ”ùÿÿÿÿ
+Qjavascript:S1481ç-"5Remove the declaration of the unused 'iLen' variable.(Ãê®S
+Yjavascript:S1481é-"7Remove the declaration of the unused 'aiOrig' variable.(ñÇÈÇùÿÿÿÿ
+Pjavascript:S1135ª."4Complete the task associated to this "TODO" comment.(ôÀƒ
+qjavascript:S3776¬."TRefactor this function to reduce its Cognitive Complexity from 64 to the 15 allowed.(ˆÛî‰
+Tjavascript:S1481¯."2Remove the declaration of the unused 'j' variable.(Ø¼Óûşÿÿÿÿ
+Wjavascript:S1481¯."5Remove the declaration of the unused 'jLen' variable.(Ø¼Óûşÿÿÿÿ
+Tjavascript:S1481¯."2Remove the declaration of the unused 'k' variable.(Ø¼Óûşÿÿÿÿ
+Wjavascript:S1481¯."5Remove the declaration of the unused 'kLen' variable.(Ø¼Óûşÿÿÿÿ
+Vjavascript:S1481°.":Remove the declaration of the unused 'sDataType' variable.(°r
+Pjavascript:S1481°."4Remove the declaration of the unused 'nTh' variable.(°r
+Wjavascript:S1481´.":Remove the declaration of the unused 'aoColumns' variable.(èû÷¶
+Tjavascript:S1854´."7Remove this useless assignment to variable "aoColumns".(èû÷¶
+Wjavascript:S1481µ.":Remove the declaration of the unused 'aDataSort' variable.(‚¶Îç
+Rjavascript:S1481µ."5Remove the declaration of the unused 'data' variable.(‚¶Îç
+Rjavascript:S1481µ."5Remove the declaration of the unused 'iCol' variable.(‚¶Îç
+Sjavascript:S1481µ."6Remove the declaration of the unused 'sType' variable.(‚¶Îç
+Sjavascript:S1481µ."6Remove the declaration of the unused 'oSort' variable.(‚¶Îç
+Vjavascript:S1135¼."4Complete the task associated to this "TODO" comment.(Ü€Õäşÿÿÿÿ
+Mjavascript:S1117ğ."+'k' is already declared in the upper scope.(ã€©ÿÿÿÿÿ
+fjavascript:S3358û."DExtract this nested ternary operation into an independent statement.(¤ İûÿÿÿÿ
+ajavascript:S3358ƒ/"DExtract this nested ternary operation into an independent statement.(ËÔ
+Hjavascript:S1117Œ/"+'k' is already declared in the upper scope.(•ÄŞ„
+Ojavascript:S1481Œ/"2Remove the declaration of the unused 'l' variable.(•ÄŞ„
+ajavascript:S3358 /"DExtract this nested ternary operation into an independent statement.(ËÔ
+vjavascript:S3776ª/"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(º“•Îøÿÿÿÿ
+vjavascript:S3776á/"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(©©ôéøÿÿÿÿ
+ajavascript:S3358ï/"DExtract this nested ternary operation into an independent statement.(æ°¦Ü
+vjavascript:S3776Ë1"TRefactor this function to reduce its Cognitive Complexity from 38 to the 15 allowed.(µ–ùğûÿÿÿÿ
+Qjavascript:S1135í1"4Complete the task associated to this "TODO" comment.(ĞÎä¼
+Mjavascript:S1117ú1"+'i' is already declared in the upper scope.(ÆûÂ’úÿÿÿÿ
+Ojavascript:S1117ú1"-'col' is already declared in the upper scope.(ÆûÂ’úÿÿÿÿ
+Vjavascript:S1135—3"4Complete the task associated to this "TODO" comment.(ÕéèÛùÿÿÿÿ
+qjavascript:S3776í6"TRefactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.(•ÿ¶Î
+Ljavascript:S1117¦8"/'scope' is already declared in the upper scope.(£…›
+fjavascript:S3358¶8"DExtract this nested ternary operation into an independent statement.(º’Ñ˜ûÿÿÿÿ
+Qjavascript:S1135Â8"4Complete the task associated to this "TODO" comment.(İ¶Ô¸
+;javascript:S125È8"Remove this commented out code.(àèú“
+vjavascript:S3776ã8"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(Ú‹ÑÏûÿÿÿÿ
+Ijavascript:S1117ò8"-'src' is already declared in the upper scope.(‰øŒP
+Jjavascript:S1117ò8".'name' is already declared in the upper scope.(‰øŒP
+Mjavascript:S1117ó8"+'i' is already declared in the upper scope.(¨™âöşÿÿÿÿ
+Ojavascript:S1117ó8"-'ien' is already declared in the upper scope.(¨™âöşÿÿÿÿ
+fjavascript:S3358‘9"DExtract this nested ternary operation into an independent statement.(Â¨‘»üÿÿÿÿ
+fjavascript:S3358«9"DExtract this nested ternary operation into an independent statement.(¢Èõöıÿÿÿÿ
+fjavascript:S3358„<"DExtract this nested ternary operation into an independent statement.(ÕÃÎ‹ÿÿÿÿÿ
+vjavascript:S3776­<"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(áÿßùÿÿÿÿ
+qjavascript:S3776ÿ<"TRefactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.(¼Ò×
+4javascript:S2814§="'i' is already defined.(œÑÁ
+6javascript:S2814§="'ien' is already defined.(œÑÁ
+pjavascript:S3776Ñ="TRefactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.(ÒÕ¬!
+Ojavascript:S1481Ö="2Remove the declaration of the unused 'i' variable.(™Ûœ
+Qjavascript:S1481Ö="4Remove the declaration of the unused 'ien' variable.(™Ûœ
+qjavascript:S3776ú>"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÈìşÚ
+qjavascript:S3776ç@"TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.(­Á¹ß
+vjavascript:S3776‹B"TRefactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.(äå„Äÿÿÿÿÿ
+Ojavascript:S1117¦B"-'idx' is already declared in the upper scope.(±íë–ùÿÿÿÿ
+Vjavascript:S1481ñB"4Remove the declaration of the unused 'row' variable.(›Àåµıÿÿÿÿ
+Tjavascript:S1117ëC"2'settings' is already declared in the upper scope.(úÛÒ‡úÿÿÿÿ
+vjavascript:S3776™D"TRefactor this function to reduce its Cognitive Complexity from 39 to the 15 allowed.(›ç¯±ÿÿÿÿÿ
+Mjavascript:S1117ĞD"+'i' is already declared in the upper scope.(œ‹ÓÆûÿÿÿÿ
+qjavascript:S3776†I"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÕÚºš
+Ojavascript:S1481”I"2Remove the declaration of the unused 'i' variable.(™Ûœ
+Mjavascript:S1117×I"+'i' is already declared in the upper scope.(è†Š±ûÿÿÿÿ
+Vjavascript:S1135±e"4Complete the task associated to this "TODO" comment.(°Êöşÿÿÿÿ
+Qjavascript:S1135úg"4Complete the task associated to this "TODO" comment.(ÃÁ„
+Tjavascript:S1481Ÿq"2Remove the declaration of the unused 'i' variable.(ÍĞÇ³øÿÿÿÿ
+vjavascript:S3776Şq"TRefactor this function to reduce its Cognitive Complexity from 49 to the 15 allowed.(Ñˆ¦øÿÿÿÿ
+Sjavascript:S1117äq"1'buttons' is already declared in the upper scope.(àâ¸ïûÿÿÿÿ
+ajavascript:S3358œs"DExtract this nested ternary operation into an independent statement.(ø›Á
+ajavascript:S3358¦s"DExtract this nested ternary operation into an independent statement.(ø›Á
+fjavascript:S3358ûs"DExtract this nested ternary operation into an independent statement.(ÒŸñ¿üÿÿÿÿ
+ajavascript:S3358†t"DExtract this nested ternary operation into an independent statement.(ãÇãÏ
+fjavascript:S3358ˆt"DExtract this nested ternary operation into an independent statement.(Å´ô™şÿÿÿÿ
+fjavascript:S3358t"DExtract this nested ternary operation into an independent statement.(ŠÎÈãøÿÿÿÿ
+fjavascript:S3358”t"DExtract this nested ternary operation into an independent statement.(­©À†øÿÿÿÿ
+fjavascript:S3358³t"DExtract this nested ternary operation into an independent statement.(ßÓƒ×şÿÿÿÿ
+fjavascript:S3358Ît"DExtract this nested ternary operation into an independent statement.(ßÓƒ×şÿÿÿÿ
+fjavascript:S3358İt"DExtract this nested ternary operation into an independent statement.(ÕğÏ¿ùÿÿÿÿ
+Cjavascript:S1874Éu"&'iApiIndex' is deprecated. Since v1.10(Ï÷÷¤
+Ljavascript:S1186²v"*Unexpected empty method '_fnCalculateEnd'.(¶şÃÒÿÿÿÿÿ

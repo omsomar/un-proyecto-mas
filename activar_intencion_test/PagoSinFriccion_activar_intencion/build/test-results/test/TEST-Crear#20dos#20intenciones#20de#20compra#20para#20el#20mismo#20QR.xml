@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Crear dos intenciones de compra para el mismo QR" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-04T23:40:22" hostname="50HW015303" time="27.693">
+  <properties/>
+  <testcase name="Crear más de una intención de compra para el mismo QR y verificar que solo la última intención sea la que quede pendiente" classname="Crear dos intenciones de compra para el mismo QR" time="27.693"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "data": {
+        "intentionDetail": {
+            "qrId": "da8c9058-a09f-457d-8091-6181bfbc73ee",
+            "amount": "56398"
+        }
+    }
+}
+HTTP/1.1 201 Created
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/vnd.bancolombia.v4+json
+Date: Thu, 04 Nov 2021 23:41:21 GMT
+X-Global-Transaction-ID: 18fb6be661846fa100131855
+API-Version: 1.0.1
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Access-Control-Expose-Headers: APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+X-RateLimit-Limit: name=rate-limit-1,60;
+X-RateLimit-Remaining: name=rate-limit-1,59;
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=XXyTEmumQ0WpA5lw8KXslqFvhGEAAAAAQUIPAAAAAADBnZo4Tj7/FWIgiJ9Gcw3V; expires=Fri, 04 Nov 2022 12:10:18 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_468_2677978=6WyUc+AiGCmzAZPxEKx+BqFvhGEAAAAA9IvSrNeudCo8XGcyZfPf8w==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: ___utmvmKEukOSoZ=RkFMAyHNDmZ; path=/; Max-Age=900; Secure; SameSite=None
+Set-Cookie: ___utmvaKEukOSoZ=UTM?oQDR; path=/; Max-Age=900; Secure; SameSite=None
+Set-Cookie: ___utmvbKEukOSoZ=rZk XlwOsalK: itp; path=/; Max-Age=900; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 3-39151794-39151839 SNNN RT(1636069280512 439) q(0 0 0 -1) r(2 2) U6
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2021-11-04T18:41:21.044Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "data": {
+        "qrIntentionId": "3cb6c60b-e69c-448e-8824-038d826257b8"
+    }
+}
+Request method:	POST
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "data": {
+        "intentionDetail": {
+            "qrId": "da8c9058-a09f-457d-8091-6181bfbc73ee",
+            "amount": "13455.89"
+        }
+    }
+}
+HTTP/1.1 201 Created
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/vnd.bancolombia.v4+json
+Date: Thu, 04 Nov 2021 23:41:22 GMT
+X-Global-Transaction-ID: 18fb6be661846fa2000d8a0d
+API-Version: 1.0.1
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Access-Control-Expose-Headers: APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+X-RateLimit-Limit: name=rate-limit-1,60;
+X-RateLimit-Remaining: name=rate-limit-1,59;
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=7rQQfTtrT+qlYySHAD6LgqJvhGEAAAAAQUIPAAAAAABdPoXHrHb6KndcupObapoJ; expires=Fri, 04 Nov 2022 12:10:18 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: nlbi_2677978=kCVzCDMT5F1lmgcnqDancAAAAACUWV0J1rM/FShcPFv8RrlE; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_468_2677978=LAR4R8oiDAScA5PxEKx+BqJvhGEAAAAAEEC8zkEK/tGCPTGmX1Wdvw==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: ___utmvmKEukOSoZ=JvvZLWJlgtj; path=/; Max-Age=900; Secure; SameSite=None
+Set-Cookie: ___utmvaKEukOSoZ=vCm?rHPx; path=/; Max-Age=900; Secure; SameSite=None
+Set-Cookie: ___utmvbKEukOSoZ=dZv XEvOEalL: jtI; path=/; Max-Age=900; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 10-48556017-48556070 NNNN CT(37 35 0) RT(1636069282278 441) q(0 0 0 -1) r(2 2) U6
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2021-11-04T18:41:22.883Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "data": {
+        "qrIntentionId": "eef9a0e9-aa09-49e5-a2c7-cf0069b717a5"
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Crear más de una intención de compra para el mismo QR y verificar que solo la última intención sea la que quede pendiente
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

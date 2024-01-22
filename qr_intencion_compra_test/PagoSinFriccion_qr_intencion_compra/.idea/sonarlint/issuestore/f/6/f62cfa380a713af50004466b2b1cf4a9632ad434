@@ -1,0 +1,144 @@
+
+wjavascript:S3776"VRefactor this function to reduce its Cognitive Complexity from 6666 to the 15 allowed.(Ÿ©Ë©øÿÿÿÿ
+bjavascript:S2137"ADo not use "undefined" to declare a parameter - use another name.(Ÿ©Ë©øÿÿÿÿ
+Ljavascript:S1117"0'jQuery' is already declared in the upper scope.(ºÚê–
+Kjavascript:S1117X"/'slice' is already declared in the upper scope.(Š³ÿ›
+Pjavascript:S1117a"4'rootjQuery' is already declared in the upper scope.(ŒÜ€£
+fjavascript:S3358ä"DExtract this nested ternary operation into an independent statement.(Œš³óùÿÿÿÿ
+2javascript:S108‡"Empty block statement.(Ô‰íÌ
+Wjavascript:S1481"5Remove the declaration of the unused 'name' variable.(¤öœËıÿÿÿÿ
+Tjavascript:S1854"2Remove this useless assignment to variable "name".(¤öœËıÿÿÿÿ
+<javascript:S1186Å"Unexpected empty method 'noop'.(Î¯›·
+Ijavascript:S1264î",Replace this "for" loop with a "while" loop.(…¯Ë­
+2javascript:S108ÿ"Empty block statement.(Ÿìé¶
+tjavascript:S2737å"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ñ¨ŠÂ
+Kjavascript:S1117—	".'root' is already declared in the upper scope.(«¸­ñ
+Ojavascript:S1854­	"2Remove this useless assignment to variable "root".(©²…‰
+Qjavascript:S1854­	"4Remove this useless assignment to variable "script".(©²…‰
+Mjavascript:S1854­	"0Remove this useless assignment to variable "id".(©²…‰
+Jjavascript:S1117Ò	"-'div' is already declared in the upper scope.(üìÚÓ
+Njavascript:S1854ƒ
+"1Remove this useless assignment to variable "div".(‰áœ°
+Njavascript:S1854ƒ
+"1Remove this useless assignment to variable "tds".(‰áœ°
+Rjavascript:S1854™
+"0Remove this useless assignment to variable "el".(Ë©ëåûÿÿÿÿ
+Sjavascript:S1854¢
+"1Remove this useless assignment to variable "all".(Øëæùûÿÿÿÿ
+Qjavascript:S1854¢
+"/Remove this useless assignment to variable "a".(Øëæùûÿÿÿÿ
+Qjavascript:S1135è
+"4Complete the task associated to this "TODO" comment.(¼Î‘·
+Qjavascript:S1135‹"4Complete the task associated to this "TODO" comment.(ê—‚Ó
+Qjavascript:S1135Ñ"4Complete the task associated to this "TODO" comment.(¼Î‘·
+fjavascript:S3358Æ"DExtract this nested ternary operation into an independent statement.(‚²Ûûÿÿÿÿ
+ajavascript:S3358Ç"DExtract this nested ternary operation into an independent statement.(Ã »Ø
+fjavascript:S3358È"DExtract this nested ternary operation into an independent statement.(ÜÔÊ§úÿÿÿÿ
+ajavascript:S3358É"DExtract this nested ternary operation into an independent statement.(Û¾²
+Qjavascript:S1135Ø"4Complete the task associated to this "TODO" comment.(ºˆ¹ˆ
+Hjavascript:S1117ñ"+'i' is already declared in the upper scope.(¦°Â«
+bjavascript:S2589ø"@This always evaluates to truthy. Consider refactoring this code.(ˆ£õ×ıÿÿÿÿ
+Hjavascript:S1117•"+'i' is already declared in the upper scope.(¦°Â«
+Hjavascript:S1117¨"+'i' is already declared in the upper scope.(¦°Â«
+Ojavascript:S1117©"-'val' is already declared in the upper scope.(‡„ãÛüÿÿÿÿ
+Ljavascript:S1117¹"/'value' is already declared in the upper scope.(ÿÜÛİ
+Ljavascript:S1117Â"0'values' is already declared in the upper scope.(ã€Ä	
+ajavascript:S905ú"FExpected an assignment or function call and instead saw an expression.(ö„ã!
+gjavascript:S905ş"FExpected an assignment or function call and instead saw an expression.(¦ó³§şÿÿÿÿ
+fjavascript:S3358¢"DExtract this nested ternary operation into an independent statement.(ÚÍşÿÿÿÿÿ
+Qjavascript:S1135ç"4Complete the task associated to this "TODO" comment.(¹ê•¦
+Tjavascript:S1854ä"2Remove this useless assignment to variable "elem".(ë’´Ôıÿÿÿÿ
+Pjavascript:S1481ô"3Remove the declaration of the unused 'fn' variable.(·ÒÒ¬
+;javascript:S2310¬"Remove this assignment of "j".(„ıĞ
+;javascript:S2310¼"Remove this assignment of "j".(„ıĞ
+Njavascript:S1854Ğ"1Remove this useless assignment to variable "ret".(Õ 
+ajavascript:S3358î"DExtract this nested ternary operation into an independent statement.(´ÚíÔ
+fjavascript:S3358Î"DExtract this nested ternary operation into an independent statement.(ÿÿ¨Êúÿÿÿÿ
+fjavascript:S3358Î"DExtract this nested ternary operation into an independent statement.(ÿÿ¨Êúÿÿÿÿ
+Pjavascript:S1117À".'elem' is already declared in the upper scope.(Öµ—ìşÿÿÿÿ
+Qjavascript:S1117Ì"4'testChange' is already declared in the upper scope.(¤ÛÙ©
+Mjavascript:S1117İ"+'i' is already declared in the upper scope.(¡Â°»ùÿÿÿÿ
+Hjavascript:S1117¹"+'i' is already declared in the upper scope.(…ùŞÿ
+Wjavascript:S1481ö"5Remove the declaration of the unused 'data' variable.(Ã—ªØúÿÿÿÿ
+@javascript:S2310"Remove this assignment of "j".(Ì×êòüÿÿÿÿ
+ajavascript:S3358Ä"DExtract this nested ternary operation into an independent statement.(«´Õƒ
+Ujavascript:S1854ã"3Remove this useless assignment to variable "parts".(×í²íÿÿÿÿÿ
+@javascript:S2310–"Remove this assignment of "i".(˜åú©úÿÿÿÿ
+Pjavascript:S1117°".'type' is already declared in the upper scope.(Óñ„ªÿÿÿÿÿ
+Yjavascript:S1121²"7Extract the assignment of "match" from this expression.(­ÇÍÿÿÿÿÿ
+Pjavascript:S1117Ó".'type' is already declared in the upper scope.(Ñ…’‚şÿÿÿÿ
+Hjavascript:S3696§"&Expected an error object to be thrown.(Ëùµ»ÿÿÿÿÿ
+Xjavascript:S1121Ó"6Extract the assignment of "elem" from this expression.(äøÎïÿÿÿÿÿ
+Xjavascript:S1121Ô"6Extract the assignment of "elem" from this expression.(©úûÿÿÿÿ
+7javascript:S108Ô"Empty block statement.(©úûÿÿÿÿ
+Vjavascript:S1135õ"4Complete the task associated to this "TODO" comment.(á’ùÿÿÿÿ
+gjavascript:S905»"FExpected an assignment or function call and instead saw an expression.(öÇ…Õøÿÿÿÿ
+Kjavascript:S1117¶".'type' is already declared in the upper scope.(¼Ÿ²
+rjavascript:S128»"VEnd this switch case with an unconditional break, continue, return or throw statement.(…ñ†®
+ajavascript:S3358„ "DExtract this nested ternary operation into an independent statement.(ªã˜ı
+Pjavascript:S1117ˆ ".'type' is already declared in the upper scope.(ŒÈœ•ıÿÿÿÿ
+fjavascript:S3358 "DExtract this nested ternary operation into an independent statement.(¶ÈÍäşÿÿÿÿ
+fjavascript:S3358 "DExtract this nested ternary operation into an independent statement.(ˆİ‘¸ûÿÿÿÿ
+fjavascript:S3358‘ "DExtract this nested ternary operation into an independent statement.(ÈÒ½íùÿÿÿÿ
+fjavascript:S3358“ "DExtract this nested ternary operation into an independent statement.(€…¯®ıÿÿÿÿ
+ajavascript:S3358• "DExtract this nested ternary operation into an independent statement.(›Ñò
+ajavascript:S3358— "DExtract this nested ternary operation into an independent statement.(•„à
+fjavascript:S3358™ "DExtract this nested ternary operation into an independent statement.(ÕÓ‡òúÿÿÿÿ
+fjavascript:S3358› "DExtract this nested ternary operation into an independent statement.(”«šşıÿÿÿÿ
+bjavascript:S905Å "FExpected an assignment or function call and instead saw an expression.(«õó
+Pjavascript:S1117Ö!".'root' is already declared in the upper scope.(®èŸüÿÿÿÿ
+fjavascript:S3358å!"DExtract this nested ternary operation into an independent statement.(çØ«Áüÿÿÿÿ
+Tjavascript:S1854ö!"2Remove this useless assignment to variable "root".(Ìå«²ûÿÿÿÿ
+Tjavascript:S1854ö!"2Remove this useless assignment to variable "form".(Ìå«²ûÿÿÿÿ
+Njavascript:S1854£""1Remove this useless assignment to variable "div".(„”È¦
+Njavascript:S1854#"1Remove this useless assignment to variable "div".(„”È¦
+Njavascript:S1854Ì#"1Remove this useless assignment to variable "div".(„”È¦
+Pjavascript:S1117µ$".'root' is already declared in the upper scope.(¢Ú§Ôùÿÿÿÿ
+;javascript:S2310ñ$"Remove this assignment of "n".(½ÃÈÖ
+ajavascript:S3358¿&"DExtract this nested ternary operation into an independent statement.(Ôæ¸Ù
+Bjavascript:S2189Ç&"%'until' is not modified in this loop.(æ¿î§
+Hjavascript:S1117ç("+'i' is already declared in the upper scope.(Ÿ‡°ğ
+Hjavascript:S1117¥)"+'i' is already declared in the upper scope.(¦°Â«
+Vjavascript:S1121ñ)"9Extract the assignment of "oldData" from this expression.(“É¦ï
+Sjavascript:S3800ß*"6Refactor this function to always return the same type.(á´‰Ñ
+fjavascript:S3358á+"DExtract this nested ternary operation into an independent statement.(‰¾Şıÿÿÿÿ
+Kjavascript:S1117å,".'name' is already declared in the upper scope.(‘§´¢
+Ljavascript:S1117å,"/'value' is already declared in the upper scope.(‘§´¢
+fjavascript:S3358£."DExtract this nested ternary operation into an independent statement.(óÓ™Ğıÿÿÿÿ
+fjavascript:S3358¥."DExtract this nested ternary operation into an independent statement.(Û¥“Åùÿÿÿÿ
+Zjavascript:S1121Â."=Extract the assignment of "defaultView" from this expression.(›úñ
+ajavascript:S1121Æ."?Extract the assignment of "computedStyle" from this expression.(ŸÄèùÿÿÿÿ
+ajavascript:S3358‡1"DExtract this nested ternary operation into an independent statement.(çŞ‚
+Jjavascript:S1117ˆ1"-'val' is already declared in the upper scope.(Ë§íš
+Hjavascript:S1117ˆ1"+'i' is already declared in the upper scope.(Ë§íš
+Xjavascript:S3800‰2"6Refactor this function to always return the same type.(¡‘ä³úÿÿÿÿ
+[javascript:S1121“3">Extract the assignment of "lastModified" from this expression.(½ÕÂ³
+Xjavascript:S1121–3"6Extract the assignment of "etag" from this expression.(°øˆûÿÿÿÿ
+ajavascript:S3358°4"DExtract this nested ternary operation into an independent statement.(©ÇªÔ
+fjavascript:S3358Æ4"DExtract this nested ternary operation into an independent statement.(òòèµşÿÿÿÿ
+?javascript:S2310×6""Remove this assignment of "conv1".(×õ¬
+Hjavascript:S1117÷7"+'_' is already declared in the upper scope.(ğ¡Åµ
+Wjavascript:S1854Ò8"5Remove this useless assignment to variable "testXHR".(Ï¨×øÿÿÿÿ
+;javascript:S2310ø:"Remove this assignment of "p".(ÅÏ‡¼
+ejavascript:S1121 ;"CExtract the assignment of "opt.specialEasing" from this expression.(áÛœıÿÿÿÿ
+Pjavascript:S1117«;".'name' is already declared in the upper scope.(‘œ£«ıÿÿÿÿ
+fjavascript:S3358¯;"DExtract this nested ternary operation into an independent statement.(êŸøƒùÿÿÿÿ
+fjavascript:S3358’<"DExtract this nested ternary operation into an independent statement.(Øİ—Ôşÿÿÿÿ
+`javascript:S3358“<"DExtract this nested ternary operation into an independent statement.(‚ë¼
+Ujavascript:S1121Ï<"8Extract the assignment of "parsed" from this expression.(Ä‡æŠ
+ajavascript:S3358Ï<"DExtract this nested ternary operation into an independent statement.(Ä‡æŠ
+:javascript:S2310È="Remove this assignment of "i".(¤©‰
+`javascript:S1854Í>">Remove this useless assignment to variable "prevOffsetParent".(»¬–Üúÿÿÿÿ
+Rjavascript:S1121Ö>"6Extract the assignment of "elem" from this expression.(¬å²
+`javascript:S1854è>">Remove this useless assignment to variable "prevOffsetParent".(Äˆ­ûüÿÿÿÿ
+Ojavascript:S1854¡?"2Remove this useless assignment to variable "body".(…³¼–
+Tjavascript:S1854¡?"7Remove this useless assignment to variable "container".(…³¼–
+Sjavascript:S1854¡?"6Remove this useless assignment to variable "innerDiv".(…³¼–
+Sjavascript:S1854¡?"6Remove this useless assignment to variable "checkDiv".(…³¼–
+Pjavascript:S1854¡?"3Remove this useless assignment to variable "table".(…³¼–
+Mjavascript:S1854¡?"0Remove this useless assignment to variable "td".(…³¼–
+fjavascript:S3358¨@"DExtract this nested ternary operation into an independent statement.(µ«¨ôøÿÿÿÿ
+fjavascript:S3358¨@"DExtract this nested ternary operation into an independent statement.(µ«¨ôøÿÿÿÿ
+fjavascript:S3358³@"DExtract this nested ternary operation into an independent statement.(Ñ¥’¬üÿÿÿÿ
+fjavascript:S3358Ê@"DExtract this nested ternary operation into an independent statement.(É¬Á´üÿÿÿÿ
+Hjavascript:S1117Ö@"+'i' is already declared in the upper scope.(¦°Â«

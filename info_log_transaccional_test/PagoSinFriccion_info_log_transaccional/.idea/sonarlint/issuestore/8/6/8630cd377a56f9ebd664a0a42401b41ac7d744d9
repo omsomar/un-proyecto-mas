@@ -1,0 +1,21 @@
+
+`javascript:S905,"FExpected an assignment or function call and instead saw an expression.(ş£­
+vjavascript:S3776:"URefactor this function to reduce its Cognitive Complexity from 236 to the 15 allowed.(¸ï¥ôüÿÿÿÿ
+Tjavascript:S1481?"3Remove the declaration of the unused 'yp' variable.(”¬Èıÿÿÿÿ
+Qjavascript:S1854?"0Remove this useless assignment to variable "yp".(”¬Èıÿÿÿÿ
+9javascript:S2814ˆ"'i' is already defined.(êÜ‘õùÿÿÿÿ
+6javascript:S2814Š"'axis' is already defined.(˜“ƒ4
+6javascript:S2814Å"'pos' is already defined.(†ïºä
+kjavascript:S1871Ó"IThis case's code block is the same as the block for the case on line 199.(İ–Ò˜ÿÿÿÿÿ
+6javascript:S2814ê"'pos' is already defined.(†ïºä
+kjavascript:S1871ø"IThis case's code block is the same as the block for the case on line 236.(İ–Ò˜ÿÿÿÿÿ
+6javascript:S2814"'pos' is already defined.(†ïºä
+6javascript:S2814«"'pos' is already defined.(†ïºä
+kjavascript:S1871¹"IThis case's code block is the same as the block for the case on line 301.(İ–Ò˜ÿÿÿÿÿ
+6javascript:S2814Ï"'pos' is already defined.(†ïºä
+kjavascript:S1871İ"IThis case's code block is the same as the block for the case on line 337.(İ–Ò˜ÿÿÿÿÿ
+>javascript:S2814‡"'points' is already defined.(×Ü¬¶şÿÿÿÿ
+>javascript:S2814‰"'points' is already defined.(ùÌ£˜ûÿÿÿÿ
+9javascript:S2814"'points' is already defined.(åà—Ù
+;javascript:S125¥"Remove this commented out code.(æÉ²×
+Tjavascript:S1854«"2Remove this useless assignment to variable "axes".(ç©Ï˜ûÿÿÿÿ

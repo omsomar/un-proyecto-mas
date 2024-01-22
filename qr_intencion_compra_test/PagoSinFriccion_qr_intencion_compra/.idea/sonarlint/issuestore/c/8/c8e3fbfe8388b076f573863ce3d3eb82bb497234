@@ -1,0 +1,54 @@
+
+hjavascript:S41382"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Íİ¯÷
+wjavascript:S3776¦"URefactor this function to reduce its Cognitive Complexity from 324 to the 15 allowed.(å—ãæşÿÿÿÿ
+njavascript:S4138®"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÁÔ½Êúÿÿÿÿ
+ijavascript:S4138ñ"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(¼½Ï
+=javascript:S2814ú"'xaxis' is already defined.(©‚êûÿÿÿÿ
+8javascript:S2814û"'xstart' is already defined.(áÅ¨y
+=javascript:S2814ü"'xstop' is already defined.(ºµÙèùÿÿÿÿ
+4javascript:S2814ı"'y' is already defined.(‡€®Ç
+?javascript:S2814ş"'xminoff' is already defined.(²«Õ™øÿÿÿÿ
+?javascript:S2814ÿ"'xmaxoff' is already defined.(£§İØúÿÿÿÿ
+3javascript:S2814›"'i' is already defined.(ÎÆ°^
+?javascript:S2814Ö"'dashPat' is already defined.(’™•›şÿÿÿÿ
+=javascript:S2814×" 'dashPatLen' is already defined.(Íß¼ú
+ijavascript:S4138Ø"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(¼½Ï
+4javascript:S2814Ø"'i' is already defined.(¼½Ï
+8javascript:S2814á"'yaxis' is already defined.(ÎÉé¬
+>javascript:S2814â"'ystart' is already defined.(ó»ŒÜşÿÿÿÿ
+8javascript:S2814ã"'ystop' is already defined.(¨¯›Œ
+4javascript:S2814ä"'x' is already defined.(Ø¨
+?javascript:S2814å"'yminoff' is already defined.(ƒó‚Çûÿÿÿÿ
+:javascript:S2814æ"'ymaxoff' is already defined.(Ä•Ç¿
+:javascript:S2814‚"'numDash' is already defined.(ŞÊ
+]javascript:S1481ƒ"@Remove the declaration of the unused 'firstDashAdjust' variable.(•ğÙ¯
+Zjavascript:S1854ƒ"=Remove this useless assignment to variable "firstDashAdjust".(•ğÙ¯
+9javascript:S2814„"'b' is already defined.(¬åÌæùÿÿÿÿ
+9javascript:S2814„"'e' is already defined.(¬åÌæùÿÿÿÿ
+Ujavascript:S1481„"3Remove the declaration of the unused 'bs' variable.(¬åÌæùÿÿÿÿ
+Ujavascript:S1481„"3Remove the declaration of the unused 'es' variable.(¬åÌæùÿÿÿÿ
+3javascript:S2814…"'i' is already defined.(ÎÆ°^
+4javascript:S2814†"'j' is already defined.(’ÉĞì
+@javascript:S125"Remove this commented out code.( å‚Âùÿÿÿÿ
+=javascript:S2814£"'xaxis' is already defined.(©‚êûÿÿÿÿ
+8javascript:S2814¤"'xstart' is already defined.(áÅ¨y
+=javascript:S2814¥"'xstop' is already defined.(ºµÙèùÿÿÿÿ
+4javascript:S2814¦"'y' is already defined.(‡€®Ç
+Ljavascript:S1854¦"/Remove this useless assignment to variable "y".(‡€®Ç
+?javascript:S2814§"'xminoff' is already defined.(²«Õ™øÿÿÿÿ
+?javascript:S2814¨"'xmaxoff' is already defined.(£§İØúÿÿÿÿ
+8javascript:S2814À"'yaxis' is already defined.(ÎÉé¬
+>javascript:S2814Á"'ystart' is already defined.(ó»ŒÜşÿÿÿÿ
+8javascript:S2814Â"'ystop' is already defined.(¨¯›Œ
+4javascript:S2814Ã"'x' is already defined.(Ø¨
+Ljavascript:S1854Ã"/Remove this useless assignment to variable "x".(Ø¨
+?javascript:S2814Ä"'yminoff' is already defined.(ƒó‚Çûÿÿÿÿ
+:javascript:S2814Å"'ymaxoff' is already defined.(Ä•Ç¿
+Tjavascript:S1854ƒ"2Remove this useless assignment to variable "elem".(ë’´Ôıÿÿÿÿ
+:javascript:S2814Š"'co' is already defined.(×‰ñÔşÿÿÿÿ
+fjavascript:S1871·"IThis case's code block is the same as the block for the case on line 791.(ú¶ùø
+Tjavascript:S1854Æ"2Remove this useless assignment to variable "elem".(ë’´Ôıÿÿÿÿ
+xjavascript:S1488Ø"[Immediately return this expression instead of assigning it to the temporary variable "ret".(™·°È
+}javascript:S1488é"[Immediately return this expression instead of assigning it to the temporary variable "ret".(í™‡¶ûÿÿÿÿ
+vjavascript:S3776ï"TRefactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.(ıİÂûÿÿÿÿ
+qjavascript:S1226ş"OIntroduce a new variable or use its initial value before reassigning "datapos".(ºü­·ûÿÿÿÿ

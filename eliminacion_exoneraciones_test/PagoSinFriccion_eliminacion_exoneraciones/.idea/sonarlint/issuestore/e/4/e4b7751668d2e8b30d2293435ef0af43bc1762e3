@@ -1,0 +1,10 @@
+
+qjavascript:S3776H"URefactor this function to reduce its Cognitive Complexity from 173 to the 15 allowed.(šÇ«Ê
+Sjavascript:S1481I"7Remove the declaration of the unused 'legend' variable.(Žµ±®
+Pjavascript:S1854I"4Remove this useless assignment to variable "legend".(Žµ±®
+Ujavascript:S1481q"4Remove the declaration of the unused 'div' variable.(¨Ä¨³þÿÿÿÿ
+@javascript:S125«"Remove this commented out code.(‰¶­Úøÿÿÿÿ
+Sjavascript:S1854Ü"1Remove this useless assignment to variable "pad".(”›Ü–øÿÿÿÿ
+vjavascript:S3776è"TRefactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.(þ¶è øÿÿÿÿ
+Mjavascript:S1117‚"+'s' is already declared in the upper scope.(Ÿ†ìàùÿÿÿÿ
+9javascript:S2814Ž"'s' is already defined.(Ÿ†ìàùÿÿÿÿ

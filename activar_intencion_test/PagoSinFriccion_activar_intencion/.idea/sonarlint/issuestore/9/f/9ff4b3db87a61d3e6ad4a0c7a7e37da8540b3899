@@ -1,0 +1,41 @@
+
+njavascript:S4138­"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÑÆşÉøÿÿÿÿ
+Ujavascript:S1481Ê"3Remove the declaration of the unused 'sa' variable.(Ãù÷úÿÿÿÿ
+Rjavascript:S1854Ê"0Remove this useless assignment to variable "sa".(Ãù÷úÿÿÿÿ
+9javascript:S2814Ü"'i' is already defined.(Ò´×çÿÿÿÿÿ
+Ujavascript:S1481ç"3Remove the declaration of the unused 'sa' variable.(Ãù÷úÿÿÿÿ
+Rjavascript:S1854ç"0Remove this useless assignment to variable "sa".(Ãù÷úÿÿÿÿ
+9javascript:S2814ø"'i' is already defined.(Ò´×çÿÿÿÿÿ
+Djavascript:S1125ˆ"'Remove the unnecessary boolean literal.(ÅíÑ¾
+qjavascript:S3776“"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(úÔ®ç
+Djavascript:S1125™"'Remove the unnecessary boolean literal.(Ş”Ø’
+Rjavascript:S1854š"0Remove this useless assignment to variable "sm".(Ö½¢ìúÿÿÿÿ
+4javascript:S2814³"'i' is already defined.(ÓÍ¢À
+4javascript:S2814³"'l' is already defined.(ÓÍ¢À
+vjavascript:S3776à"TRefactor this function to reduce its Cognitive Complexity from 38 to the 15 allowed.(ãù¬Óúÿÿÿÿ
+kjavascript:S1871ø"IThis case's code block is the same as the block for the case on line 372.(†–ÈÒşÿÿÿÿ
+kjavascript:S1871ü"IThis case's code block is the same as the block for the case on line 372.(ıÉ¿äúÿÿÿÿ
+Yjavascript:S1481Œ"7Remove the declaration of the unused 'shadow' variable.(ˆ‡åÊùÿÿÿÿ
+Vjavascript:S1854Œ"4Remove this useless assignment to variable "shadow".(ˆ‡åÊùÿÿÿÿ
+Rjavascript:S1481"5Remove the declaration of the unused 'fill' variable.(ŒòºÁ
+Ojavascript:S1854"2Remove this useless assignment to variable "fill".(ŒòºÁ
+Djavascript:S1125š"'Remove the unnecessary boolean literal.(Ş”Ø’
+Rjavascript:S1854›"0Remove this useless assignment to variable "sm".(Ö½¢ìúÿÿÿÿ
+Vjavascript:S1481¡"4Remove the declaration of the unused 'ang' variable.(ÜÑ÷Ùıÿÿÿÿ
+9javascript:S2814¥"'i' is already defined.(„ Åûÿÿÿÿ
+Ojavascript:S1481À"2Remove the declaration of the unused 'r' variable.(´ú»
+Ljavascript:S1854À"/Remove this useless assignment to variable "r".(´ú»
+9javascript:S2814Å"'i' is already defined.(„ Åûÿÿÿÿ
+9javascript:S2814Å"'l' is already defined.(„ Åûÿÿÿÿ
+4javascript:S2814Ë"'i' is already defined.(Ãˆ•°
+vjavascript:S3776±"TRefactor this function to reduce its Cognitive Complexity from 92 to the 15 allowed.(ª‹ößıÿÿÿÿ
+Tjavascript:S1481²"7Remove the declaration of the unused 'legend' variable.(µ±®
+Qjavascript:S1854²"4Remove this useless assignment to variable "legend".(µ±®
+Sjavascript:S1854¾"1Remove this useless assignment to variable "pad".(”›Ü–øÿÿÿÿ
+;javascript:S125×"Remove this commented out code.(à‰äº
+ijavascript:S4138æ"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ä›Ëê
+ijavascript:S4138ö"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÇçÃü
+ijavascript:S4138‚"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÇçÃü
+ijavascript:S4138”"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Õû¨‘
+Rjavascript:S1481ù"5Remove the declaration of the unused 'hctx' variable.(ªİ›­
+Ojavascript:S1854ù"2Remove this useless assignment to variable "hctx".(ªİ›­

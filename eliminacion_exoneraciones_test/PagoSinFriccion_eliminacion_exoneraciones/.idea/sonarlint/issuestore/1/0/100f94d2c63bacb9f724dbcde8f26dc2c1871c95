@@ -1,0 +1,63 @@
+
+rjavascript:S3776"VRefactor this function to reduce its Cognitive Complexity from 1294 to the 15 allowed.(ˆè²Ô
+Rjavascript:S1117 "6'SimpleWidget' is already declared in the upper scope.(†½³í
+djavascript:S1121l"CExtract the assignment of "$.fn[widget_name]" from this expression.(ºýÚ³ýÿÿÿÿ
+<javascript:S878n"!Unexpected use of comma operator.(»Ùí§
+Rjavascript:S1117Œ"5'MouseWidget' is already declared in the upper scope.(ÎÅõ”
+bjavascript:S1121™"FExtract the assignment of "this.mouse_down_info" from this expression.(‹Æï
+hjavascript:S1121Ó"KExtract the assignment of "_this._is_mouse_delay_met" from this expression.(ñ©¹š
+ljavascript:S1121Ö"JExtract the assignment of "this._is_mouse_delay_met" from this expression.(–¾÷ÿÿÿÿÿ
+^javascript:S1121™"BExtract the assignment of "this.mouse_delay" from this expression.(¥ç™
+Pjavascript:S1117Û".'Node' is already declared in the upper scope.(ìþ“øùÿÿÿÿ
+Xjavascript:S1121ï";Extract the assignment of "this.name" from this expression.(¬ù«ï
+]javascript:S1121õ";Extract the assignment of "this.name" from this expression.(³µ÷üÿÿÿÿ
+Xjavascript:S1121÷";Extract the assignment of "this[key]" from this expression.(È½§™
+_javascript:S1121¤"=Extract the assignment of "this.parent" from this expression.(ÿ£Óðûÿÿÿÿ
+ljavascript:S1121Ó"JExtract the assignment of "this.id_mapping[node.id]" from this expression.(óíì«ÿÿÿÿÿ
+\javascript:S1121ä"?Extract the assignment of "this.children" from this expression.(¸Ÿÿ›
+\javascript:S1117œ":'ElementsRenderer' is already declared in the upper scope.(­¾ÈŸùÿÿÿÿ
+Xjavascript:S1117å"6'JqTreeWidget' is already declared in the upper scope.(ØÉýðÿÿÿÿÿ
+cjavascript:S1121	"AExtract the assignment of "url_info.method" from this expression.(±¿Þñÿÿÿÿÿ
+hjavascript:S1121©"FExtract the assignment of "this.options[option]" from this expression.(¥ý­èþÿÿÿÿ
+Wjavascript:S1117ó"5'NodeElement' is already declared in the upper scope.(½ç·’ûÿÿÿÿ
+ajavascript:S1121ý"?Extract the assignment of "this.$element" from this expression.(ÑúÕµþÿÿÿÿ
+Yjavascript:S1117£"7'FolderElement' is already declared in the upper scope.(¶¦Î‰ûÿÿÿÿ
+Qjavascript:S1854¿"/Remove this useless assignment to variable "v".(Ï·¢Øûÿÿÿÿ
+\javascript:S1117á":'SaveStateHandler' is already declared in the upper scope.(È¹Òƒùÿÿÿÿ
+Ujavascript:S1854ó"3Remove this useless assignment to variable "error".(Æã³¸øÿÿÿÿ
+Wjavascript:S1117Ž";'SelectNodeHandler' is already declared in the upper scope.(ô¹Š:
+hjavascript:S1121Í"KExtract the assignment of "this.selected_single_node" from this expression.(Á€£”
+hjavascript:S1121Ö"KExtract the assignment of "this.selected_single_node" from this expression.(Á€£”
+kjavascript:S1121ç"NExtract the assignment of "this.selected_nodes[node.id]" from this expression.(ª¹‚š
+mjavascript:S1121é"KExtract the assignment of "this.selected_single_node" from this expression.(¯«“ñùÿÿÿÿ
+Yjavascript:S1117ò"<'DragAndDropHandler' is already declared in the upper scope.(ßßÝ¿
+bjavascript:S1121Ü"@Extract the assignment of "this.hit_areas" from this expression.(¯—þüùÿÿÿÿ
+ejavascript:S1121á"CExtract the assignment of "this.drag_element" from this expression.(™¿×’þÿÿÿÿ
+ejavascript:S1121ë"CExtract the assignment of "this.hovered_area" from this expression.(—‰ñûÿÿÿÿÿ
+bjavascript:S1121ñ"@Extract the assignment of "this.hit_areas" from this expression.(¼ðœÆùÿÿÿÿ
+gjavascript:S1121—"EExtract the assignment of "this.previous_ghost" from this expression.(µÖ‰šÿÿÿÿÿ
+jjavascript:S1121¥"HExtract the assignment of "this.open_folder_timer" from this expression.(®³ßîüÿÿÿÿ
+ejavascript:S1121«"HExtract the assignment of "this.open_folder_timer" from this expression.(€¸”ö
+_javascript:S1117à"='VisibleNodeIterator' is already declared in the upper scope.(ú»÷Ìýÿÿÿÿ
+Pjavascript:S1854‚"3Remove this useless assignment to variable "child".(ÜóæÂ
+7javascript:S1186’"Unexpected empty function.(¤–™†
+<javascript:S1186”"Unexpected empty function.(íÝ¬ˆúÿÿÿÿ
+<javascript:S1186–"Unexpected empty function.(îû™€ýÿÿÿÿ
+<javascript:S1186˜"Unexpected empty function.(ýÃ®üÿÿÿÿÿ
+7javascript:S1186š"Unexpected empty function.(íˆµÚ
+Xjavascript:S1117£";'HitAreasGenerator' is already declared in the upper scope.(“öŒ”
+\javascript:S1121¼"?Extract the assignment of "this.last_top" from this expression.(Íûá£
+Wjavascript:S1117 "5'DragElement' is already declared in the upper scope.(¢Ü¹ñúÿÿÿÿ
+Tjavascript:S1117¸"7'GhostDropHint' is already declared in the upper scope.(úöÑ
+Zjavascript:S1117ã"8'BorderDropHint' is already declared in the upper scope.(–ÄÌœüÿÿÿÿ
+Tjavascript:S1117ø"7'ScrollHandler' is already declared in the upper scope.(àá²ƒ
+Ijavascript:S1117„",'el' is already declared in the upper scope.(«ÓÏ÷
+Ijavascript:S1117…",'_i' is already declared in the upper scope.(•ÇÊŒ
+Kjavascript:S1117…".'_len' is already declared in the upper scope.(•ÇÊŒ
+Kjavascript:S1117…".'_ref' is already declared in the upper scope.(•ÇÊŒ
+hjavascript:S1121ž"FExtract the assignment of "_this.$scroll_parent" from this expression.(»“Çûÿÿÿÿ
+jjavascript:S1121§"HExtract the assignment of "this.scroll_parent_top" from this expression.(ß›Á€øÿÿÿÿ
+`javascript:S1121À"CExtract the assignment of "this.previous_top" from this expression.(¡Ìòß
+`javascript:S1121Ä"CExtract the assignment of "this.previous_top" from this expression.(¡Ìòß
+ojavascript:S1121Õ"RExtract the assignment of "this.$scroll_parent[0].scrollTop" from this expression.(ÉÀ…¬
+Pjavascript:S1117ü"4'KeyHandler' is already declared in the upper scope.(°õ k

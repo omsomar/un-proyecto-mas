@@ -1,0 +1,40 @@
+
+Ujavascript:S1481#"9Remove the declaration of the unused 'arrayMin' variable.(çù´ª
+Rjavascript:S1854#"6Remove this useless assignment to variable "arrayMin".(çù´ª
+pjavascript:S3776U"TRefactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.(ÆŒä‰
+njavascript:S4138Í"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÑÆşÉøÿÿÿÿ
+9javascript:S2814Í"'i' is already defined.(ÑÆşÉøÿÿÿÿ
+9javascript:S2814ƒ"'i' is already defined.(íÈ—Çÿÿÿÿÿ
+9javascript:S2814¤"'i' is already defined.(íÈ—Çÿÿÿÿÿ
+vjavascript:S3776¯"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(˜Òìôûÿÿÿÿ
+Yjavascript:S1481´"7Remove the declaration of the unused 'shadow' variable.(ˆ‡åÊùÿÿÿÿ
+Vjavascript:S1854´"4Remove this useless assignment to variable "shadow".(ˆ‡åÊùÿÿÿÿ
+ijavascript:S4138¶"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(¸ÏÛ¬
+Ujavascript:S1481º"3Remove the declaration of the unused 'el' variable.(üğÎÙøÿÿÿÿ
+:javascript:S2814½"'gd' is already defined.(¦Âªúüÿÿÿÿ
+;javascript:S125Ç"Remove this commented out code.(Şîš
+;javascript:S2814Õ"'ctx' is already defined.(•àåÙşÿÿÿÿ
+ajavascript:S905ô"FExpected an assignment or function call and instead saw an expression.(ş£­
+ajavascript:S905£"FExpected an assignment or function call and instead saw an expression.(ş£­
+Njavascript:S1854À"2Remove this useless assignment to variable "elem".(äš¨	
+@javascript:S125È"Remove this commented out code.(õú½úÿÿÿÿ
+@javascript:S125Ó"Remove this commented out code.(ÚÉËÚùÿÿÿÿ
+@javascript:S125Ş"Remove this commented out code.(³‡Ä”ÿÿÿÿÿ
+qjavascript:S3776ü"TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.( ÖÕ™
+Wjavascript:S1854“"5Remove this useless assignment to variable "minsidx".(õ¦ëÖûÿÿÿÿ
+Wjavascript:S1854”"5Remove this useless assignment to variable "minpidx".(¢Ú£÷úÿÿÿÿ
+Rjavascript:S1854›"5Remove this useless assignment to variable "maxsidx".(²‚µ¦
+Rjavascript:S1854œ"5Remove this useless assignment to variable "maxpidx".(Ÿ¯ÅÄ
+Wjavascript:S1854¥"5Remove this useless assignment to variable "minsidx".(õ¦ëÖûÿÿÿÿ
+Wjavascript:S1854¦"5Remove this useless assignment to variable "minpidx".(¢Ú£÷úÿÿÿÿ
+Rjavascript:S1854­"5Remove this useless assignment to variable "maxsidx".(²‚µ¦
+Rjavascript:S1854®"5Remove this useless assignment to variable "maxpidx".(Ÿ¯ÅÄ
+;javascript:S125¼"Remove this commented out code.(§™Óß
+Vjavascript:S1481½"4Remove the declaration of the unused 'dim' variable.(¸ÍñÇúÿÿÿÿ
+Sjavascript:S1854½"1Remove this useless assignment to variable "dim".(¸ÍñÇúÿÿÿÿ
+Wjavascript:S1481å"5Remove the declaration of the unused 'sidx' variable.(¬«åüÿÿÿÿ
+Tjavascript:S1854å"2Remove this useless assignment to variable "sidx".(¬«åüÿÿÿÿ
+ijavascript:S4138è"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Õû¨‘
+Wjavascript:S1481Ö"5Remove the declaration of the unused 'hctx' variable.(¬´Ğ¥ıÿÿÿÿ
+Tjavascript:S1854Ö"2Remove this useless assignment to variable "hctx".(¬´Ğ¥ıÿÿÿÿ
+ijavascript:S4138æ"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ä›Ëê

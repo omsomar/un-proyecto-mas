@@ -1,0 +1,43 @@
+
+vjavascript:S3776Y"URefactor this function to reduce its Cognitive Complexity from 133 to the 15 allowed.(‚·éøÿÿÿÿ
+Rjavascript:S1481["6Remove the declaration of the unused 'ticks' variable.(‹…£ 
+Ojavascript:S1854["3Remove this useless assignment to variable "ticks".(‹…£ 
+Vjavascript:S1481]"5Remove the declaration of the unused 'name' variable.(¢‘˜¨ùÿÿÿÿ
+Sjavascript:S1854]"2Remove this useless assignment to variable "name".(¢‘˜¨ùÿÿÿÿ
+Vjavascript:S1481b"5Remove the declaration of the unused 'pos1' variable.(„ıí¿şÿÿÿÿ
+Vjavascript:S1481b"5Remove the declaration of the unused 'pos2' variable.(„ıí¿şÿÿÿÿ
+Djavascript:S1481ª""Remove unused function 'findCeil'.(€çŒŸúÿÿÿÿ
+Ojavascript:S1117ª"-'val' is already declared in the upper scope.(€çŒŸúÿÿÿÿ
+Kjavascript:S1117«"/'order' is already declared in the upper scope.(ûñÛZ
+Ejavascript:S1481¯"#Remove unused function 'findFloor'.(ªÍ±úÿÿÿÿ
+Ojavascript:S1117¯"-'val' is already declared in the upper scope.(ªÍ±úÿÿÿÿ
+Kjavascript:S1117°"/'order' is already declared in the upper scope.(ûñÛZ
+@javascript:S125´"Remove this commented out code.(‡øÂıÿÿÿÿ
+@javascript:S125¼"Remove this commented out code.(Î¼ÙËúÿÿÿÿ
+Sjavascript:S1481Ğ"6Remove the declaration of the unused 'range' variable.(ß„Œ†
+Pjavascript:S1854Ğ"3Remove this useless assignment to variable "range".(ß„Œ†
+Zjavascript:S1854ğ"8Remove this useless assignment to variable "minorTicks".(ØàÄØûÿÿÿÿ
+<javascript:S2814ş"'temp' is already defined.(ñ˜¹Ñüÿÿÿÿ
+Tjavascript:S1854ş"2Remove this useless assignment to variable "temp".(ñ˜¹Ñüÿÿÿÿ
+7javascript:S2814„"'temp' is already defined.(¾¿ø“
+Ojavascript:S1854„"2Remove this useless assignment to variable "temp".(¾¿ø“
+Pjavascript:S1481Œ"3Remove the declaration of the unused 'to' variable.(Ò‹’Œ
+4javascript:S2814Œ"'t' is already defined.(Ò‹’Œ
+;javascript:S2814Œ"'interval' is already defined.(Ò‹’Œ
+4javascript:S2814"'i' is already defined.(¢ÍŒÙ
+Qjavascript:S1854¢"4Remove this useless assignment to variable "spread".(âƒ¯º
+@javascript:S125À"Remove this commented out code.(ßˆÿÿÿÿÿ
+4javascript:S2814Ê"'i' is already defined.(ÍÆŠî
+4javascript:S2814ß"'i' is already defined.(ÍÆŠî
+qjavascript:S3776ó"TRefactor this function to reduce its Cognitive Complexity from 92 to the 15 allowed.(üÉ¸™
+Hjavascript:S1117ˆ"+'p' is already declared in the upper scope.(²™¥´
+Mjavascript:S1117”"+'p' is already declared in the upper scope.(¿–Œ¡úÿÿÿÿ
+Mjavascript:S1117"+'p' is already declared in the upper scope.(¿–Œ¡úÿÿÿÿ
+njavascript:S4138¤"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(£ÿò™øÿÿÿÿ
+;javascript:S125Æ"Remove this commented out code.(Õ—ûÈ
+njavascript:S4138Ù"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(£ÿò™øÿÿÿÿ
+9javascript:S2814Ù"'i' is already defined.(£ÿò™øÿÿÿÿ
+9javascript:S2814Ú"'t' is already defined.(ìË˜«üÿÿÿÿ
+7javascript:S2814Ü"'shim' is already defined.(Ä£Äœ
+;javascript:S125ò"Remove this commented out code.(ŒÒÓ¾
+;javascript:S2814ƒ"'val' is already defined.(†‚œ±ùÿÿÿÿ

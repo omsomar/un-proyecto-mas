@@ -1,0 +1,51 @@
+
+qjavascript:S3776"URefactor this function to reduce its Cognitive Complexity from 393 to the 15 allowed.(éÈ„±
+mjavascript:S4138O"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÎÒØŞüÿÿÿÿ
+Ljavascript:S1117O"+'i' is already declared in the upper scope.(ÎÒØŞüÿÿÿÿ
+Ljavascript:S1117S"+'l' is already declared in the upper scope.(óÒùüüÿÿÿÿ
+Pjavascript:S1481t"4Remove the declaration of the unused 'dim' variable.(Ù•Øµ
+Qjavascript:S1481u"5Remove the declaration of the unused 'temp' variable.(±±äù
+Tjavascript:S1854"2Remove this useless assignment to variable "elem".(ë’´Ôıÿÿÿÿ
+njavascript:S4138•"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÂÊƒØÿÿÿÿÿ
+Mjavascript:S1117•"+'i' is already declared in the upper scope.(ÂÊƒØÿÿÿÿÿ
+Ojavascript:S1854›"2Remove this useless assignment to variable "tick".(ÏØ¨Ô
+Ljavascript:S1854œ"/Remove this useless assignment to variable "t".(©¯ıƒ
+Ujavascript:S1481²"9Remove the declaration of the unused 'interval' variable.(äÎ´_
+Qjavascript:S1481¶"5Remove the declaration of the unused 'pos1' variable.(°£Ù
+Rjavascript:S1481·"5Remove the declaration of the unused 'pos2' variable.(±Úö
+Ujavascript:S1481¸"3Remove the declaration of the unused 'tt' variable.(ß¬Úüùÿÿÿÿ
+Mjavascript:S1117¹"+'i' is already declared in the upper scope.(ª±²úüÿÿÿÿ
+Mjavascript:S1117º"+'l' is already declared in the upper scope.(¾ìŸîşÿÿÿÿ
+Zjavascript:S1481½"8Remove the declaration of the unused 'userMin' variable.(Ëà³×ûÿÿÿÿ
+Wjavascript:S1854½"5Remove this useless assignment to variable "userMin".(Ëà³×ûÿÿÿÿ
+Ujavascript:S1481¾"8Remove the declaration of the unused 'userMax' variable.(˜İ’
+Rjavascript:S1854¾"5Remove this useless assignment to variable "userMax".(˜İ’
+@javascript:S125ù"Remove this commented out code.(ã¸¾Ÿûÿÿÿÿ
+‡javascript:S4165–"eReview this redundant assignment: "count" already holds the assigned value along all execution paths.(÷Ù¶Šùÿÿÿÿ
+Tjavascript:S1854"2Remove this useless assignment to variable "temp".(¼­ƒöûÿÿÿÿ
+@javascript:S125­"Remove this commented out code.(”Ÿ³•ûÿÿÿÿ
+@javascript:S125Ò"Remove this commented out code.(ƒÿÀûÿÿÿÿ
+Ljavascript:S1854ø"/Remove this useless assignment to variable "s".(ÜïÊı
+9javascript:S2814‘"'i' is already defined.(¸‚®Æøÿÿÿÿ
+@javascript:S125¨"Remove this commented out code.(ôößÚÿÿÿÿÿ
+@javascript:S125³"Remove this commented out code.(°Â¾ûÿÿÿÿ
+Ljavascript:S1854¹"/Remove this useless assignment to variable "t".(©¯ıƒ
+Mjavascript:S1117Ã"+'i' is already declared in the upper scope.(ª±²úüÿÿÿÿ
+Ojavascript:S1854â"2Remove this useless assignment to variable "tick".(ÏØ¨Ô
+Ljavascript:S1854ã"/Remove this useless assignment to variable "t".(©¯ıƒ
+7javascript:S2814û"'temp' is already defined.(£ ”è
+Hjavascript:S1117¦"+'p' is already declared in the upper scope.(²™¥´
+Mjavascript:S1117½"+'p' is already declared in the upper scope.(¿–Œ¡úÿÿÿÿ
+Hjavascript:S1117Â"+'p' is already declared in the upper scope.(²™¥´
+Mjavascript:S1117Î"+'p' is already declared in the upper scope.(¿–Œ¡úÿÿÿÿ
+Mjavascript:S1117×"+'p' is already declared in the upper scope.(¿–Œ¡úÿÿÿÿ
+njavascript:S4138ß"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(£ÿò™øÿÿÿÿ
+Mjavascript:S1117ß"+'i' is already declared in the upper scope.(£ÿò™øÿÿÿÿ
+njavascript:S4138•"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(£ÿò™øÿÿÿÿ
+9javascript:S2814•"'i' is already defined.(£ÿò™øÿÿÿÿ
+9javascript:S2814–"'t' is already defined.(ìË˜«üÿÿÿÿ
+7javascript:S2814˜"'shim' is already defined.(Ä£Äœ
+<javascript:S2814›"'temp' is already defined.(Õì÷şøÿÿÿÿ
+;javascript:S125°"Remove this commented out code.(ŒÒÓ¾
+;javascript:S2814Á"'val' is already defined.(†‚œ±ùÿÿÿÿ
+Pjavascript:S1854Ö"3Remove this useless assignment to variable "ticks".(™İû½

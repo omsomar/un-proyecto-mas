@@ -1,0 +1,37 @@
+
+qjavascript:S3776"URefactor this function to reduce its Cognitive Complexity from 188 to the 15 allowed.(éÈ„±
+?javascript:S125@"Remove this commented out code.(Š¾‹´ýÿÿÿÿ
+?javascript:S125k"Remove this commented out code.(§ÖÜÊúÿÿÿÿ
+@javascript:S125‹"Remove this commented out code.( ÛÜ˜ÿÿÿÿÿ
+Xjavascript:S1481©"6Remove the declaration of the unused 'pdata' variable.(†‰äÕüÿÿÿÿ
+Ujavascript:S1854©"3Remove this useless assignment to variable "pdata".(†‰äÕüÿÿÿÿ
+Tjavascript:S1481"2Remove the declaration of the unused 'i' variable.(ª±²úüÿÿÿÿ
+Ujavascript:S1481ƒ"8Remove the declaration of the unused 'nseries' variable.(ùÙ×ô
+Tjavascript:S1481…"2Remove the declaration of the unused 's' variable.(®àû¶úÿÿÿÿ
+Yjavascript:S1481…"7Remove the declaration of the unused 'series' variable.(®àû¶úÿÿÿÿ
+Vjavascript:S1481…"4Remove the declaration of the unused 'pos' variable.(®àû¶úÿÿÿÿ
+Sjavascript:S1481ˆ"6Remove the declaration of the unused 'nbins' variable.(òÌƒŒ
+Pjavascript:S1854ˆ"3Remove this useless assignment to variable "nbins".(òÌƒŒ
+Rjavascript:S1481ž"5Remove the declaration of the unused 'fill' variable.(ŒòºÁ
+Ojavascript:S1854ž"2Remove this useless assignment to variable "fill".(ŒòºÁ
+Ujavascript:S1481Ÿ"3Remove the declaration of the unused 'xp' variable.(ÅÒ»ôûÿÿÿÿ
+Rjavascript:S1854Ÿ"0Remove this useless assignment to variable "xp".(ÅÒ»ôûÿÿÿÿ
+Pjavascript:S1481 "3Remove the declaration of the unused 'yp' variable.(á¤Òè
+Mjavascript:S1854 "0Remove this useless assignment to variable "yp".(á¤Òè
+Tjavascript:S1481¡"7Remove the declaration of the unused 'pointx' variable.(Ûãþ˜
+Tjavascript:S1481¡"7Remove the declaration of the unused 'pointy' variable.(Ûãþ˜
+@javascript:S125ª"Remove this commented out code.(ÀàÐ³úÿÿÿÿ
+;javascript:S125²"Remove this commented out code.(Ü†ê®
+Xjavascript:S1854·";Remove this useless assignment to variable "negativeColor".(É‹Ä–
+Xjavascript:S1854¹";Remove this useless assignment to variable "negativeColor".(£ÿÌ£
+>javascript:S2814Â"'points' is already defined.(ªå„ôøÿÿÿÿ
+4javascript:S2814Å"'i' is already defined.(ðÅóÉ
+;javascript:S125â"Remove this commented out code.(õÆ ô
+;javascript:S125è"Remove this commented out code.(©’Ÿ·
+6javascript:S2814ˆ"'clr' is already defined.(Óš’ß
+njavascript:S4138–"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ê–ðèøÿÿÿÿ
+9javascript:S2814–"'i' is already defined.(Ê–ðèøÿÿÿÿ
+ijavascript:S4138¬"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ä›Ëê
+Vjavascript:S1854Ú"4Remove this useless assignment to variable "canvas".(«¨Ã üÿÿÿÿ
+ijavascript:S4138à"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Õû¨‘
+Vjavascript:S1854å"4Remove this useless assignment to variable "canvas".(«¨Ã üÿÿÿÿ

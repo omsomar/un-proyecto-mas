@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Crear más de una intención de compra para el mismo QR y verificar que solo la última intención sea la que quede pendiente</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script><!-- ImgPreview -->
+<script src="scripts/imgpreview.full.jquery.js" type="text/javascript"></script>
+</head>
+
+
+<body class="results-page">
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+        <span class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs">Home</a>
+
+            > <a href="9300e1654bf7c285989f5ba39ed2b1ff6aec88619c4fcee6b3b3501a1cb18630.html">Crearintencion</a>
+            > <a href="d9470909d4b673dc73c42685a64f70c55c65ce24ec4084fc0305ea39c7ccaf15.html">Crear Dos Intenciones De Compra Para El Mismo Qr</a>
+        > Crear m&aacute;s de una intenci&oacute;n de compra para el mismo QR y verificar que solo la &uacute;ltima intenci&oacute;n sea la que quede pendiente
+        </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-04-2022 16:56</span>
+    <br style="clear:left"/>
+</div>
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Crear Dos Intenciones De Compra Para El Mismo Qr </span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                yo como usuario de los servicios de Pagos sin friccion
+requiero crear dos intenciones de compra para el mismo QR
+para verificar que el sistema cancele automáticamente la primera intención creada y unicamente quede pendiente la última intención registrada
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;"
+                                                                      href="895659f06e1e8371be8e6d7cc07dbf7d1388caf8b3aca1cfb7b57ddf1dd3cca4.html">E2E QR ESTATICO DINAMICO
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;"
+                                                                      href="9300e1654bf7c285989f5ba39ed2b1ff6aec88619c4fcee6b3b3501a1cb18630.html">Crearintencion
+                                    (capability)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;"
+                                                                      href="5cf74ef5e7963beaad85085472f6fc62ca9347d45d97b1f0acae78a3795fe05b.html">Crearintencionexitosa
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                    <span class="success-color">
+                                    Crear m&aacute;s de una intenci&oacute;n de compra para el mismo QR y verificar que solo la &uacute;ltima intenci&oacute;n sea la que quede pendiente
+                                        <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+
+
+    <div id="tablecontents">
+        <div>
+            <table class="step-table">
+                <tr class="step-titles">
+                    <th width="65">                        &nbsp;
+                    </th>
+
+                    <th width="%" class="step-description-wide-column greentext">
+                        Steps
+                    </th>
+                    <th width="100" class="greentext">Outcome</th>
+                    <th width="75" class="greentext">Duration</th>
+                </tr>
+                <tr class="step-table-separator">
+                    <td colspan="5"></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="0"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
+                                Dado que el usuario quiere consumir uno de los servicios del modelo estatico dinamico
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
+                            <span class="top-level-step">
+                                Cuando el utiliza el servicio de crear intencion de compra<br><table class='embedded'><thead><th>servicio</th><th>escenario</th><th>valorIntencion</th></thead><tbody><tr><td>/intention</td><td>camposIntencionesConsecutivas</td><td>56398</td></tr></tbody></table>
+                            </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.87s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Cajero executes a POST on the resource /intention
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.85s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                POST https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention
+                            </span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-4">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-4" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8<br>X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504<br>message-id=ssrojas<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;data&quot;: {<br>        &quot;intentionDetail&quot;: {<br>            &quot;qrId&quot;: &quot;da8c9058-a09f-457d-8091-6181bfbc73ee&quot;,<br>            &quot;amount&quot;: &quot;56398&quot;<br>        }<br>    }<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Backside-Transport: OK OK<br>Connection: Keep-Alive<br>Transfer-Encoding: chunked<br>Content-Type: application/vnd.bancolombia.v4+json<br>Date: Mon, 25 Apr 2022 21:58:37 GMT<br>X-Global-Transaction-ID: c4b2879a6267198d00000589<br>API-Version: 1.0.2<br>RateLimit-Limit: 1/minute<br>Message-id: ssrojas<br>Strict-Transport-Security: max-age=31536000; includeSubDomains<br>X-Frame-Options: DENY<br>Content-Security-Policy: default-src 'self' *.bancolombia.com<br>X-Content-Type-Options: nosniff<br>Cache-Control: private, no-cache, no-store, max-age=0, no-transfor<br>Pragma: no-cache<br>Expires: 0<br>Access-Control-Expose-Headers: APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID<br>Access-Control-Allow-Origin: *<br>Access-Control-Allow-Methods: POST<br>X-RateLimit-Limit: name=rate-limit-1,60;<br>X-RateLimit-Remaining: name=rate-limit-1,59;<br>Content-Encoding: gzip<br>Set-Cookie: visid_incap_2677978=Hl+A21sqRbW9UVTJcS5fuowZZ2IAAAAAQUIPAAAAAACCDMe3nSsWNUE4qrjVmy7A; expires=Tue, 25 Apr 2023 06:45:19 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None<br>Set-Cookie: incap_ses_1602_2677978=LDrOK8t3xiF+EKbHjnI7FowZZ2IAAAAAshdvzSCCjsJ6DIDa6OIhqA==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None<br>Set-Cookie: ___utmvmcmBukOSoZ=dPwtYvspKhM; path=/; Max-Age=900; Secure; SameSite=None<br>Set-Cookie: ___utmvacmBukOSoZ=jCfJuXB; path=/; Max-Age=900; Secure; SameSite=None<br>Set-Cookie: ___utmvbcmBukOSoZ=DZw XGnOJalq: ltZ; path=/; Max-Age=900; Secure; SameSite=None<br>X-CDN: Imperva<br>X-Iinfo: 14-7651823-7660720 SNNN RT(1650923770569 146214) q(0 0 0 -1) r(2 2) U6</pre>
+                                <h5>Response Body</h5>
+                                    <pre>{<br>    &quot;meta&quot;: {<br>        &quot;_messageId&quot;: &quot;ssrojas&quot;,<br>        &quot;_requestDateTime&quot;: &quot;2022-04-25T16:58:37.804Z&quot;,<br>        &quot;_applicationId&quot;: &quot;68896986-d80e-454e-b73f-907f214d0504&quot;<br>    },<br>    &quot;data&quot;: {<br>        &quot;qrIntentionId&quot;: &quot;42f09f7c-0bc3-41cc-aed9-a8403932bac6&quot;<br>    }<br>}</pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre>visid_incap_2677978=Hl+A21sqRbW9UVTJcS5fuowZZ2IAAAAAQUIPAAAAAACCDMe3nSsWNUE4qrjVmy7A;Path=/;Domain=.apps.ambientesbc.com;Secure;HttpOnly;Expires=25/04/23 06:45 AM<br>incap_ses_1602_2677978=LDrOK8t3xiF+EKbHjnI7FowZZ2IAAAAAshdvzSCCjsJ6DIDa6OIhqA==;Path=/;Domain=.apps.ambientesbc.com;Secure<br>___utmvmcmBukOSoZ=dPwtYvspKhM;Path=/;Max-Age=900;Secure<br>___utmvacmBukOSoZ=jCfJuXB;Path=/;Max-Age=900;Secure<br>___utmvbcmBukOSoZ=DZw XGnOJalq: ltZ;Path=/;Max-Age=900;Secure</pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block;">
+                            <span class="top-level-step">
+                                Y se crea otra intencion de compra para el mismo QR<br><table class='embedded'><thead><th>servicio</th><th>escenario</th><th>valorIntencion</th></thead><tbody><tr><td>/intention</td><td>camposIntencionesConsecutivas</td><td>13455.89</td></tr></tbody></table>
+                            </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">3s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Cajero executes a POST on the resource /intention
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.96s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                POST https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention
+                            </span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-7">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-7" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8<br>X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504<br>message-id=ssrojas<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;data&quot;: {<br>        &quot;intentionDetail&quot;: {<br>            &quot;qrId&quot;: &quot;da8c9058-a09f-457d-8091-6181bfbc73ee&quot;,<br>            &quot;amount&quot;: &quot;13455.89&quot;<br>        }<br>    }<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Backside-Transport: OK OK<br>Connection: Keep-Alive<br>Transfer-Encoding: chunked<br>Content-Type: application/vnd.bancolombia.v4+json<br>Date: Mon, 25 Apr 2022 21:58:38 GMT<br>X-Global-Transaction-ID: c4b2879a6267198e00073131<br>API-Version: 1.0.2<br>RateLimit-Limit: 1/minute<br>Message-id: ssrojas<br>Strict-Transport-Security: max-age=31536000; includeSubDomains<br>X-Frame-Options: DENY<br>Content-Security-Policy: default-src 'self' *.bancolombia.com<br>X-Content-Type-Options: nosniff<br>Cache-Control: private, no-cache, no-store, max-age=0, no-transfor<br>Pragma: no-cache<br>Expires: 0<br>Access-Control-Expose-Headers: APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID<br>Access-Control-Allow-Origin: *<br>Access-Control-Allow-Methods: POST<br>X-RateLimit-Limit: name=rate-limit-1,60;<br>X-RateLimit-Remaining: name=rate-limit-1,59;<br>Content-Encoding: gzip<br>Set-Cookie: visid_incap_2677978=PKyynfM9TbCqaSopGeC9rI0ZZ2IAAAAAQUIPAAAAAAABy1G+H7tKV1aimPoOpsk/; expires=Tue, 25 Apr 2023 06:45:19 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None<br>Set-Cookie: incap_ses_1602_2677978=MWI4VsetIFwJEabHjnI7Fo0ZZ2IAAAAAMFpN2dXsfUUzXhv0XC0GtA==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None<br>Set-Cookie: ___utmvmcmBukOSoZ=mlwJIPgYlTj; path=/; Max-Age=900; Secure; SameSite=None<br>Set-Cookie: ___utmvacmBukOSoZ=BeFCXNt; path=/; Max-Age=900; Secure; SameSite=None<br>Set-Cookie: ___utmvbcmBukOSoZ=dZV XNlOBalp: gtG; path=/; Max-Age=900; Secure; SameSite=None<br>X-CDN: Imperva<br>X-Iinfo: 14-7651823-7660720 SNNN RT(1650923770569 147178) q(0 0 0 -1) r(2 2) U6</pre>
+                                <h5>Response Body</h5>
+                                    <pre>{<br>    &quot;meta&quot;: {<br>        &quot;_messageId&quot;: &quot;ssrojas&quot;,<br>        &quot;_requestDateTime&quot;: &quot;2022-04-25T16:58:38.768Z&quot;,<br>        &quot;_applicationId&quot;: &quot;68896986-d80e-454e-b73f-907f214d0504&quot;<br>    },<br>    &quot;data&quot;: {<br>        &quot;qrIntentionId&quot;: &quot;d4fb70c7-6db1-4e0f-8c09-17a62d4bcc1f&quot;<br>    }<br>}</pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre>visid_incap_2677978=PKyynfM9TbCqaSopGeC9rI0ZZ2IAAAAAQUIPAAAAAAABy1G+H7tKV1aimPoOpsk/;Path=/;Domain=.apps.ambientesbc.com;Secure;HttpOnly;Expires=25/04/23 06:45 AM<br>incap_ses_1602_2677978=MWI4VsetIFwJEabHjnI7Fo0ZZ2IAAAAAMFpN2dXsfUUzXhv0XC0GtA==;Path=/;Domain=.apps.ambientesbc.com;Secure<br>___utmvmcmBukOSoZ=mlwJIPgYlTj;Path=/;Max-Age=900;Secure<br>___utmvacmBukOSoZ=BeFCXNt;Path=/;Max-Age=900;Secure<br>___utmvbcmBukOSoZ=dZV XNlOBalp: gtG;Path=/;Max-Age=900;Secure</pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="3"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection3 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block;">
+                            <span class="top-level-step">
+                                Entonces el podra ver que la intencion nueva queda pendiente y la anterior se cancele
+                            </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">10.58s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection3" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                El servicio responde correctamente
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Then validar respuesta should be (true)
+                            </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">10.57s</span></td>
+                </tr>
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td colspan="2"></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>14.45s</em></span></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="beforefooter"></div>
+    <div id="bottomfooter">
+        <span class="version">Serenity BDD version 1.9.9</span>
+    </div>
+
+
+    <script type="text/javascript">
+        function toggleDiv(divId) {
+            $("#" + divId).toggle();
+            var imgsrc = $(".img" + divId).attr('src');
+            if (imgsrc == 'images/plus.png') {
+                $(".img" + divId).attr("src", function () {
+                    return "images/minus.png";
+                });
+
+            }
+            else {
+                $(".img" + divId).attr("src", function () {
+                    return "images/plus.png";
+                });
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        $('.example-table table').DataTable({
+            // "order": [[0, "asc"]],
+            "pageLength": 50,
+            "searching": false,
+            "ordering":  false,
+            "scrollX": "100%",
+            "scrollXInner": "100%",
+            "scrollCollapse": true
+        });
+    </script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+
+        $(document).ready(function () {
+            $('img.screenshot').imgPreview({
+                imgCSS: {
+                    width: '500px'
+                },
+                distanceFromCursor: {top: 10, left: -200}
+            });
+        });
+
+        //]]>
+    </script>
+    <div id="imgPreviewContainer" style="position: absolute; top: 612px; left: 355px; display: none; " class=""><img
+            src="" style="display: none; "></div>
+    <div id="imgPreviewContainer2" style="position: absolute; top: 925px; left: 320px; display: none; " class="">
+        <img style="width: 200px; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles" style="position: absolute; top: 1272px; left: 321px; display: none; " class="">
+        <img style="height: 200px; opacity: 1; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles2" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+    <div id="imgPreviewWithStyles3" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+
+</body>
+</html>

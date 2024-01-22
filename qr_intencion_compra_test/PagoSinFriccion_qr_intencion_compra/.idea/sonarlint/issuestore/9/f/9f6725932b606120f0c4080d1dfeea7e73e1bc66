@@ -1,0 +1,7 @@
+
+Rjavascript:S1854„"0Remove this useless assignment to variable "el".(Λ©λεϋÿÿÿÿ
+:javascript:S2814"'gd' is already defined.(¬‹Φƒώÿÿÿÿ
+Rjavascript:S1481"5Remove the declaration of the unused 'opts' variable.(ΧΨδΪ
+Ojavascript:S1854"2Remove this useless assignment to variable "opts".(ΧΨδΪ
+gjavascript:S1226“"JIntroduce a new variable or use its initial value before reassigning "gd".(¤¤‚ό
+ajavascript:S905Ό"FExpected an assignment or function call and instead saw an expression.(ώ£­

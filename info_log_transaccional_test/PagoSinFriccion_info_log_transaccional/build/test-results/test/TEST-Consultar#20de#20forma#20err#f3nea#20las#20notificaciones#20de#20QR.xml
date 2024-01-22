@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Consultar de forma errónea las notificaciones de QR" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-10-19T17:13:47" hostname="50HW015303" time="58.691">
+  <properties/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="19.796"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="2.142"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="3.349"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="2.799"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="1.888"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="1.936"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="2.198"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="1.9"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="1.911"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="1.967"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="10.394"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="1.814"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="1.827"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="1.932"/>
+  <testcase name="Consultar de manera fallida las notificaciones de QR" classname="Consultar de forma errónea las notificaciones de QR" time="2.765"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationSize": "5"
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 19 Oct 2021 17:14:41 GMT
+Content-Type: application/json
+Content-Length: 403
+Connection: keep-alive
+x-envoy-upstream-service-time: 4
+server: undefined
+
+{
+    "meta": {
+        "_messageId": "1d8139ef-1521-4a53-819d-a821b631fc13",
+        "_version": "1.0",
+        "_requestDate": "2021-10-19 12:14:41",
+        "_clientRequest": "71f56d88-1157",
+        "additionalProp1": null
+    },
+    "errors": {
+        "id": "1d8139ef-1521-4a53-819d-a821b631fc13",
+        "href": "http://mp-vpn-qa.apps.ambientesbc.com/api/v1/info-transaction-qr/get-notification",
+        "status": 400,
+        "code": "QR-B0000",
+        "title": "ERROR EN FORMATO",
+        "detail": "Valide la firma"
+    }
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "0"
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 19 Oct 2021 17:14:43 GMT
+Content-Type: application/json
+Content-Length: 403
+Connection: keep-alive
+x-envoy-upstream-service-time: 5
+server: undefined
+
+{
+    "meta": {
+        "_messageId": "8c2991dd-c910-4eaf-aa4c-13af28260200",
+        "_version": "1.0",
+        "_requestDate": "2021-10-19 12:14:43",
+        "_clientRequest": "c8e38061-1157",
+        "additionalProp1": null
+    },
+    "errors": {
+        "id": "8c2991dd-c910-4eaf-aa4c-13af28260200",
+        "href": "http://mp-vpn-qa.apps.ambientesbc.com/api/v1/info-transaction-qr/get-notification",
+        "status": 400,
+        "code": "QR-B0000",
+        "title": "ERROR EN FORMATO",
+        "detail": "Valide la firma"
+    }
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "0",
+    "paginationSize": "5",
+    "startDate": "2021-09-14",
+    "endDate": "2021-09-01"
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 19 Oct 2021 17:14:47 GMT
+Content-Type: application/json
+Content-Length: 407
+Connection: keep-alive
+x-envoy-upstream-service-time: 57
+server: undefined
+
+{
+    "meta": {
+        "_messageId": "4d8fdceb-9d18-49fd-bd9f-a45393542747",
+        "_version": "1.0",
+        "_requestDate": "2021-10-19 12:14:47",
+        "_clientRequest": "5222ca32-1159",
+        "additionalProp1": null
+    },
+    "errors": {
+        "id": "4d8fdceb-9d18-49fd-bd9f-a45393542747",
+        "href": "http://mp-vpn-qa.apps.ambientesbc.com/api/v1/info-transaction-qr/get-notification",
+        "status": 400,
+        "code": "QR-B0002",
+        "title": "ERROR EN QUERYPARAMS",
+        "detail": "Valide La firma"
+    }
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "0",
+    "paginationSize": "5",
+    "startDate": "2012-09-01",
+    "endDate": "2012-09-30"
+}
+HTTP/1.1 200 OK
+Date: Tue, 19 Oct 2021 17:14:49 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: keep-alive
+x-envoy-upstream-service-time: 24
+server: undefined
+
+{
+    "pagination": {
+        "totalPages": -1,
+        "totalElements": 0
+    },
+    "data": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "0",
+    "paginationSize": "10",
+    "commerceAccountType": "E"
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 19 Oct 2021 17:14:51 GMT
+Content-Type: application/json
+Content-Length: 420
+Connection: keep-alive
+x-envoy-upstream-service-time: 10
+server: undefined
+
+{
+    "meta": {
+        "_messageId": "5d074fc3-3206-440a-bd96-cfd519fbe32b",
+        "_version": "1.0",
+        "_requestDate": "2021-10-19 12:14:51",
+        "_clientRequest": "5222ca32-1160",
+        "additionalProp1": null
+    },
+    "errors": {
+        "id": "5d074fc3-3206-440a-bd96-cfd519fbe32b",
+        "href": "http://mp-vpn-qa.apps.ambientesbc.com/api/v1/info-transaction-qr/get-notification",
+        "status": 400,
+        "code": "QR-B0000",
+        "title": "ERROR EN FORMATO",
+        "detail": "Error de Formato Valide la firma"
+    }
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "0",
+    "paginationSize": "10",
+    "commerceDocumentType": "CP"
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 19 Oct 2021 17:14:53 GMT
+Content-Type: application/json
+Content-Length: 420
+Connection: keep-alive
+x-envoy-upstream-service-time: 11
+server: undefined
+
+{
+    "meta": {
+        "_messageId": "ac85d7d8-4df9-47aa-a48d-6cbf9ba69147",
+        "_version": "1.0",
+        "_requestDate": "2021-10-19 12:14:53",
+        "_clientRequest": "c8e38061-1161",
+        "additionalProp1": null
+    },
+    "errors": {
+        "id": "ac85d7d8-4df9-47aa-a48d-6cbf9ba69147",
+        "href": "http://mp-vpn-qa.apps.ambientesbc.com/api/v1/info-transaction-qr/get-notification",
+        "status": 400,
+        "code": "QR-B0000",
+        "title": "ERROR EN FORMATO",
+        "detail": "Error de Formato Valide la firma"
+    }
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "0",
+    "paginationSize": "10",
+    "commerceDocumentType": "PASS",
+    "startDate": "2021-09-07",
+    "endDate": "2021-09-23"
+}
+HTTP/1.1 200 OK
+Date: Tue, 19 Oct 2021 17:14:55 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: keep-alive
+x-envoy-upstream-service-time: 277
+server: undefined
+
+{
+    "pagination": {
+        "totalPages": -1,
+        "totalElements": 0
+    },
+    "data": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "0",
+    "paginationSize": "10",
+    "commerceDocumentType": "CC",
+    "commerceDocumentNumber": "625160213",
+    "startDate": "2021/09/20",
+    "endDate": "2021/09/24"
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 19 Oct 2021 17:14:57 GMT
+Content-Type: application/json
+Content-Length: 403
+Connection: keep-alive
+x-envoy-upstream-service-time: 6
+server: undefined
+
+{
+    "meta": {
+        "_messageId": "e66683e0-a2c1-4912-87a0-0d61326efbb8",
+        "_version": "1.0",
+        "_requestDate": "2021-10-19 12:14:57",
+        "_clientRequest": "c8e38061-1162",
+        "additionalProp1": null
+    },
+    "errors": {
+        "id": "e66683e0-a2c1-4912-87a0-0d61326efbb8",
+        "href": "http://mp-vpn-qa.apps.ambientesbc.com/api/v1/info-transaction-qr/get-notification",
+        "status": 400,
+        "code": "QR-B0000",
+        "title": "ERROR EN FORMATO",
+        "detail": "Valide la firma"
+    }
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "ssd",
+    "paginationSize": "10",
+    "commerceDocumentType": "CC",
+    "commerceDocumentNumber": "625160213",
+    "startDate": "2021-09-20",
+    "endDate": "2021-09-24"
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 19 Oct 2021 17:14:59 GMT
+Content-Type: application/json
+Content-Length: 403
+Connection: keep-alive
+x-envoy-upstream-service-time: 5
+server: undefined
+
+{
+    "meta": {
+        "_messageId": "86d114d4-8e21-4eaa-aced-2fd02c961b84",
+        "_version": "1.0",
+        "_requestDate": "2021-10-19 12:14:59",
+        "_clientRequest": "71f56d88-1167",
+        "additionalProp1": null
+    },
+    "errors": {
+        "id": "86d114d4-8e21-4eaa-aced-2fd02c961b84",
+        "href": "http://mp-vpn-qa.apps.ambientesbc.com/api/v1/info-transaction-qr/get-notification",
+        "status": 400,
+        "code": "QR-B0000",
+        "title": "ERROR EN FORMATO",
+        "detail": "Valide la firma"
+    }
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "0",
+    "paginationSize": "sss",
+    "commerceDocumentType": "CC",
+    "commerceDocumentNumber": "625160213",
+    "startDate": "2021-09-20",
+    "endDate": "2021-09-24"
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 19 Oct 2021 17:15:01 GMT
+Content-Type: application/json
+Content-Length: 403
+Connection: keep-alive
+x-envoy-upstream-service-time: 6
+server: undefined
+
+{
+    "meta": {
+        "_messageId": "afe1435c-d2c3-4d00-a73c-fc66e741f4ad",
+        "_version": "1.0",
+        "_requestDate": "2021-10-19 12:15:01",
+        "_clientRequest": "c8e38061-1163",
+        "additionalProp1": null
+    },
+    "errors": {
+        "id": "afe1435c-d2c3-4d00-a73c-fc66e741f4ad",
+        "href": "http://mp-vpn-qa.apps.ambientesbc.com/api/v1/info-transaction-qr/get-notification",
+        "status": 400,
+        "code": "QR-B0000",
+        "title": "ERROR EN FORMATO",
+        "detail": "Valide la firma"
+    }
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "2000",
+    "paginationSize": "40",
+    "commerceDocumentType": "CC",
+    "commerceDocumentNumber": "625160213",
+    "startDate": "2021-09-20",
+    "endDate": "2021-09-24"
+}
+HTTP/1.1 200 OK
+Date: Tue, 19 Oct 2021 17:15:11 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: keep-alive
+x-envoy-upstream-service-time: 48
+server: undefined
+
+{
+    "pagination": {
+        "totalPages": 0,
+        "totalElements": 26
+    },
+    "data": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "",
+    "paginationSize": ""
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 19 Oct 2021 17:15:13 GMT
+Content-Type: application/json
+Content-Length: 403
+Connection: keep-alive
+x-envoy-upstream-service-time: 6
+server: undefined
+
+{
+    "meta": {
+        "_messageId": "b815d020-1c27-479e-8d3d-8d9bd68343be",
+        "_version": "1.0",
+        "_requestDate": "2021-10-19 12:15:13",
+        "_clientRequest": "c8e38061-1165",
+        "additionalProp1": null
+    },
+    "errors": {
+        "id": "b815d020-1c27-479e-8d3d-8d9bd68343be",
+        "href": "http://mp-vpn-qa.apps.ambientesbc.com/api/v1/info-transaction-qr/get-notification",
+        "status": 400,
+        "code": "QR-B0000",
+        "title": "ERROR EN FORMATO",
+        "detail": "Valide la firma"
+    }
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "0",
+    "paginationSize": "10",
+    "commerceAccountType": "S",
+    "commerceAccountNumber": "07400015349155673"
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 19 Oct 2021 17:15:15 GMT
+Content-Type: application/json
+Content-Length: 420
+Connection: keep-alive
+x-envoy-upstream-service-time: 10
+server: undefined
+
+{
+    "meta": {
+        "_messageId": "0ea74c96-53a5-4be2-9f27-26b8f3800d07",
+        "_version": "1.0",
+        "_requestDate": "2021-10-19 12:15:15",
+        "_clientRequest": "5222ca32-1168",
+        "additionalProp1": null
+    },
+    "errors": {
+        "id": "0ea74c96-53a5-4be2-9f27-26b8f3800d07",
+        "href": "http://mp-vpn-qa.apps.ambientesbc.com/api/v1/info-transaction-qr/get-notification",
+        "status": 400,
+        "code": "QR-B0000",
+        "title": "ERROR EN FORMATO",
+        "detail": "Error de Formato Valide la firma"
+    }
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "0",
+    "paginationSize": "10",
+    "commerceDocumentType": "CC",
+    "commerceDocumentNumber": "113041222222222289135"
+}
+HTTP/1.1 400 Bad Request
+Date: Tue, 19 Oct 2021 17:15:17 GMT
+Content-Type: application/json
+Content-Length: 420
+Connection: keep-alive
+x-envoy-upstream-service-time: 8
+server: undefined
+
+{
+    "meta": {
+        "_messageId": "4e9c670b-7040-44d1-bde3-c84329d1268a",
+        "_version": "1.0",
+        "_requestDate": "2021-10-19 12:15:17",
+        "_clientRequest": "71f56d88-1170",
+        "additionalProp1": null
+    },
+    "errors": {
+        "id": "4e9c670b-7040-44d1-bde3-c84329d1268a",
+        "href": "http://mp-vpn-qa.apps.ambientesbc.com/api/v1/info-transaction-qr/get-notification",
+        "status": 400,
+        "code": "QR-B0000",
+        "title": "ERROR EN FORMATO",
+        "detail": "Error de Formato Valide la firma"
+    }
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notifications
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "paginationKey": "0",
+    "paginationSize": "100"
+}
+HTTP/1.1 404 Not Found
+Date: Tue, 19 Oct 2021 17:15:19 GMT
+Content-Type: application/json
+Content-Length: 0
+Connection: keep-alive
+x-envoy-upstream-service-time: 4
+server: undefined
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar de manera fallida las notificaciones de QR
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

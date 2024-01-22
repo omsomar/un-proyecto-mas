@@ -1,0 +1,29 @@
+
+qjavascript:S3776%"URefactor this function to reduce its Cognitive Complexity from 175 to the 15 allowed.(ˆè²Ô
+hjavascript:S4138{"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ˆÃ›
+Gjavascript:S1117{"+'i' is already declared in the upper scope.(ˆÃ›
+Qjavascript:S1135˜"4Complete the task associated to this "TODO" comment.(„®Î­
+Qjavascript:S1135Ÿ"4Complete the task associated to this "TODO" comment.(„®Î­
+Gjavascript:S1117€"+'i' is already declared in the upper scope.(ß¤È]
+Vjavascript:S1135Å"4Complete the task associated to this "TODO" comment.(¢ã’¾úÿÿÿÿ
+Ujavascript:S1481‹"3Remove the declaration of the unused 'w2' variable.(Ô°Êãıÿÿÿÿ
+Rjavascript:S1854‹"0Remove this useless assignment to variable "w2".(Ô°Êãıÿÿÿÿ
+Ujavascript:S1481Œ"3Remove the declaration of the unused 'h2' variable.(‘Àƒàüÿÿÿÿ
+Rjavascript:S1854Œ"0Remove this useless assignment to variable "h2".(‘Àƒàüÿÿÿÿ
+Vjavascript:S1481Ë"9Remove the declaration of the unused 'lineOpen' variable.(Ğ°ÿÍ
+Tjavascript:S1481Ú"7Remove the declaration of the unused 'newSeq' variable.(¢ÄÁ×
+ijavascript:S4138Ş"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(­±É‘
+Hjavascript:S1117Ş"+'i' is already declared in the upper scope.(­±É‘
+Ljavascript:S1854ä"/Remove this useless assignment to variable "c".(øå¨
+Qjavascript:S1135"4Complete the task associated to this "TODO" comment.(ˆ™í
+:javascript:S2814É"'p0' is already defined.(©ùáÏüÿÿÿÿ
+9javascript:S2814æ"'i' is already defined.(‚£Å˜üÿÿÿÿ
+Mjavascript:S1117Œ"+'m' is already declared in the upper scope.(¬Ú”•ûÿÿÿÿ
+Mjavascript:S1117 "+'m' is already declared in the upper scope.(îá¢”øÿÿÿÿ
+Mjavascript:S1117¡"+'j' is already declared in the upper scope.(¶Í¹ªşÿÿÿÿ
+Hjavascript:S1117«"+'m' is already declared in the upper scope.(ÚÜö¥
+Hjavascript:S1117é"+'m' is already declared in the upper scope.(›ÒÙˆ
+Vjavascript:S1135ô"4Complete the task associated to this "TODO" comment.(€£‰·ûÿÿÿÿ
+Vjavascript:S1135ø"4Complete the task associated to this "TODO" comment.(€£‰·ûÿÿÿÿ
+Hjavascript:S1186’"+Unexpected empty function 'CanvasPattern_'.(ÛÛ¸
+Šjavascript:S2703•"hAdd the "let", "const" or "var" keyword to this declaration of "G_vmlCanvasManager" to make it explicit.(ó”«ûüÿÿÿÿ

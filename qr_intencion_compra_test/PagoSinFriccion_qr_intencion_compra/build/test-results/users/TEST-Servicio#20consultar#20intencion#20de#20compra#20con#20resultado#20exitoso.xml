@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Servicio consultar intencion de compra con resultado exitoso" tests="15" skipped="0" failures="0" errors="0" timestamp="2022-02-16T14:42:42" hostname="50HW015303" time="27.634">
+  <properties/>
+  <testcase name="Consultar intencion de compra con estructura completa" classname="Servicio consultar intencion de compra con resultado exitoso" time="8.12"/>
+  <testcase name="Consultar intencion de compra con estructura completa" classname="Servicio consultar intencion de compra con resultado exitoso" time="3.457"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="1.259"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="1.025"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="1.083"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="1.366"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="0.878"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="0.889"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="0.979"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="1.29"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="1.032"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="1.403"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="0.932"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="1.971"/>
+  <testcase name="Consultar intencion de compra inexistente" classname="Servicio consultar intencion de compra con resultado exitoso" time="1.655"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/1a58e75a-15f7-4cd3-919e-1bc441819b62
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/vnd.bancolombia.v4+json
+Date: Wed, 16 Feb 2022 14:44:21 GMT
+X-Global-Transaction-ID: 94051f57620d0dc400059131
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Access-Control-Expose-Headers: APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET
+X-RateLimit-Limit: name=rate-limit-1,220;
+X-RateLimit-Remaining: name=rate-limit-1,219;
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=pWpizDvbQoyhADw5dK/iEVDlgmEAAAAAQkIPAAAAAAAh33lbIXCsx+1bjxjMwERW; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: nlbi_2677978=F9YSCxxPoWY5paHMqDancAAAAAAdd3xmVRZ8t348O/bgjKz+; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=9BrNBIc+nkXaXbj3Iu/bE8QNDWIAAAAA24tlu9hp3rY4QArR06hkPg==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: ___utmvmzvBukOSoZ=nqtKTirkSQP; path=/; Max-Age=900; Secure; SameSite=None
+Set-Cookie: ___utmvazvBukOSoZ=wDX?MmIi; path=/; Max-Age=900; Secure; SameSite=None
+Set-Cookie: ___utmvbzvBukOSoZ=nZV XoGOkalg: AtR; path=/; Max-Age=900; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 NNNN CT(26 25 0) RT(1645022660612 10) q(0 0 0 0) r(3 3) U2
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:21.000Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "data": {
+        "intentionDetail": {
+            "qrId": "31e5bcea-5edb-4b08-b781-37abb68c1f3b",
+            "reference": "pago por caja # 10TIENDAS JUMBO Atendido por: Manuel Rojas",
+            "amount": "10000000.00",
+            "state": "EXITOSA",
+            "creationDate": "2021-07-02T17:48:37.632",
+            "lastUpdateDate": "2021-07-02T17:48:38.056"
+        },
+        "invoice": {
+            "commerceInvoiceId": "199092"
+        },
+        "customer": {
+            "customerLoyaltyId": "puntos colombia"
+        }
+    }
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/9bdd4f9c-21bb-43e6-a249-403ef2eff724
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/vnd.bancolombia.v4+json
+Date: Wed, 16 Feb 2022 14:44:22 GMT
+X-Global-Transaction-ID: 94051f57620d0dc60000c615
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Access-Control-Expose-Headers: APIm-Debug-Trans-Id, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-Global-Transaction-ID
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET
+X-RateLimit-Limit: name=rate-limit-1,220;
+X-RateLimit-Remaining: name=rate-limit-1,219;
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=tAsCDkoYTeuFRBrMPr0WwsYNDWIAAAAAQUIPAAAAAACIARvB7Q22OO70hAuYUzMZ; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=uV3EUbHoVS51yLn3Iu/bE8YNDWIAAAAA6+ELorEXVNraOexoIjfZWg==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 1776) q(0 0 0 -1) r(2 2) U2
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:22.714Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "data": {
+        "intentionDetail": {
+            "qrId": "117c4e9d-f4e1-406b-bc76-ea5272fee6ea",
+            "amount": "15600.00",
+            "state": "EXPIRADA",
+            "reason": "INTENCIÃ“N EXPIRÃ“",
+            "creationDate": "2021-08-12T16:39:38.497453",
+            "lastUpdateDate": "2021-08-12T16:54:44.4457"
+        },
+        "invoice": {
+            
+        },
+        "customer": {
+            
+        }
+    }
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=IUT0MN38TzaTJPFSDhp2N8oNDWIAAAAAQUIPAAAAAADRD0g0jxBz3Z+E+HkRg/xj; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=2abcGEvP62kozbn3Iu/bE8oNDWIAAAAANLi3sDE5ora3jMtIt8x9jQ==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 5476) q(0 0 0 -1) r(1 1) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:26.413Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 400,
+    "title": "Bad Request",
+    "errors": [
+        {
+            "code": "SA400",
+            "detail": "El campo: qrIntentionId de formato String, no se esta enviando o no cumple con la especificacion de la firma"
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/0a48434f-e217-4581-9c7c-6acf7688f085ff
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=ij9zhPhHRtWbJr7Hr/nfU8sNDWIAAAAAQUIPAAAAAAA5TPr+AEaDNg/5CBx9l8GA; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=YnMFBUl/wzGPzrn3Iu/bE8sNDWIAAAAAx+KMnlILYRW/Th9Suk0FGw==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 6727) q(0 0 0 -1) r(1 1) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:27.665Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 400,
+    "title": "Bad Request",
+    "errors": [
+        {
+            "code": "BPQR-B0001",
+            "detail": "ERROR CAMPO REQUERIDO, ERROR INGRESANDO EL INTENTION-ID"
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/1a58e75a-15f7-4cd3-919e-1bc441819b00
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 409 Conflict
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=LnK65GxzTuG9Ag3HLCscacwNDWIAAAAAQUIPAAAAAAAydDFRIDHCZO0NYuKWgco8; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=IfssAM/CUUjZz7n3Iu/bE8wNDWIAAAAAPrL3HOZTLRSpcpB60Xducg==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 7782) q(0 0 0 -1) r(2 2) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:28.717Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 409,
+    "title": "Conflict",
+    "errors": [
+        {
+            "code": "BPQR-B0015",
+            "detail": "ID INTENCION DE COMPRA NO EXISTE O DESHABILITADO, NO EXISTE UNA INTENCION POR EL DATO INGRESADO"
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/0ce30143-c217-46ab-b9bb-e65bcbe6731d
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 409 Conflict
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=hrJ4TIAXSMq/Jq0pg9QT0M0NDWIAAAAAQUIPAAAAAACQfQVV+C3OdEcpni542N2z; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=gc+HMuSlTAkf0bn3Iu/bE80NDWIAAAAAcyX6ANQ8MzhXPdl+uvT+Qg==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 8795) q(0 0 0 -1) r(3 3) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:29.730Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 409,
+    "title": "Conflict",
+    "errors": [
+        {
+            "code": "BPQR-B0015",
+            "detail": "ID INTENCION DE COMPRA NO EXISTE O DESHABILITADO, NO EXISTE UNA INTENCION POR EL DATO INGRESADO"
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/444ssad-435-csry3-9000
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=YX4u9USPRH2eJAQFj7ei2c4NDWIAAAAAQUIPAAAAAABSCUSc8D5JzHGczord54Dy; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=sMQ5S/1bBl2e0rn3Iu/bE84NDWIAAAAAbMORKNQAJbKSllkfTaot6w==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 10190) q(0 0 0 -1) r(1 1) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:31.127Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 400,
+    "title": "Bad Request",
+    "errors": [
+        {
+            "code": "BPQR-B0001",
+            "detail": "ERROR CAMPO REQUERIDO, ERROR INGRESANDO EL INTENTION-ID"
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/*
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=uLt1uwSMQSeahgyboyPLOc8NDWIAAAAAQUIPAAAAAABFS4i42MDwnosn1iqX8SGf; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=V3oBRdiyv3ul07n3Iu/bE88NDWIAAAAA32yEuM31RylCEVc6bRpOxQ==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 11092) q(0 0 0 -1) r(1 1) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:32.028Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 400,
+    "title": "Bad Request",
+    "errors": [
+        {
+            "code": "BPQR-B0001",
+            "detail": "ERROR CAMPO REQUERIDO, ERROR INGRESANDO EL INTENTION-ID"
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=sq+ab6/gS8C/GivTl3R5PNANDWIAAAAAQUIPAAAAAAAqIQAzm3oBLwVm9DhRcIi0; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=wuHqHhRXf3nS1Ln3Iu/bE9ANDWIAAAAA8Ng57sQFAenoEutCklHdFA==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 12033) q(0 0 0 -1) r(1 1) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:32.968Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 400,
+    "title": "Bad Request",
+    "errors": [
+        {
+            "code": "BPQR-B0001",
+            "detail": "ERROR CAMPO REQUERIDO, ERROR INGRESANDO EL INTENTION-ID"
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/_
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=4s3ZoIaJRRao+518NyJgHNENDWIAAAAAQUIPAAAAAAAbQ3hVxgqvgrQQN/GFWpCD; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=++BdKcef6W/q1bn3Iu/bE9ENDWIAAAAAhlnAfo2+zCcyoQM9HmbnSw==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 12951) q(0 0 0 -1) r(1 1) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:33.890Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 400,
+    "title": "Bad Request",
+    "errors": [
+        {
+            "code": "BPQR-B0001",
+            "detail": "ERROR CAMPO REQUERIDO, ERROR INGRESANDO EL INTENTION-ID"
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=yumpL1TyTqSURlc+wQtCoNINDWIAAAAAQUIPAAAAAAC6a1Ks0vk2/RkaoQEcE1JA; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=YU9JXUJUVi9117n3Iu/bE9INDWIAAAAA5FYMIsShwaTEJoAx8cKcKw==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 14238) q(0 0 0 -1) r(1 1) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:35.175Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 400,
+    "title": "Bad Request",
+    "errors": [
+        {
+            "code": "SA400",
+            "detail": "El campo: qrIntentionId de formato String, no se esta enviando o no cumple con la especificacion de la firma"
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/%25
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=eD9NyJTGQuO7CvcjWoNRMtQNDWIAAAAAQUIPAAAAAAA0KqXhmTajfzPbeRNdr8hW; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=2nqbe3U+zU3X2Ln3Iu/bE9QNDWIAAAAA4tZu0fVM3d4bGyv2SGATDA==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 15280) q(0 0 0 -1) r(2 2) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:36.215Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 400,
+    "title": "Bad Request",
+    "errors": [
+        {
+            "code": "BP ",
+            "detail": " "
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/%7C
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=zRUl4/TSSfObibNodBZeC9UNDWIAAAAAQUIPAAAAAABVpn49X2u5y3p4+vQiiJ9i; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=PcEGPyZZhkln2rn3Iu/bE9UNDWIAAAAA1jFWGP9g+v5KjIxfMILsDw==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 16654) q(0 0 0 -1) r(1 1) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:37.588Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 400,
+    "title": "Bad Request",
+    "errors": [
+        {
+            "code": "BPQR-B0001",
+            "detail": "ERROR CAMPO REQUERIDO, ERROR INGRESANDO EL INTENTION-ID"
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/%22
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=aaZxNHEIRVSJLidwkCUBGNYNDWIAAAAAQUIPAAAAAACNm7Vg7X2LwCCskmjjSHk9; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=zqq+LaJpayyC27n3Iu/bE9YNDWIAAAAACQi/HU2Yz7peJhTyCk2/gQ==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 17609) q(0 0 0 -1) r(1 1) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:38.544Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 400,
+    "title": "Bad Request",
+    "errors": [
+        {
+            "code": "BPQR-B0001",
+            "detail": "ERROR CAMPO REQUERIDO, ERROR INGRESANDO EL INTENTION-ID"
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://api-qa.apps.ambientesbc.com/ext/testing/v1/sales-services/servicing/payment-initiation/qr-codes/intention/%27
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ibm-client-secret=M7gM2tR7mY3wP2mG3xV8dN4wE1kY1lI2dG3bL6xR8wU1fX5vB8
+				X-IBM-Client-Id=68896986-d80e-454e-b73f-907f214d0504
+				message-id=ssrojas
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+X-Backside-Transport: OK OK
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-type: application/vnd.bancolombia.v4+json; charset=utf-8
+API-Version: 1.0.2
+RateLimit-Limit: 1/minute
+Message-id: ssrojas
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self' *.bancolombia.com
+X-Content-Type-Options: nosniff
+Cache-Control: private, no-cache, no-store, max-age=0, no-transfor
+Pragma: no-cache
+Expires: 0
+Content-Encoding: gzip
+Set-Cookie: visid_incap_2677978=/Md9fhbcTj2sltMkCY6xcdgNDWIAAAAAQUIPAAAAAABfoNlnN4NK4xfIOR+HljyM; expires=Thu, 16 Feb 2023 05:22:57 GMT; HttpOnly; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1431_2677978=MbQYbzVA7W0O3rn3Iu/bE9gNDWIAAAAA8xnlwCwPYL9aQz9pd2BSzA==; path=/; Domain=.apps.ambientesbc.com; Secure; SameSite=None
+X-CDN: Imperva
+X-Iinfo: 8-22529151-22529152 SNNN RT(1645022660612 19575) q(0 0 0 -1) r(2 2) U11
+
+{
+    "meta": {
+        "_messageId": "ssrojas",
+        "_requestDateTime": "2022-02-16T09:44:40.513Z",
+        "_applicationId": "68896986-d80e-454e-b73f-907f214d0504"
+    },
+    "status": 400,
+    "title": "Bad Request",
+    "errors": [
+        {
+            "code": "BPQR-B0001",
+            "detail": "ERROR CAMPO REQUERIDO, ERROR INGRESANDO EL INTENTION-ID"
+        }
+    ]
+}
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra con estructura completa
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra con estructura completa
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Consultar intencion de compra inexistente
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>

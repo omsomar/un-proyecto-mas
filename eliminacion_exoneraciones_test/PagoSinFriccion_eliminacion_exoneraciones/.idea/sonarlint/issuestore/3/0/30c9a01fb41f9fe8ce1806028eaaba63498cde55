@@ -1,0 +1,45 @@
+
+^javascript:S1481{"=Remove the declaration of the unused 'daysInMonths' variable.(‰»Ïîıÿÿÿÿ
+[javascript:S1854{":Remove this useless assignment to variable "daysInMonths".(‰»Ïîıÿÿÿÿ
+bjavascript:S1481"ERemove the declaration of the unused 'niceMonthlyIntervals' variable.(·…×
+wjavascript:S3776"URefactor this function to reduce its Cognitive Complexity from 116 to the 15 allowed.(áß¥¼ûÿÿÿÿ
+njavascript:S4138Ã"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÎÒØŞüÿÿÿÿ
+9javascript:S2814ÿ"'j' is already defined.(¨Òùÿÿÿÿ
+5javascript:S2814"'bd' is already defined.(´ßü¬
+9javascript:S2814"'j' is already defined.(¨Òùÿÿÿÿ
+9javascript:S2814"'l' is already defined.(¨Òùÿÿÿÿ
+Sjavascript:S1481¡"6Remove the declaration of the unused 'tempf' variable.(—œüø
+Xjavascript:S1481¢"6Remove the declaration of the unused 'tempn' variable.(Êú¨øÿÿÿÿ
+Ujavascript:S1854®"3Remove this useless assignment to variable "stats".(ßàºŒûÿÿÿÿ
+Sjavascript:S1854®"1Remove this useless assignment to variable "sum".(ßàºŒûÿÿÿÿ
+Qjavascript:S1854®"/Remove this useless assignment to variable "d".(ßàºŒûÿÿÿÿ
+Rjavascript:S1854®"0Remove this useless assignment to variable "pd".(ßàºŒûÿÿÿÿ
+Rjavascript:S1854®"0Remove this useless assignment to variable "sd".(ßàºŒûÿÿÿÿ
+Rjavascript:S1854°"0Remove this useless assignment to variable "db".(Åà¤¿ûÿÿÿÿ
+;javascript:S125¿"Remove this commented out code.(Ú’ÆÊ
+wjavascript:S3776Â"URefactor this function to reduce its Cognitive Complexity from 155 to the 15 allowed.(í°êüÿÿÿÿ
+Pjavascript:S1854Ä"3Remove this useless assignment to variable "ticks".(‹…£ 
+Ujavascript:S1481É"3Remove the declaration of the unused 'iv' variable.(ë¯Ü¬úÿÿÿÿ
+Rjavascript:S1854É"0Remove this useless assignment to variable "iv".(ë¯Ü¬úÿÿÿÿ
+Ujavascript:S1481Ë"9Remove the declaration of the unused 'interval' variable.(äÎ´_
+Wjavascript:S1481Í"5Remove the declaration of the unused 'pos1' variable.(„ıí¿şÿÿÿÿ
+Wjavascript:S1481Í"5Remove the declaration of the unused 'pos2' variable.(„ıí¿şÿÿÿÿ
+Yjavascript:S1481ç"=Remove the declaration of the unused 'tickInterval' variable.(ãû“]
+Vjavascript:S1854ç":Remove this useless assignment to variable "tickInterval".(ãû“]
+Ujavascript:S1854ù"3Remove this useless assignment to variable "range".(Èƒ©˜ıÿÿÿÿ
+4javascript:S2814²"'i' is already defined.(Œ­³´
+9javascript:S2814¶"'t' is already defined.(¤–ñ‡ÿÿÿÿÿ
+4javascript:S2814‡"'i' is already defined.(‚ãº—
+4javascript:S2814¼"'i' is already defined.(‚ãº—
+7javascript:S2814Û"'intv' is already defined.(¿²ïù
+9javascript:S2814á"'mstart' is already defined.(Šùï£
+7javascript:S2814â"'mend' is already defined.(Ë‡œâ
+4javascript:S2814ì"'i' is already defined.(‚ãº—
+Yjavascript:S1481¤"<Remove the declaration of the unused 'optNumTicks' variable.(Ú–«Ù
+Vjavascript:S1854¤"9Remove this useless assignment to variable "optNumTicks".(Ú–«Ù
+;javascript:S125µ"Remove this commented out code.(‘†’ù
+9javascript:S2814Ç"'i' is already defined.(Æ”‰«üÿÿÿÿ
+;javascript:S2814È"'min' is already defined.(éå¹æûÿÿÿÿ
+9javascript:S2814Ê"'t' is already defined.(Çšœ‘üÿÿÿÿ
+;javascript:S125Ë"Remove this commented out code.(úÂìã
+Pjavascript:S1854á"3Remove this useless assignment to variable "ticks".(™İû½

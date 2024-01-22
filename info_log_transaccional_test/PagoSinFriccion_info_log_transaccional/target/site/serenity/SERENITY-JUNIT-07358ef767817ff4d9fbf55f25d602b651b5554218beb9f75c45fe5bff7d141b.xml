@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="Listar las notificaciones de forma exitosa" skipped="0" tests="11" time="131.4" timestamp="2022-04-20 05:40:50"><testcase name="Consultar de forma exitosa las notificaciones de QR"><error message="null" type="java.lang.AssertionError">null</error><system-err>null&#13;
+co.com.bancolombia.certificacion.infologtransaccional.stepdefinitions.listarnotificacion.ListarNotificacionExitosaStepDefinitions.elPodraVerElResultadoExitosoDeLaConsultaDeNotificaciones(ListarNotificacionExitosaStepDefinitions.java:27)&#13;
+✽.el podra ver el resultado exitoso de la consulta de notificaciones(src/test/resources/features/listarnotificaciones/listar_notificacion_exitosa.feature:15)&#13;
+</system-err></testcase></testsuite>

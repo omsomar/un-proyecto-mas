@@ -1,0 +1,76 @@
+
+Z	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
+LWeb:ImgWithoutAltCheck."%Add an "alt" attribute to this image.(üÀõÆúÿÿÿÿ
+CWeb:BoldAndItalicTagsCheckH"Replace this <i> tag by <em>.(Î”şç
+CWeb:BoldAndItalicTagsCheckK"Replace this <i> tag by <em>.(µŞ‹•
+BWeb:BoldAndItalicTagsCheckN"Replace this <i> tag by <em>.(Õê‚?
+CWeb:BoldAndItalicTagsCheckQ"Replace this <i> tag by <em>.( «™
+HWeb:TableWithoutCaptionCheckZ" Add a description to this table.(ê˜Ğ‚
+:	Web:S5256Z"%Add "<th>" headers to this "<table>".(ê˜Ğ‚
+HWeb:BoldAndItalicTagsCheck_"Replace this <i> tag by <em>.(âƒƒâùÿÿÿÿ
+D	Web:S1827k"*Remove this deprecated "valign" attribute.(ï¤•ùÿÿÿÿ
+HWeb:TableWithoutCaptionCheckq" Add a description to this table.(ê˜Ğ‚
+:	Web:S5256q"%Add "<th>" headers to this "<table>".(ê˜Ğ‚
+HWeb:BoldAndItalicTagsCheckt"Replace this <i> tag by <em>.(ÁØûÿÿÿÿ
+NWeb:TableWithoutCaptionCheck—" Add a description to this table.(¿‰˜ÿÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheckš";Add either an 'id' or a 'scope' attribute to this <th> tag.(©Ã¿ºÿÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheck›";Add either an 'id' or a 'scope' attribute to this <th> tag.(ığÆ‡úÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheckœ";Add either an 'id' or a 'scope' attribute to this <th> tag.(Ş¶ÿşÿÿÿÿ
+IWeb:TableWithoutCaptionCheck­" Add a description to this table.(¥‰ì¶
+?	Web:S1827¯")Remove this deprecated "width" attribute.(ëğ›Á
+h Web:TableHeaderHasIdOrScopeCheck¯";Add either an 'id' or a 'scope' attribute to this <th> tag.(ëğ›Á
+?	Web:S1827²")Remove this deprecated "width" attribute.(™Õ‡ñ
+h Web:TableHeaderHasIdOrScopeCheck²";Add either an 'id' or a 'scope' attribute to this <th> tag.(™Õ‡ñ
+D	Web:S1827µ")Remove this deprecated "width" attribute.(ôÊªÈùÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheckµ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ôÊªÈùÿÿÿÿ
+?	Web:S1827¶")Remove this deprecated "width" attribute.(¸Î‡
+h Web:TableHeaderHasIdOrScopeCheck¶";Add either an 'id' or a 'scope' attribute to this <th> tag.(¸Î‡
+D	Web:S1827¼")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ
+C	Web:S1827½"(Remove this deprecated "name" attribute.(şÅƒŸûÿÿÿÿ
+DWeb:BoldAndItalicTagsCheckÀ"Replace this <i> tag by <em>.(Ê–Ş¦
+?	Web:S1827Ï")Remove this deprecated "width" attribute.(ï‹àŒ
+D	Web:S1827Ğ")Remove this deprecated "width" attribute.(å İğûÿÿÿÿ
+IWeb:TableWithoutCaptionCheckÔ" Add a description to this table.(°¬è
+;	Web:S5256Ô"%Add "<th>" headers to this "<table>".(°¬è
+D	Web:S1827×")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ
+IWeb:BoldAndItalicTagsCheckÚ"Replace this <i> tag by <em>.(Œíõ¨ùÿÿÿÿ
+?	Web:S1827ä")Remove this deprecated "width" attribute.(—›Š™
+?	Web:S1827å")Remove this deprecated "width" attribute.(ê¢ãª
+D	Web:S1827è")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ
+DWeb:BoldAndItalicTagsCheckë"Replace this <i> tag by <em>.(†ÚÔ—
+IWeb:TableWithoutCaptionCheckğ" Add a description to this table.(ìø“
+h Web:TableHeaderHasIdOrScopeCheckğ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ìø“
+h Web:TableHeaderHasIdOrScopeCheckğ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ìø“
+?	Web:S1827õ")Remove this deprecated "width" attribute.(Á…¡ğ
+D	Web:S1827ö")Remove this deprecated "width" attribute.(£ÆŒËşÿÿÿÿ
+D	Web:S1827ù")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ
+IWeb:BoldAndItalicTagsCheckü"Replace this <i> tag by <em>.(Œíõ¨ùÿÿÿÿ
+?	Web:S1827†")Remove this deprecated "width" attribute.(—›Š™
+D	Web:S1827‡")Remove this deprecated "width" attribute.(Äı‘Íûÿÿÿÿ
+D	Web:S1827Š")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ
+DWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(†ÚÔ—
+?	Web:S1827—")Remove this deprecated "width" attribute.(Á…¡ğ
+>	Web:S1827˜")Remove this deprecated "width" attribute.(İòŸ(
+D	Web:S1827›")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ
+IWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(Œíõ¨ùÿÿÿÿ
+?	Web:S1827Ü")Remove this deprecated "width" attribute.(—›Š™
+D	Web:S1827İ")Remove this deprecated "width" attribute.( ”ì§üÿÿÿÿ
+D	Web:S1827â")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ
+DWeb:BoldAndItalicTagsCheckå"Replace this <i> tag by <em>.(†ÚÔ—
+?	Web:S1827ï")Remove this deprecated "width" attribute.(Á…¡ğ
+D	Web:S1827ğ")Remove this deprecated "width" attribute.(çÇ¾Ùıÿÿÿÿ
+D	Web:S1827ó")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ
+IWeb:BoldAndItalicTagsCheckö"Replace this <i> tag by <em>.(Œíõ¨ùÿÿÿÿ
+?	Web:S1827€")Remove this deprecated "width" attribute.(—›Š™
+?	Web:S1827")Remove this deprecated "width" attribute.(«šæÑ
+D	Web:S1827„")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ
+IWeb:BoldAndItalicTagsCheck‡"Replace this <i> tag by <em>.(Œíõ¨ùÿÿÿÿ
+?	Web:S1827‘")Remove this deprecated "width" attribute.(—›Š™
+?	Web:S1827’")Remove this deprecated "width" attribute.(€÷—¯
+?	Web:S1827›")Remove this deprecated "width" attribute.(ÍÿŠ§
+?	Web:S1827œ")Remove this deprecated "width" attribute.(Ò×Æï
+MWeb:ImgWithoutAltCheckÔ"%Add an "alt" attribute to this image.(‡â‘¢üÿÿÿÿ
+MWeb:ImgWithoutAltCheck×"%Add an "alt" attribute to this image.(Õ±ì…øÿÿÿÿ
+MWeb:ImgWithoutAltCheckÙ"%Add an "alt" attribute to this image.(ì¥™õùÿÿÿÿ
+GWeb:ImgWithoutAltCheckÚ"%Add an "alt" attribute to this image.(ç°¶G
+MWeb:ImgWithoutAltCheckÛ"%Add an "alt" attribute to this image.(ˆíŸÔıÿÿÿÿ

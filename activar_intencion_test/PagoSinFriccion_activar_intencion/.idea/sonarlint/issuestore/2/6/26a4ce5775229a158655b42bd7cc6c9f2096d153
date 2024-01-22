@@ -1,0 +1,60 @@
+
+ujavascript:S3776B"TRefactor this function to reduce its Cognitive Complexity from 46 to the 15 allowed.(ˆ¥Ğûÿÿÿÿ
+fjavascript:S905g"FExpected an assignment or function call and instead saw an expression.(¿Óõşøÿÿÿÿ
+fjavascript:S905j"FExpected an assignment or function call and instead saw an expression.(üò¡ëùÿÿÿÿ
+Djavascript:S1940Ã"'Use the opposite operator (!=) instead.(¹úšÀ
+Djavascript:S1940Ä"'Use the opposite operator (!=) instead.(³˜˜ş
+4javascript:S2814×"'i' is already defined.(êóÜ
+Pjavascript:S1481Œ"3Remove the declaration of the unused 'sa' variable.(Š§¢Ó
+Mjavascript:S1854Œ"0Remove this useless assignment to variable "sa".(Š§¢Ó
+9javascript:S2814–"'i' is already defined.(Ò´×çÿÿÿÿÿ
+Pjavascript:S1481Ÿ"3Remove the declaration of the unused 'sa' variable.(Š§¢Ó
+Mjavascript:S1854Ÿ"0Remove this useless assignment to variable "sa".(Š§¢Ó
+9javascript:S2814©"'i' is already defined.(Ò´×çÿÿÿÿÿ
+wjavascript:S3776¼"URefactor this function to reduce its Cognitive Complexity from 215 to the 15 allowed.(ÁÄ¬Èúÿÿÿÿ
+kjavascript:S1871Ó"IThis case's code block is the same as the block for the case on line 335.(†–ÈÒşÿÿÿÿ
+kjavascript:S1871×"IThis case's code block is the same as the block for the case on line 335.(ıÉ¿äúÿÿÿÿ
+Yjavascript:S1481ï"7Remove the declaration of the unused 'shadow' variable.(ˆ‡åÊùÿÿÿÿ
+Vjavascript:S1854ï"4Remove this useless assignment to variable "shadow".(ˆ‡åÊùÿÿÿÿ
+Vjavascript:S1481ğ"9Remove the declaration of the unused 'showLine' variable.(öë¹
+Sjavascript:S1854ğ"6Remove this useless assignment to variable "showLine".(öë¹
+Rjavascript:S1481ñ"5Remove the declaration of the unused 'fill' variable.(ŒòºÁ
+Ojavascript:S1854ñ"2Remove this useless assignment to variable "fill".(ŒòºÁ
+Qjavascript:S1121¾"4Extract the assignment of "tp" from this expression.(©å¸
+Qjavascript:S1121¾"4Extract the assignment of "tp" from this expression.(©å¸
+Njavascript:S1854õ"1Remove this useless assignment to variable "max".(Ë†—Ã
+7javascript:S2814Œ"'tmax' is already defined.(Ğğû¢
+Sjavascript:S1854"1Remove this useless assignment to variable "max".(—â©ûşÿÿÿÿ
+Mjavascript:S1854’"1Remove this useless assignment to variable "max".(–¢¼e
+:javascript:S2814—"'it' is already defined.(â¸Ô›üÿÿÿÿ
+Vjavascript:S1481«"9Remove the declaration of the unused 'numticks' variable.(Ù•ô
+:javascript:S2814¾"'it' is already defined.(â¸Ô›üÿÿÿÿ
+Pjavascript:S1481Ü"3Remove the declaration of the unused 'pi' variable.(Ã¬øÓ
+Mjavascript:S1854Ü"0Remove this useless assignment to variable "pi".(Ã¬øÓ
+Vjavascript:S1481İ"4Remove the declaration of the unused 'hpi' variable.(§¥ÊÙıÿÿÿÿ
+Sjavascript:S1854İ"1Remove this useless assignment to variable "hpi".(§¥ÊÙıÿÿÿÿ
+4javascript:S2814ù"'i' is already defined.(¿¥î
+4javascript:S2814‡"'i' is already defined.(ì­ÎÊ
+Vjavascript:S1481³"4Remove the declaration of the unused 'wps' variable.(ıÒşûÿÿÿÿ
+Sjavascript:S1854³"1Remove this useless assignment to variable "wps".(ıÒşûÿÿÿÿ
+9javascript:S2814Ç"'t' is already defined.(³à´åùÿÿÿÿ
+5javascript:S2814È"'tp' is already defined.(ªÔÎâ
+@javascript:S125Ğ"Remove this commented out code.(£İ‘Øıÿÿÿÿ
+9javascript:S2814Ù"'l' is already defined.(•ÁÌÉşÿÿÿÿ
+5javascript:S2814Ú"'tp' is already defined.(ªÔÎâ
+4javascript:S2814Û"'t' is already defined.(œõ—‹
+;javascript:S125Ü"Remove this commented out code.(·ßÕå
+9javascript:S2814ä"'l' is already defined.(ñÉ©Íÿÿÿÿÿ
+9javascript:S2814å"'t' is already defined.(Çü˜²üÿÿÿÿ
+=javascript:S2814ó"'outer' is already defined.(µ¥äııÿÿÿÿ
+=javascript:S2814÷"'outer' is already defined.(‹š‹úşÿÿÿÿ
+8javascript:S2814ù"'range' is already defined.(ß„Œ†
+[javascript:S1481ú"9Remove the declaration of the unused 'intrange' variable.(³Óø›ıÿÿÿÿ
+Xjavascript:S1854ú"6Remove this useless assignment to variable "intrange".(³Óø›ıÿÿÿÿ
+9javascript:S2814ª"'i' is already defined.(ïÉâµøÿÿÿÿ
+qjavascript:S3776ê"TRefactor this function to reduce its Cognitive Complexity from 92 to the 15 allowed.(ÏïèÊ
+@javascript:S125 "Remove this commented out code.(ï„ˆÜÿÿÿÿÿ
+Sjavascript:S1854Ç"1Remove this useless assignment to variable "pad".(”›Ü–øÿÿÿÿ
+qjavascript:S3776Ô"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ö‰ª›
+@javascript:S125Õ"Remove this commented out code.(ï„ˆÜÿÿÿÿÿ
+ijavascript:S4138â"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ä›Ëê

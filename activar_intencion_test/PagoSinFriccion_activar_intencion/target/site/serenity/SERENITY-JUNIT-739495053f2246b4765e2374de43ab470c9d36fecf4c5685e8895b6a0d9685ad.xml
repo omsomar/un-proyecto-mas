@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Servicio cancelar intencion de compra con resultado fallido" skipped="0" tests="7" time="6.23" timestamp="2022-04-25 04:56:29"><testcase name="Cancelar intencion de compra con campos faltantes en su estructura"><error message="Index: 7, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 7, Size: 0</error><system-err>Index: 7, Size: 0&#13;
+co.com.bancolombia.certificacion.qrestaticodinamico.models.cancelintencion.CancelModel.camposIncorrectos(CancelModel.java:66)&#13;
+co.com.bancolombia.certificacion.qrestaticodinamico.utils.body.BodyRequestCancel.camposIncorrectos(BodyRequestCancel.java:46)&#13;
+co.com.bancolombia.certificacion.qrestaticodinamico.tasks.ConsumirCancelarPost.bodyRequestCancel(ConsumirCancelarPost.java:57)&#13;
+co.com.bancolombia.certificacion.qrestaticodinamico.tasks.ConsumirCancelarPost.lambda$performAs$0(ConsumirCancelarPost.java:43)&#13;
+co.com.bancolombia.certificacion.qrestaticodinamico.interactions.Post.performAs(Post.java:20)&#13;
+co.com.bancolombia.certificacion.qrestaticodinamico.tasks.ConsumirCancelarPost.performAs(ConsumirCancelarPost.java:37)&#13;
+co.com.bancolombia.certificacion.qrestaticodinamico.stepdefinitions.cancelarintencion.CancelarIntenExitosaStepDefinition.elUtilizaElServicioDeCancelarIntencionDeCompra(CancelarIntenExitosaStepDefinition.java:19)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

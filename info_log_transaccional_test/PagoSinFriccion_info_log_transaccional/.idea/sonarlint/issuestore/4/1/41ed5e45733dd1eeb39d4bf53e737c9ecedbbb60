@@ -1,0 +1,15 @@
+
+ƒ
+java:S1192"fDefine a constant instead of duplicating this literal " WHERE trx.transaction_date BETWEEN '" 5 times.(Ç“÷É8Ò¶ğäÖ/
+e
+java:S1192"HDefine a constant instead of duplicating this literal " AND '" 10 times.(‡É¹Ì8Ò¶ğäÖ/
+‹
+java:S1192"iDefine a constant instead of duplicating this literal " WHERE trx.destination_document_type = '" 3 times.(Åà½¥üÿÿÿÿ8Ó¶ğäÖ/
+‹
+java:S1192"iDefine a constant instead of duplicating this literal " AND trx.destination_document_number = '" 3 times.(àª€Ÿşÿÿÿÿ8Ó¶ğäÖ/
+†
+java:S1192"dDefine a constant instead of duplicating this literal " AND trx.transaction_date BETWEEN '" 5 times.(±Öçşÿÿÿÿ8Ô¶ğäÖ/
+…
+java:S1192"hDefine a constant instead of duplicating this literal " AND trx.destination_account_number = '" 3 times.(ŠŸµ‰8Õ¶ğäÖ/
+V	java:S107
+"<Method has 8 parameters, which is greater than 7 authorized.(ß‰ØÇÿÿÿÿÿ

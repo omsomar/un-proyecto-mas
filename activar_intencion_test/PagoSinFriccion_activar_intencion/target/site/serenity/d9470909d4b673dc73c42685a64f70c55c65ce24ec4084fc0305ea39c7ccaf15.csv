@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Crear dos intenciones de compra para el mismo QR","Crear más de una intención de compra para el mismo QR y verificar que solo la última intención sea la que quede pendiente","SUCCESS","2021-11-04T18:40:22.137-05:00[America/Bogota]","0.0","28.53"

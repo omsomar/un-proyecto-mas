@@ -1,0 +1,5 @@
+
+ujavascript:S3776"TRefactor this function to reduce its Cognitive Complexity from 37 to the 15 allowed.(ûò“Ìøÿÿÿÿ
+bjavascript:S2137"ADo not use "undefined" to declare a parameter - use another name.(ûò“Ìøÿÿÿÿ
+ejavascript:S3358c"DExtract this nested ternary operation into an independent statement.(ßÓƒ×şÿÿÿÿ
+`javascript:S3358r"DExtract this nested ternary operation into an independent statement.(§Ñµ

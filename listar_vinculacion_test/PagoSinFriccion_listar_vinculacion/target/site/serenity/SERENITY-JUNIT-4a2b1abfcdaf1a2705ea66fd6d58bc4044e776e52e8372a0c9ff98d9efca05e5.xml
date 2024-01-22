@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="5" failures="0" name="Modificar vinculación de forma exitosa" skipped="0" tests="10" time="70.12" timestamp="2021-12-28 10:18:01"><testcase name="Modificar parámetros de vinculación de forma exitosa"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+co.com.bancolombia.certificacion.listarvinculacion.utils.Utlidades.obtenerFecha(Utlidades.java:19)&#13;
+co.com.bancolombia.certificacion.listarvinculacion.utils.BodyRequest.data(BodyRequest.java:42)&#13;
+co.com.bancolombia.certificacion.listarvinculacion.utils.BodyRequest.todosLosCampos(BodyRequest.java:68)&#13;
+co.com.bancolombia.certificacion.listarvinculacion.utils.enums.PeticionModificar.getValidateRequest(PeticionModificar.java:29)&#13;
+co.com.bancolombia.certificacion.listarvinculacion.tasks.ConsumirServicio.lambda$performAs$0(ConsumirServicio.java:39)&#13;
+co.com.bancolombia.certificacion.listarvinculacion.interactions.Options.performAs(Options.java:21)&#13;
+co.com.bancolombia.certificacion.listarvinculacion.tasks.ConsumirServicio.performAs(ConsumirServicio.java:35)&#13;
+co.com.bancolombia.certificacion.listarvinculacion.stepdefinitions.modificarvinculacion.MvcCamposInvStepdefinition.elUsuarioRealiceLaPeticionAlServicio(MvcCamposInvStepdefinition.java:34)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

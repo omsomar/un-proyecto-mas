@@ -1,0 +1,60 @@
+
+vjavascript:S3776°"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(í¸Ì„şÿÿÿÿ
+Ijavascript:S1125µ"'Remove the unnecessary boolean literal.(²°Ğûÿÿÿÿ
+9javascript:S2814Ç"'i' is already defined.(Ÿ¤ßÂÿÿÿÿÿ
+Tjavascript:S1481ã"2Remove the declaration of the unused 's' variable.(®àû¶úÿÿÿÿ
+Tjavascript:S1481÷"2Remove the declaration of the unused 'i' variable.(ª±²úüÿÿÿÿ
+Tjavascript:S1481û"2Remove the declaration of the unused 's' variable.(®àû¶úÿÿÿÿ
+Yjavascript:S1481û"7Remove the declaration of the unused 'series' variable.(®àû¶úÿÿÿÿ
+Vjavascript:S1481û"4Remove the declaration of the unused 'pos' variable.(®àû¶úÿÿÿÿ
+:javascript:S125ˆ"Remove this commented out code.(ÜÎ»
+@javascript:S125‘"Remove this commented out code.(’»ı„ûÿÿÿÿ
+Mjavascript:S1481—"0Remove unused function 'computeHighlightColors'.(Î‡Ó”
+ijavascript:S4138™"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ü£Ô”
+wjavascript:S3776É"URefactor this function to reduce its Cognitive Complexity from 186 to the 15 allowed.(·½ª•úÿÿÿÿ
+Rjavascript:S1481Ï"5Remove the declaration of the unused 'fill' variable.(ŒòºÁ
+Ojavascript:S1854Ï"2Remove this useless assignment to variable "fill".(ŒòºÁ
+Xjavascript:S1481Ğ"6Remove the declaration of the unused 'xaxis' variable.(ÄÁÄ¢ıÿÿÿÿ
+Ujavascript:S1854Ğ"3Remove this useless assignment to variable "xaxis".(ÄÁÄ¢ıÿÿÿÿ
+Xjavascript:S1481Ñ"6Remove the declaration of the unused 'yaxis' variable.(é«Şúÿÿÿÿ
+Ujavascript:S1854Ñ"3Remove this useless assignment to variable "yaxis".(é«Şúÿÿÿÿ
+Ujavascript:S1481Ò"3Remove the declaration of the unused 'xp' variable.(ÅÒ»ôûÿÿÿÿ
+Rjavascript:S1854Ò"0Remove this useless assignment to variable "xp".(ÅÒ»ôûÿÿÿÿ
+Pjavascript:S1481Ó"3Remove the declaration of the unused 'yp' variable.(á¤Òè
+Mjavascript:S1854Ó"0Remove this useless assignment to variable "yp".(á¤Òè
+Tjavascript:S1481Ô"7Remove the declaration of the unused 'pointx' variable.(Ûãş˜
+Tjavascript:S1481Ô"7Remove the declaration of the unused 'pointy' variable.(Ûãş˜
+Xjavascript:S1481Ş"6Remove the declaration of the unused 'nvals' variable.(à°àåÿÿÿÿÿ
+Ujavascript:S1854Ş"3Remove this useless assignment to variable "nvals".(à°àåÿÿÿÿÿ
+4javascript:S2814ö"'i' is already defined.(—ƒù±
+hjavascript:S1871•"MThis branch's code block is the same as the block for the branch on line 394.(ˆçu
+4javascript:S2814×"'i' is already defined.(—ƒù±
+gjavascript:S905İ"FExpected an assignment or function call and instead saw an expression.(÷ÚÑóúÿÿÿÿ
+8javascript:S2814¬"'sopts' is already defined.(¹Ä‘è
+6javascript:S2814°"'clr' is already defined.(Óš’ß
+7javascript:S2814¼"'temp' is already defined.(÷‡­¨
+njavascript:S4138¾"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ê–ğèøÿÿÿÿ
+9javascript:S2814¾"'i' is already defined.(Ê–ğèøÿÿÿÿ
+qjavascript:S3776Ç"TRefactor this function to reduce its Cognitive Complexity from 63 to the 15 allowed.(ª»¦¿
+Yjavascript:S1481Ê"7Remove the declaration of the unused 'shadow' variable.(ˆ‡åÊùÿÿÿÿ
+Vjavascript:S1854Ê"4Remove this useless assignment to variable "shadow".(ˆ‡åÊùÿÿÿÿ
+Rjavascript:S1481Ì"5Remove the declaration of the unused 'fill' variable.(ŒòºÁ
+Ojavascript:S1854Ì"2Remove this useless assignment to variable "fill".(ŒòºÁ
+Xjavascript:S1481Í"6Remove the declaration of the unused 'xaxis' variable.(ÄÁÄ¢ıÿÿÿÿ
+Ujavascript:S1854Í"3Remove this useless assignment to variable "xaxis".(ÄÁÄ¢ıÿÿÿÿ
+Xjavascript:S1481Î"6Remove the declaration of the unused 'yaxis' variable.(é«Şúÿÿÿÿ
+Ujavascript:S1854Î"3Remove this useless assignment to variable "yaxis".(é«Şúÿÿÿÿ
+Ujavascript:S1481Ï"3Remove the declaration of the unused 'xp' variable.(ÅÒ»ôûÿÿÿÿ
+Rjavascript:S1854Ï"0Remove this useless assignment to variable "xp".(ÅÒ»ôûÿÿÿÿ
+Pjavascript:S1481Ğ"3Remove the declaration of the unused 'yp' variable.(á¤Òè
+Mjavascript:S1854Ğ"0Remove this useless assignment to variable "yp".(á¤Òè
+Tjavascript:S1481Ñ"7Remove the declaration of the unused 'pointx' variable.(ñş€ï
+Tjavascript:S1481Ñ"7Remove the declaration of the unused 'pointy' variable.(ñş€ï
+Pjavascript:S1854Ù"3Remove this useless assignment to variable "nvals".(®º“µ
+4javascript:S2814æ"'i' is already defined.(—ƒù±
+4javascript:S2814ƒ"'i' is already defined.(—ƒù±
+<javascript:S2814ˆ"'base' is already defined.(‹¯…’øÿÿÿÿ
+ijavascript:S4138¤"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÇçÃü
+Vjavascript:S1854É"4Remove this useless assignment to variable "canvas".(«¨Ã üÿÿÿÿ
+ijavascript:S4138Ï"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Õû¨‘
+Vjavascript:S1854Ô"4Remove this useless assignment to variable "canvas".(«¨Ã üÿÿÿÿ

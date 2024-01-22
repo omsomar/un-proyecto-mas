@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Listar las notificaciones de forma exitosa","Consultar de forma exitosa las notificaciones de QR","SUCCESS","2021-10-19T12:13:47.466-05:00[America/Bogota]","0.0","684.68"
+"Consultar de forma errónea las notificaciones de QR","Consultar de manera fallida las notificaciones de QR","SUCCESS","2021-10-19T12:13:47.052-05:00[America/Bogota]","0.0","59.4"
+"Paginación del servicio listar las notificaciones","Validar la navegación por los resultados de las distintas páginas obtenidas en el listado de notificaciones","SUCCESS","2021-10-19T12:13:46.482-05:00[America/Bogota]","0.0","28.48"
+"Paginación del servicio listar las notificaciones","Validar total de páginas obtenidas en el listar notificaciones","SUCCESS","2021-10-19T12:14:14.972-05:00[America/Bogota]","0.0","7.64"

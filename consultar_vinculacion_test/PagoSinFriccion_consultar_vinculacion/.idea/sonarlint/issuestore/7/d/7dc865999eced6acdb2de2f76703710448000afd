@@ -1,0 +1,47 @@
+
+S
+java:S2387"="contenidoRequest" is the name of a field in "DataServicios".(ˆ×µ
+T
+java:S2387"9"numeroPagina" is the name of a field in "DataServicios".(ğÖ´Çüÿÿÿÿ
+O
+java:S2387"9"tamanoPagina" is the name of a field in "DataServicios".(´ıµÂ
+W
+java:S2387"<"tipoDocComercio" is the name of a field in "DataServicios".(ÙİÇÂûÿÿÿÿ
+V
+java:S2387";"numDocComercio" is the name of a field in "DataServicios".(ğÍœüÿÿÿÿ
+N
+java:S2387"8"tipoDocRepr" is the name of a field in "DataServicios".(ˆ‡ “
+R
+java:S2387"7"numDocRepr" is the name of a field in "DataServicios".(ÈÍáışÿÿÿÿ
+V
+java:S2387";"nombreComercio" is the name of a field in "DataServicios".(Ú½â¦øÿÿÿÿ
+R
+java:S2387"7"tipoCuenta" is the name of a field in "DataServicios".(ÁÕ¡Ãıÿÿÿÿ
+Q
+java:S2387"6"numCuenta" is the name of a field in "DataServicios".(—°øÊøÿÿÿÿ
+T
+java:S2387"9"sterlingPath" is the name of a field in "DataServicios".(ù—®Öúÿÿÿÿ
+N
+java:S2387"8"fechaInicio" is the name of a field in "DataServicios".(™¥‚õ
+K
+java:S2387"5"fechaFin" is the name of a field in "DataServicios".(§ÛŞ
+h
+java:S11929"MDefine a constant instead of duplicating this literal "commerceName" 5 times.(ì÷äÛıÿÿÿÿ
+c
+java:S1192>"HDefine a constant instead of duplicating this literal "endDate" 4 times.(³ÎÁ·øÿÿÿÿ
+q
+java:S11927"VDefine a constant instead of duplicating this literal "legalReprDocumentType" 4 times.(ï¸ôºıÿÿÿÿ
+i
+java:S1192;"NDefine a constant instead of duplicating this literal "numberAccount" 5 times.(¼¹ÅÆÿÿÿÿÿ
+s
+java:S11928"XDefine a constant instead of duplicating this literal "legalReprDocumentNumber" 4 times.(±°àÿÿÿÿÿ
+p
+java:S11925"UDefine a constant instead of duplicating this literal "commerceDocumentType" 5 times.(ã‘´¤ûÿÿÿÿ
+r
+java:S11926"WDefine a constant instead of duplicating this literal "commerceDocumentNumber" 5 times.(¾²ôªıÿÿÿÿ
+g
+java:S1192:"LDefine a constant instead of duplicating this literal "typeAccount" 5 times.(€°™ªùÿÿÿÿ
+h
+java:S1192<"MDefine a constant instead of duplicating this literal "sterlingPath" 4 times.(½³³›ûÿÿÿÿ
+`
+java:S1192="JDefine a constant instead of duplicating this literal "startDate" 5 times.(‡ã‹¦

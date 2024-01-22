@@ -1,0 +1,91 @@
+
+:javascript:S125u"Remove this commented out code.(…ÏÍŸ
+ajavascript:S905{"FExpected an assignment or function call and instead saw an expression.(éÍ¢ˆ
+ajavascript:S905|"FExpected an assignment or function call and instead saw an expression.(¸ÇÒª
+ajavascript:S905}"FExpected an assignment or function call and instead saw an expression.(–¿®ş
+qjavascript:S3776š"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(©¨Â«
+Njavascript:S1854É"1Remove this useless assignment to variable "ctx".(•½š
+vjavascript:S3776Û"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(“‡Šûÿÿÿÿ
+Tjavascript:S1854÷"2Remove this useless assignment to variable "elem".(ë’´Ôıÿÿÿÿ
+njavascript:S4138‘"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ıÏÆ®ûÿÿÿÿ
+njavascript:S4138˜"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ó¸¯Ûúÿÿÿÿ
+9javascript:S2814˜"'i' is already defined.(Ó¸¯Ûúÿÿÿÿ
+@javascript:S125Â"Remove this commented out code.(ÃüˆØÿÿÿÿÿ
+Njavascript:S1854Õ"1Remove this useless assignment to variable "ctx".(•½š
+qjavascript:S3776Ş"TRefactor this function to reduce its Cognitive Complexity from 89 to the 15 allowed.(ø÷¼ó
+Qjavascript:S1481ã"4Remove the declaration of the unused 'end' variable.(Œ¡‚ö
+Njavascript:S1854ã"1Remove this useless assignment to variable "end".(Œ¡‚ö
+Qjavascript:S1481ä"4Remove the declaration of the unused 'min' variable.(³ÖÒÉ
+Qjavascript:S1481ä"4Remove the declaration of the unused 'max' variable.(³ÖÒÉ
+Ojavascript:S1854€"2Remove this useless assignment to variable "span".(ï¥Ñ
+:javascript:S125À"Remove this commented out code.(é‰ıv
+Njavascript:S1854Ë"1Remove this useless assignment to variable "ctx".(•½š
+qjavascript:S3776Ô"TRefactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.(Šª»
+njavascript:S4138Ş"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÍÈã´üÿÿÿÿ
+8javascript:S2814÷"'addbr' is already defined.(ØÍû‡
+njavascript:S4138ù"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ıÏÆ®ûÿÿÿÿ
+9javascript:S2814ù"'i' is already defined.(ıÏÆ®ûÿÿÿÿ
+vjavascript:S3776›"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(·¯Ï•ùÿÿÿÿ
+njavascript:S4138¨"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(õÑš¾şÿÿÿÿ
+Njavascript:S1854Æ"1Remove this useless assignment to variable "ctx".(•½š
+vjavascript:S3776É"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(Êì»¢ûÿÿÿÿ
+Ujavascript:S1481Ë"3Remove the declaration of the unused 'd0' variable.(Ì¤Ä˜øÿÿÿÿ
+Tjavascript:S1481Ë"2Remove the declaration of the unused 'd' variable.(Ì¤Ä˜øÿÿÿÿ
+4javascript:S2814Î"'i' is already defined.(Õû¨‘
+Qjavascript:S1854Ğ"/Remove this useless assignment to variable "r".(øìæ÷üÿÿÿÿ
+4javascript:S2814Ö"'j' is already defined.(íØ“”
+9javascript:S2814î"'x' is already defined.(‡Ì³¬şÿÿÿÿ
+9javascript:S2814ï"'y' is already defined.(¯ûİ ûÿÿÿÿ
+4javascript:S2814ò"'x' is already defined.(Ğ£Œ„
+9javascript:S2814ó"'y' is already defined.(¯ûİ ûÿÿÿÿ
+4javascript:S2814ö"'x' is already defined.(Ğ£Œ„
+4javascript:S2814÷"'y' is already defined.(Öı€–
+4javascript:S2814ú"'x' is already defined.(Ğ£Œ„
+9javascript:S2814û"'y' is already defined.(ô—ïÚÿÿÿÿÿ
+9javascript:S2814ş"'x' is already defined.(‡Ì³¬şÿÿÿÿ
+9javascript:S2814ÿ"'y' is already defined.(ô—ïÚÿÿÿÿÿ
+9javascript:S2814‚"'x' is already defined.(Ç¦ğ´ûÿÿÿÿ
+9javascript:S2814ƒ"'y' is already defined.(ô—ïÚÿÿÿÿÿ
+9javascript:S2814†"'x' is already defined.(Ç¦ğ´ûÿÿÿÿ
+4javascript:S2814‡"'y' is already defined.(Öı€–
+kjavascript:S1871‰"IThis case's code block is the same as the block for the case on line 633.(İ–Ò˜ÿÿÿÿÿ
+4javascript:S2814Š"'x' is already defined.(Ğ£Œ„
+9javascript:S2814‹"'y' is already defined.(ô—ïÚÿÿÿÿÿ
+Tjavascript:S1854‘"2Remove this useless assignment to variable "elem".(ë’´Ôıÿÿÿÿ
+9javascript:S2814¡"'a' is already defined.(¾´àäüÿÿÿÿ
+4javascript:S2814¢"'b' is already defined.(«ªÄã
+9javascript:S2814§"'a' is already defined.(×Ğşúÿÿÿÿ
+4javascript:S2814¨"'b' is already defined.(«ªÄã
+9javascript:S2814¬"'a' is already defined.(×Ğşúÿÿÿÿ
+4javascript:S2814­"'b' is already defined.(ø¯¼€
+9javascript:S2814±"'a' is already defined.(×Ğşúÿÿÿÿ
+9javascript:S2814²"'b' is already defined.(†ğ´úÿÿÿÿ
+9javascript:S2814¶"'a' is already defined.(¾´àäüÿÿÿÿ
+9javascript:S2814·"'b' is already defined.(†ğ´úÿÿÿÿ
+4javascript:S2814»"'a' is already defined.(èÍÁ
+9javascript:S2814¼"'b' is already defined.(†ğ´úÿÿÿÿ
+4javascript:S2814À"'a' is already defined.(èÍÁ
+4javascript:S2814Á"'b' is already defined.(ø¯¼€
+9javascript:S2814Å"'a' is already defined.(š½Á¨ÿÿÿÿÿ
+9javascript:S2814Æ"'b' is already defined.(†ğ´úÿÿÿÿ
+Tjavascript:S1854Ê"2Remove this useless assignment to variable "elem".(ë’´Ôıÿÿÿÿ
+qjavascript:S3776ñ"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(”¬ÂŞ
+Njavascript:S1854"1Remove this useless assignment to variable "ctx".(•½š
+njavascript:S4138…"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(õÑš¾şÿÿÿÿ
+vjavascript:S3776Ğ"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(ñáñøÿÿÿÿ
+Njavascript:S1854ù"1Remove this useless assignment to variable "ctx".(•½š
+pjavascript:S3776ı"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.( Çæ
+Wjavascript:S1481„"5Remove the declaration of the unused 'axes' variable.( Ší±üÿÿÿÿ
+Tjavascript:S1854„"2Remove this useless assignment to variable "axes".( Ší±üÿÿÿÿ
+Njavascript:S1854•"1Remove this useless assignment to variable "ctx".(•½š
+vjavascript:S3776®"TRefactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.(¼±ç¥ùÿÿÿÿ
+Njavascript:S1854‡"1Remove this useless assignment to variable "ctx".(•½š
+vjavascript:S3776“"TRefactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.(¦ÛÜ³øÿÿÿÿ
+Tjavascript:S1854"2Remove this useless assignment to variable "elem".(ë’´Ôıÿÿÿÿ
+njavascript:S4138¯"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ƒÄïëşÿÿÿÿ
+\javascript:S3001¹"?Remove this "delete" operator or pass an object property to it.(§‘›õ
+\javascript:S3001º"?Remove this "delete" operator or pass an object property to it.(‡…Òİ
+Qjavascript:S1117½"/'color' is already declared in the upper scope.(›ƒŸ½úÿÿÿÿ
+Ojavascript:S1117½"-'pad' is already declared in the upper scope.(›ƒŸ½úÿÿÿÿ
+Rjavascript:S1854Î"0Remove this useless assignment to variable "tr".(²’Ûãùÿÿÿÿ
+Mjavascript:S1854Ï"0Remove this useless assignment to variable "td".(ã³¨î

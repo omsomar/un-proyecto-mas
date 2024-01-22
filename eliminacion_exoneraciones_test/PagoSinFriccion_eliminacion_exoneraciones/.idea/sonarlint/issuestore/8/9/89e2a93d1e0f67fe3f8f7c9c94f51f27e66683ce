@@ -1,0 +1,40 @@
+
+;javascript:S1186%"Unexpected empty function.(ÕÜºåüÿÿÿÿ
+fjavascript:S9050"FExpected an assignment or function call and instead saw an expression.(•€¡²ýÿÿÿÿ
+mjavascript:S4138J"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÎÒØÞüÿÿÿÿ
+mjavascript:S4138P"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÎÒØÞüÿÿÿÿ
+8javascript:S2814P"'i' is already defined.(ÎÒØÞüÿÿÿÿ
+pjavascript:S3776W"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(‚ƒ°ö
+Pjavascript:S1481`"4Remove the declaration of the unused 'dim' variable.(Ù•Øµ
+Qjavascript:S1481a"5Remove the declaration of the unused 'temp' variable.(±±äù
+;javascript:S2814x"'elem' is already defined.(€¤³§úÿÿÿÿ
+mjavascript:S4138{"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÂÊƒØÿÿÿÿÿ
+<javascript:S2814Œ"'elem' is already defined.(©Çº‹ûÿÿÿÿ
+;javascript:S125Ÿ"Remove this commented out code.(Ú’ÆÊ
+vjavascript:S3776£"TRefactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.(µ…á’øÿÿÿÿ
+njavascript:S4138«"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÂÊƒØÿÿÿÿÿ
+wjavascript:S3776Ø"URefactor this function to reduce its Cognitive Complexity from 108 to the 15 allowed.(–ø¡Ÿøÿÿÿÿ
+Sjavascript:S1481Ú"6Remove the declaration of the unused 'ticks' variable.(‹…£ 
+Pjavascript:S1854Ú"3Remove this useless assignment to variable "ticks".(‹…£ 
+[javascript:S1481ß"9Remove the declaration of the unused 'interval' variable.(±˜¼Âþÿÿÿÿ
+Wjavascript:S1481á"5Remove the declaration of the unused 'pos1' variable.(„ýí¿þÿÿÿÿ
+Wjavascript:S1481á"5Remove the declaration of the unused 'pos2' variable.(„ýí¿þÿÿÿÿ
+Tjavascript:S1481â"2Remove the declaration of the unused 'j' variable.(íÁÇùÿÿÿÿ
+9javascript:S2814ë"'t' is already defined.(Çšœ‘üÿÿÿÿ
+Rjavascript:S1481©"5Remove the declaration of the unused 'rmin' variable.(×¹Ãñ
+Rjavascript:S1481©"5Remove the declaration of the unused 'rmax' variable.(×¹Ãñ
+9javascript:S2814Ú"'i' is already defined.(Æ”‰«üÿÿÿÿ
+;javascript:S125Ý"Remove this commented out code.(úÂìã
+;javascript:S125§"Remove this commented out code.(úÂìã
+wjavascript:S3776¸"URefactor this function to reduce its Cognitive Complexity from 111 to the 15 allowed.(ˆÊ„°øÿÿÿÿ
+Hjavascript:S1117Ê"+'p' is already declared in the upper scope.(²™¥´
+Mjavascript:S1117Ö"+'p' is already declared in the upper scope.(¿–Œ¡úÿÿÿÿ
+Mjavascript:S1117ß"+'p' is already declared in the upper scope.(¿–Œ¡úÿÿÿÿ
+njavascript:S4138æ"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(£ÿò™øÿÿÿÿ
+9javascript:S2814"'i' is already defined.(¼ß¨øúÿÿÿÿ
+njavascript:S4138ª"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(£ÿò™øÿÿÿÿ
+9javascript:S2814ª"'i' is already defined.(£ÿò™øÿÿÿÿ
+9javascript:S2814«"'t' is already defined.(ìË˜«üÿÿÿÿ
+7javascript:S2814­"'shim' is already defined.(Ä£Äœ
+<javascript:S2814°"'temp' is already defined.(Õì÷þøÿÿÿÿ
+;javascript:S2814Ð"'val' is already defined.(†‚œ±ùÿÿÿÿ

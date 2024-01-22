@@ -1,0 +1,70 @@
+
+ujavascript:S3776C"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(ó³Ÿ×ÿÿÿÿÿ
+mjavascript:S4138S"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÎÒØŞüÿÿÿÿ
+hjavascript:S4138Z"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(¢íÊ°
+pjavascript:S3776t"TRefactor this function to reduce its Cognitive Complexity from 84 to the 15 allowed.(Ò¨”
+Rjavascript:S1481v"6Remove the declaration of the unused 'ticks' variable.(‹…£ 
+Ojavascript:S1854v"3Remove this useless assignment to variable "ticks".(‹…£ 
+Tjavascript:S1481z"3Remove the declaration of the unused 'db' variable.(ıŒ¸şøÿÿÿÿ
+Qjavascript:S1854z"0Remove this useless assignment to variable "db".(ıŒ¸şøÿÿÿÿ
+Zjavascript:S1481{"9Remove the declaration of the unused 'interval' variable.(±˜¼Âşÿÿÿÿ
+Vjavascript:S1481}"5Remove the declaration of the unused 'pos1' variable.(„ıí¿şÿÿÿÿ
+Vjavascript:S1481}"5Remove the declaration of the unused 'pos2' variable.(„ıí¿şÿÿÿÿ
+9javascript:S2814‡"'i' is already defined.(Ÿ¤ßÂÿÿÿÿÿ
+;javascript:S125–"Remove this commented out code.(›ÊŒì
+9javascript:S2814™"'t' is already defined.(Çšœ‘üÿÿÿÿ
+;javascript:S125›"Remove this commented out code.(ÅÜÆ«
+9javascript:S2814¢"'t' is already defined.(Çšœ‘üÿÿÿÿ
+;javascript:S125¤"Remove this commented out code.(›ÊŒì
+6javascript:S2814Á"'min' is already defined.(ò¾àó
+;javascript:S2814Â"'max' is already defined.(²„ãîúÿÿÿÿ
+njavascript:S4138Ä"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÎÒØŞüÿÿÿÿ
+9javascript:S2814Ä"'i' is already defined.(ÎÒØŞüÿÿÿÿ
+njavascript:S4138Æ"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(¼Îš¬ÿÿÿÿÿ
+njavascript:S4138á"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÎÒØŞüÿÿÿÿ
+9javascript:S2814á"'i' is already defined.(ÎÒØŞüÿÿÿÿ
+9javascript:S2814â"'s' is already defined.(£ªÂúÿÿÿÿ
+njavascript:S4138ã"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(¼Îš¬ÿÿÿÿÿ
+9javascript:S2814ã"'j' is already defined.(¼Îš¬ÿÿÿÿÿ
+4javascript:S2814ø"'l' is already defined.(õô˜
+7javascript:S2814ù"'skip' is already defined.(æçËİ
+=javascript:S2814ú"'count' is already defined.(™˜–ïüÿÿÿÿ
+9javascript:S2814û"'i' is already defined.(ŠˆÜ£ùÿÿÿÿ
+=javascript:S2814†"'range' is already defined.(Èƒ©˜ıÿÿÿÿ
+Vjavascript:S1135‹"4Complete the task associated to this "TODO" comment.(¯‡÷Üşÿÿÿÿ
+7javascript:S2814"'skip' is already defined.(º®î
+9javascript:S2814•"'i' is already defined.(Æ”‰«üÿÿÿÿ
+9javascript:S2814—"'t' is already defined.(Çšœ‘üÿÿÿÿ
+qjavascript:S3776²"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(õŒ™ÿ
+Qjavascript:S1481»"4Remove the declaration of the unused 'dim' variable.(Ù•Øµ
+Rjavascript:S1481¼"5Remove the declaration of the unused 'temp' variable.(±±äù
+njavascript:S4138Ö"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÂÊƒØÿÿÿÿÿ
+<javascript:S2814Ù"'elem' is already defined.(ôĞöüıÿÿÿÿ
+njavascript:S4138à"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(¬£‘’şÿÿÿÿ
+9javascript:S2814à"'i' is already defined.(¬£‘’şÿÿÿÿ
+<javascript:S2814â"'elem' is already defined.(ôÖ³Şÿÿÿÿÿ
+qjavascript:S3776ì"TRefactor this function to reduce its Cognitive Complexity from 44 to the 15 allowed.(¬“…
+njavascript:S4138ô"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ÂÊƒØÿÿÿÿÿ
+ijavascript:S4138„"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ø·ñ
+4javascript:S2814„"'i' is already defined.(Ø·ñ
+rjavascript:S3776¯"URefactor this function to reduce its Cognitive Complexity from 147 to the 15 allowed.(ŸìØ«
+Hjavascript:S1117È"+'p' is already declared in the upper scope.(²™¥´
+Mjavascript:S1117Ğ"+'p' is already declared in the upper scope.(¿–Œ¡úÿÿÿÿ
+Mjavascript:S1117Ù"+'p' is already declared in the upper scope.(¿–Œ¡úÿÿÿÿ
+Hjavascript:S1117æ"+'p' is already declared in the upper scope.(²™¥´
+Mjavascript:S1117î"+'p' is already declared in the upper scope.(¿–Œ¡úÿÿÿÿ
+Mjavascript:S1117÷"+'p' is already declared in the upper scope.(¿–Œ¡úÿÿÿÿ
+9javascript:S2814Â"'t' is already defined.(”ú¨¢úÿÿÿÿ
+9javascript:S2814Ã"'p' is already defined.(Ñ‰°¬ÿÿÿÿÿ
+9javascript:S2814Ï"'t' is already defined.(ìË˜«üÿÿÿÿ
+7javascript:S2814Ñ"'shim' is already defined.(Ä£Äœ
+<javascript:S2814Ô"'temp' is already defined.(Õì÷şøÿÿÿÿ
+;javascript:S125é"Remove this commented out code.(ŒÒÓ¾
+;javascript:S2814ú"'val' is already defined.(†‚œ±ùÿÿÿÿ
+<javascript:S2814€"'labeledge' is already defined.(åƒ–
+<javascript:S2814"'step' is already defined.(ëŞÕ‚øÿÿÿÿ
+6javascript:S2814’"'mid' is already defined.(··ÊÃ
+=javascript:S2814“"'count' is already defined.(™˜–ïüÿÿÿÿ
+9javascript:S2814”"'j' is already defined.(¡óÓåøÿÿÿÿ
+9javascript:S2814—"'t' is already defined.(”ú¨¢úÿÿÿÿ
+9javascript:S2814˜"'p' is already defined.(Ñ‰°¬ÿÿÿÿÿ

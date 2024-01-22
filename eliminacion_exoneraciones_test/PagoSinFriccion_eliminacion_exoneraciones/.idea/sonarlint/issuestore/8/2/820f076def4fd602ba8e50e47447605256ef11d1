@@ -1,0 +1,30 @@
+
+vjavascript:S3776"URefactor this function to reduce its Cognitive Complexity from 230 to the 15 allowed.(¶¾Ëûÿÿÿÿ
+Kjavascript:S1117!"/'child' is already declared in the upper scope.(ßÄ»Ÿ
+Tjavascript:S1854+"8Remove this useless assignment to variable "childWidth".(àÿæë
+Ujavascript:S1854,"9Remove this useless assignment to variable "childHeight".(ÙÅŒÒ
+Njavascript:S1117^"2'settings' is already declared in the upper scope.(¨ê¯Ô
+mjavascript:S3403¶"KRemove this "===" check; it will always be false. Did you mean to use "=="?(æÖ›‰úÿÿÿÿ
+hjavascript:S3403Ë"KRemove this "===" check; it will always be false. Did you mean to use "=="?(ßÁÈµ
+Mjavascript:S1117Ó"0'slider' is already declared in the upper scope.(¶ùÚ
+Ojavascript:S1117Ó"2'settings' is already declared in the upper scope.(¶ùÚ
+Kjavascript:S1117Ó".'vars' is already declared in the upper scope.(¶ùÚ
+˜javascript:S2681Õ"vThis line will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(¤ØÙ‚ùÿÿÿÿ
+Mjavascript:S1117Ø"+'i' is already declared in the upper scope.(ß¹Œşÿÿÿÿ
+Rjavascript:S1117ù"0'slider' is already declared in the upper scope.(Ô’Î•ÿÿÿÿÿ
+Tjavascript:S1117ù"2'settings' is already declared in the upper scope.(Ô’Î•ÿÿÿÿÿ
+Pjavascript:S1117ù".'vars' is already declared in the upper scope.(Ô’Î•ÿÿÿÿÿ
+˜javascript:S2681û"vThis line will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(¤ØÙ‚ùÿÿÿÿ
+Mjavascript:S1117¡"0'slider' is already declared in the upper scope.(„ï—ë
+Kjavascript:S1117¡".'kids' is already declared in the upper scope.(„ï—ë
+Ojavascript:S1117¡"2'settings' is already declared in the upper scope.(„ï—ë
+Pjavascript:S1117£".'vars' is already declared in the upper scope.(Í¬Àÿÿÿÿÿ
+Mjavascript:S1117ó"+'i' is already declared in the upper scope.(ÈÖ§ıÿÿÿÿ
+Mjavascript:S1117¶"+'i' is already declared in the upper scope.(¤ôÛÎûÿÿÿÿ
+Vjavascript:S1117¶"4'totalBoxes' is already declared in the upper scope.(¤ôÛÎûÿÿÿÿ
+Hjavascript:S1117Ò"+'i' is already declared in the upper scope.(µÎı
+Djavascript:S1186"'Unexpected empty method 'beforeChange'.(úÈ€Ì
+Bjavascript:S1186"&Unexpected empty method 'afterChange'.(–ßå
+Djavascript:S1186"'Unexpected empty method 'slideshowEnd'.(°¼¹Ş
+Fjavascript:S1186"$Unexpected empty method 'lastSlide'.(Âş•ÿÿÿÿÿ
+@javascript:S1186‘"$Unexpected empty method 'afterLoad'.(İ

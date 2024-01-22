@@ -1,0 +1,144 @@
+
+bjavascript:S2137"ADo not use "undefined" to declare a parameter - use another name.( ¯Óûıÿÿÿÿ
+Fjavascript:S1472."*Make those call arguments start on line 45(Ãı€
+rjavascript:S3776."VRefactor this function to reduce its Cognitive Complexity from 2829 to the 15 allowed.(Ãı€
+fjavascript:S3358«"DExtract this nested ternary operation into an independent statement.(²Ğ–ÿÿÿÿÿ
+]javascript:S1119 ";Refactor the code to remove this label and the need for it.(º¿ûşÿÿÿÿ
+fjavascript:S3358È"DExtract this nested ternary operation into an independent statement.(ã’°Ùøÿÿÿÿ
+Wjavascript:S1481È"5Remove the declaration of the unused 'cell' variable.(î­Ñşÿÿÿÿÿ
+Qjavascript:S1481å"4Remove the declaration of the unused 'nTd' variable.(øÁ¼î
+Wjavascript:S1481å":Remove the declaration of the unused 'sThisType' variable.(øÁ¼î
+<javascript:S1186š
+"Unexpected empty function.(ß¸Ï°ÿÿÿÿÿ
+Ojavascript:S1854Û
+"2Remove this useless assignment to variable "data".(“Õš
+Vjavascript:S1135¶"4Complete the task associated to this "TODO" comment.(Ğëõúÿÿÿÿ
+Tjavascript:S1481"2Remove the declaration of the unused 'o' variable.(¬™“øÿÿÿÿ
+Njavascript:S1117”",'td' is already declared in the upper scope.(İ‹¸íşÿÿÿÿ
+Kjavascript:S1117™".'attr' is already declared in the upper scope.(À¹Œ
+Rjavascript:S1481­"5Remove the declaration of the unused 'kLen' variable.(áÊ’¬
+Ojavascript:S1481—"2Remove the declaration of the unused 'i' variable.(¶î¨Ã
+Rjavascript:S1481—"5Remove the declaration of the unused 'iLen' variable.(¶î¨Ã
+Ojavascript:S1481—"2Remove the declaration of the unused 'n' variable.(¶î¨Ã
+Wjavascript:S1481œ":Remove the declaration of the unused 'iOpenRows' variable.(‡±İ 
+Tjavascript:S1854œ"7Remove this useless assignment to variable "iOpenRows".(‡±İ 
+fjavascript:S3358©"DExtract this nested ternary operation into an independent statement.(û²»¾øÿÿÿÿ
+Vjavascript:S1135ê"4Complete the task associated to this "TODO" comment.( ¥¦Øøÿÿÿÿ
+@javascript:S2310†"Remove this assignment of "i".(ƒô¶üÿÿÿÿ
+Vjavascript:S1135‘"4Complete the task associated to this "TODO" comment.(í¢ôÿÿÿÿÿ
+Wjavascript:S1481ß"5Remove the declaration of the unused 'jLen' variable.(÷Ü²€øÿÿÿÿ
+Hjavascript:S1117á"+'i' is already declared in the upper scope.(îá™
+Hjavascript:S1117â"+'k' is already declared in the upper scope.(–öË‰
+Mjavascript:S1117¶"+'i' is already declared in the upper scope.(ºÙü¦ûÿÿÿÿ
+Tjavascript:S1481¸"2Remove the declaration of the unused 'n' variable.(î§¥‘ıÿÿÿÿ
+Qjavascript:S1854¸"/Remove this useless assignment to variable "n".(î§¥‘ıÿÿÿÿ
+ajavascript:S3358Ì"DExtract this nested ternary operation into an independent statement.(ç•¢¿
+Qjavascript:S1135‹"4Complete the task associated to this "TODO" comment.(‘Éê
+Xjavascript:S930Ó"7This function expects 3 arguments, but 4 were provided.(ë¹§Ïüÿÿÿÿ
+Ojavascript:S1117Ø"2'settings' is already declared in the upper scope.(Ã­ãã
+Ojavascript:S1117è"2'settings' is already declared in the upper scope.(Êøä•
+Cjavascript:S1110á"!Remove these useless parentheses.(ç•ş«ûÿÿÿÿ
+Qjavascript:S1481Ø""5Remove the declaration of the unused 'iLen' variable.(Ãê®S
+Yjavascript:S1481Ú""7Remove the declaration of the unused 'aiOrig' variable.(ñÇÈÇùÿÿÿÿ
+Pjavascript:S1135›#"4Complete the task associated to this "TODO" comment.(ôÀƒ
+Tjavascript:S1481 #"2Remove the declaration of the unused 'j' variable.(Ø¼Óûşÿÿÿÿ
+Wjavascript:S1481 #"5Remove the declaration of the unused 'jLen' variable.(Ø¼Óûşÿÿÿÿ
+Tjavascript:S1481 #"2Remove the declaration of the unused 'k' variable.(Ø¼Óûşÿÿÿÿ
+Wjavascript:S1481 #"5Remove the declaration of the unused 'kLen' variable.(Ø¼Óûşÿÿÿÿ
+Vjavascript:S1481¡#":Remove the declaration of the unused 'sDataType' variable.(°r
+Pjavascript:S1481¡#"4Remove the declaration of the unused 'nTh' variable.(°r
+Wjavascript:S1481¥#":Remove the declaration of the unused 'aoColumns' variable.(èû÷¶
+Tjavascript:S1854¥#"7Remove this useless assignment to variable "aoColumns".(èû÷¶
+Wjavascript:S1481¦#":Remove the declaration of the unused 'aDataSort' variable.(‚¶Îç
+Rjavascript:S1481¦#"5Remove the declaration of the unused 'data' variable.(‚¶Îç
+Rjavascript:S1481¦#"5Remove the declaration of the unused 'iCol' variable.(‚¶Îç
+Sjavascript:S1481¦#"6Remove the declaration of the unused 'sType' variable.(‚¶Îç
+Sjavascript:S1481¦#"6Remove the declaration of the unused 'oSort' variable.(‚¶Îç
+Vjavascript:S1135­#"4Complete the task associated to this "TODO" comment.(Ü€Õäşÿÿÿÿ
+Mjavascript:S1117á#"+'k' is already declared in the upper scope.(ã€©ÿÿÿÿÿ
+fjavascript:S3358ì#"DExtract this nested ternary operation into an independent statement.(¤ İûÿÿÿÿ
+ajavascript:S3358ô#"DExtract this nested ternary operation into an independent statement.(ËÔ
+Hjavascript:S1117ı#"+'k' is already declared in the upper scope.(•ÄŞ„
+Ojavascript:S1481ı#"2Remove the declaration of the unused 'l' variable.(•ÄŞ„
+ajavascript:S3358‘$"DExtract this nested ternary operation into an independent statement.(ËÔ
+ajavascript:S3358à$"DExtract this nested ternary operation into an independent statement.(æ°¦Ü
+Qjavascript:S1135Û&"4Complete the task associated to this "TODO" comment.(ĞÎä¼
+Hjavascript:S1117ã&"+'i' is already declared in the upper scope.(ıŠ³Ÿ
+Jjavascript:S1117ã&"-'col' is already declared in the upper scope.(ıŠ³Ÿ
+Vjavascript:S1135á'"4Complete the task associated to this "TODO" comment.(ÕéèÛùÿÿÿÿ
+@javascript:S1874¸)"'$' is deprecated. Since v1.10(ï«¬£üÿÿÿÿ
+@javascript:S1874î)"'_' is deprecated. Since v1.10(ìÔ†ùÿÿÿÿ
+Bjavascript:S1874­*"&'fnAddData' is deprecated. Since v1.10(éÉ”
+Sjavascript:S1874Ó*"1'fnAdjustColumnSizing' is deprecated. Since v1.10(„İŒØøÿÿÿÿ
+Kjavascript:S1874ñ*")'fnClearTable' is deprecated. Since v1.10(Ìıè¨üÿÿÿÿ
+Fjavascript:S1874“+"$'fnClose' is deprecated. Since v1.10(ú›ó£şÿÿÿÿ
+Ejavascript:S1874«+"('fnDeleteRow' is deprecated. Since v1.10(×£¸
+Cjavascript:S1874Î+"&'fnDestroy' is deprecated. Since v1.10(àñá…
+@javascript:S1874â+"#'fnDraw' is deprecated. Since v1.10(À¡ù
+Bjavascript:S1874ı+"%'fnFilter' is deprecated. Since v1.10(´Ùœ±
+Hjavascript:S1874±,"&'fnGetData' is deprecated. Since v1.10(¿ûš¼ûÿÿÿÿ
+Djavascript:S1874Ó,"''fnGetNodes' is deprecated. Since v1.10(Úäü
+Ljavascript:S1874ù,"*'fnGetPosition' is deprecated. Since v1.10(¦«Äêøÿÿÿÿ
+Gjavascript:S1874¥-"%'fnIsOpen' is deprecated. Since v1.10(“ê×öÿÿÿÿÿ
+@javascript:S1874É-"#'fnOpen' is deprecated. Since v1.10(ˆæ¬ı
+Kjavascript:S1874ã-")'fnPageChange' is deprecated. Since v1.10(áÊ­¦ıÿÿÿÿ
+Hjavascript:S1874ı-"+'fnSetColumnVis' is deprecated. Since v1.10(¼…Ú·
+Djavascript:S1874—."''fnSettings' is deprecated. Since v1.10(—®éå
+Ejavascript:S1874¬."#'fnSort' is deprecated. Since v1.10(¿›ã’ıÿÿÿÿ
+Hjavascript:S1874Â."+'fnSortListener' is deprecated. Since v1.10(á¥‚¾
+Gjavascript:S1874Ş."%'fnUpdate' is deprecated. Since v1.10(ÃŒÜæıÿÿÿÿ
+Hjavascript:S1874…/"+'fnVersionCheck' is deprecated. Since v1.10(ÃÚò‚
+Tjavascript:S1481¢/"2Remove the declaration of the unused 'j' variable.(Üº™ìúÿÿÿÿ
+Wjavascript:S1481¢/"5Remove the declaration of the unused 'jLen' variable.(Üº™ìúÿÿÿÿ
+Tjavascript:S1481¢/"2Remove the declaration of the unused 'k' variable.(Üº™ìúÿÿÿÿ
+Wjavascript:S1481¢/"5Remove the declaration of the unused 'kLen' variable.(Üº™ìúÿÿÿÿ
+ƒjavascript:S4165¼/"aReview this redundant assignment: "i" already holds the assigned value along all execution paths.(¡Ï·ãüÿÿÿÿ
+Qjavascript:S1135É0"4Complete the task associated to this "TODO" comment.(ÙËòô
+Mjavascript:S1117¥1"+'i' is already declared in the upper scope.(÷ŸµÀûÿÿÿÿ
+Mjavascript:S1117Ú1"+'i' is already declared in the upper scope.(¨â¶‘ıÿÿÿÿ
+Qjavascript:S1135ü1"4Complete the task associated to this "TODO" comment.(œ½
+Hjavascript:S1117–2"+'i' is already declared in the upper scope.(•ÿÌ
+`javascript:S3812œ4">Unexpected negating the left operand of 'instanceof' operator.(æ¿•âüÿÿÿÿ
+Cjavascript:S36964"&Expected an error object to be thrown.(úãö
+Ojavascript:S1481Ê6"2Remove the declaration of the unused 'j' variable.(ĞãÌÀ
+Qjavascript:S1481Ê6"4Remove the declaration of the unused 'jen' variable.(ĞãÌÀ
+Sjavascript:S1481Ë6"6Remove the declaration of the unused 'inner' variable.(ß«õì
+Ljavascript:S1117Ì6"/'scope' is already declared in the upper scope.(£…›
+ajavascript:S3358Ü6"DExtract this nested ternary operation into an independent statement.(©ï¬À
+Qjavascript:S1135è6"4Complete the task associated to this "TODO" comment.(İ¶Ô¸
+;javascript:S125î6"Remove this commented out code.(àèú“
+Ijavascript:S1117˜7"-'src' is already declared in the upper scope.(‰øŒP
+Jjavascript:S1117˜7".'name' is already declared in the upper scope.(‰øŒP
+Mjavascript:S1117™7"+'i' is already declared in the upper scope.(¨™âöşÿÿÿÿ
+Ojavascript:S1117™7"-'ien' is already declared in the upper scope.(¨™âöşÿÿÿÿ
+fjavascript:S3358Ì7"DExtract this nested ternary operation into an independent statement.(¢Èõöıÿÿÿÿ
+fjavascript:S3358™:"DExtract this nested ternary operation into an independent statement.(ÕÃÎ‹ÿÿÿÿÿ
+fjavascript:S3358ª;"DExtract this nested ternary operation into an independent statement.(Ãû÷ ûÿÿÿÿ
+Mjavascript:S1117¬;"+'i' is already declared in the upper scope.(Ğ¦Åüÿÿÿÿ
+Ojavascript:S1481Õ;"2Remove the declaration of the unused 'i' variable.(™Ûœ
+Qjavascript:S1481Õ;"4Remove the declaration of the unused 'ien' variable.(™Ûœ
+Zjavascript:S1481Õ<"=Remove the declaration of the unused 'displayIndex' variable.(Úê½ª
+Wjavascript:S1854Õ<":Remove this useless assignment to variable "displayIndex".(Úê½ª
+Ojavascript:S1117Ì?"-'idx' is already declared in the upper scope.(±íë–ùÿÿÿÿ
+Vjavascript:S1481ƒ@"4Remove the declaration of the unused 'row' variable.(›Àåµıÿÿÿÿ
+:javascript:S125œA"Remove this commented out code.(È³¥L
+;javascript:S125¢A"Remove this commented out code.(ÂÌ’
+Mjavascript:S1117úA"+'i' is already declared in the upper scope.(œ‹ÓÆûÿÿÿÿ
+Ojavascript:S1481’F"2Remove the declaration of the unused 'i' variable.(™Ûœ
+Mjavascript:S1117İF"+'i' is already declared in the upper scope.(è†Š±ûÿÿÿÿ
+Vjavascript:S1135Šb"4Complete the task associated to this "TODO" comment.(°Êöşÿÿÿÿ
+Qjavascript:S1135¾d"4Complete the task associated to this "TODO" comment.(ÃÁ„
+Rjavascript:S1117ªm"0'_empty' is already declared in the upper scope.(Û´¹ûÿÿÿÿ
+Tjavascript:S1481àm"2Remove the declaration of the unused 'i' variable.(ÍĞÇ³øÿÿÿÿ
+Sjavascript:S1117šn"1'buttons' is already declared in the upper scope.(àâ¸ïûÿÿÿÿ
+ajavascript:S3358Áo"DExtract this nested ternary operation into an independent statement.(ø›Á
+ajavascript:S3358Ëo"DExtract this nested ternary operation into an independent statement.(ø›Á
+fjavascript:S3358Ÿp"DExtract this nested ternary operation into an independent statement.(ÒŸñ¿üÿÿÿÿ
+ajavascript:S3358ªp"DExtract this nested ternary operation into an independent statement.(ãÇãÏ
+fjavascript:S3358¬p"DExtract this nested ternary operation into an independent statement.(Å´ô™şÿÿÿÿ
+fjavascript:S3358´p"DExtract this nested ternary operation into an independent statement.(ŠÎÈãøÿÿÿÿ
+fjavascript:S3358¸p"DExtract this nested ternary operation into an independent statement.(­©À†øÿÿÿÿ
+fjavascript:S3358×p"DExtract this nested ternary operation into an independent statement.(ßÓƒ×şÿÿÿÿ
+fjavascript:S3358òp"DExtract this nested ternary operation into an independent statement.(ßÓƒ×şÿÿÿÿ
+fjavascript:S3358q"DExtract this nested ternary operation into an independent statement.(ÕğÏ¿ùÿÿÿÿ
+Ljavascript:S1186¸r"*Unexpected empty method '_fnCalculateEnd'.(¶şÃÒÿÿÿÿÿ

@@ -1,0 +1,36 @@
+
+bjavascript:S905™"FExpected an assignment or function call and instead saw an expression.(éÍ¢ˆ
+Tjavascript:S1854Ê"2Remove this useless assignment to variable "elem".(ë’´Ôıÿÿÿÿ
+vjavascript:S3776å"TRefactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.(¡“Ôœıÿÿÿÿ
+fjavascript:S1871"IThis case's code block is the same as the block for the case on line 253.(”Ç‹¾
+ijavascript:S4138š"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ä–ï¶
+4javascript:S2814š"'i' is already defined.(Ä–ï¶
+ijavascript:S4138 "LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ä–ï¶
+4javascript:S2814 "'i' is already defined.(Ä–ï¶
+fjavascript:S1871«"IThis case's code block is the same as the block for the case on line 280.(ÂÚ¨Ò
+ijavascript:S4138­"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ä–ï¶
+4javascript:S2814­"'i' is already defined.(Ä–ï¶
+;javascript:S2814¶"'str' is already defined.(äŸŞÙøÿÿÿÿ
+Djavascript:S1125Ó"'Remove the unnecessary boolean literal.(ëÈºì
+9javascript:S2814â"'x' is already defined.(‡Ì³¬şÿÿÿÿ
+4javascript:S2814ã"'y' is already defined.(‘ø×
+9javascript:S2814æ"'x' is already defined.(¬ëéûÿÿÿÿ
+9javascript:S2814ç"'y' is already defined.(¬éùÿÿÿÿ
+4javascript:S2814ê"'x' is already defined.(¾ø¶ò
+4javascript:S2814ë"'y' is already defined.(Öı€–
+9javascript:S2814î"'x' is already defined.(¬ëéûÿÿÿÿ
+3javascript:S2814ï"'y' is already defined.(Ü·7
+9javascript:S2814ò"'x' is already defined.(‡Ì³¬şÿÿÿÿ
+9javascript:S2814ó"'y' is already defined.(öşÉŞÿÿÿÿÿ
+9javascript:S2814ö"'x' is already defined.(‚×Áıÿÿÿÿ
+3javascript:S2814÷"'y' is already defined.(Ü·7
+4javascript:S2814ú"'x' is already defined.(Õùü
+4javascript:S2814û"'y' is already defined.(Öı€–
+fjavascript:S1871ı"IThis case's code block is the same as the block for the case on line 349.(ú¶ùø
+9javascript:S2814ş"'x' is already defined.(‚×Áıÿÿÿÿ
+9javascript:S2814ÿ"'y' is already defined.(¬éùÿÿÿÿ
+Tjavascript:S1854‹"2Remove this useless assignment to variable "elem".(ë’´Ôıÿÿÿÿ
+vjavascript:S3776"TRefactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.(ıİÂûÿÿÿÿ
+Njavascript:S1854¤"1Remove this useless assignment to variable "ctx".(•½š
+;javascript:S2814§"'evt' is already defined.(ßÖÄÿûÿÿÿÿ
+5javascript:S2814À"'ctx' is already defined.(ßıa

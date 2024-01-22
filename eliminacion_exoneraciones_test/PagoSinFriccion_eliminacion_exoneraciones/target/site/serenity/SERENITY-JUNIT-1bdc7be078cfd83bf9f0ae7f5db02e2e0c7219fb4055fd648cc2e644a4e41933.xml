@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Eliminar exitosamente las exoneraciones vencidas" skipped="0" tests="3" time="94.79" timestamp="2022-03-02 03:31:34"><testcase name="Verificar que se marquen como inactivas las exoneraciones que se encuentren vencidas para la fecha indicada"/></testsuite>

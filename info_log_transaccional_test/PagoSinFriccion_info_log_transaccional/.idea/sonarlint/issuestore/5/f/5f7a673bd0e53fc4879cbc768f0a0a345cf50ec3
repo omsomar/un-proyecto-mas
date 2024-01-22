@@ -1,0 +1,342 @@
+
+;javascript:S1186M"Unexpected empty function.(‘úæ’ûÿÿÿÿ
+fjavascript:S3358€"DExtract this nested ternary operation into an independent statement.(Ù•×Ìúÿÿÿÿ
+Pjavascript:S1117—".'elem' is already declared in the upper scope.(±ÕÃÉşÿÿÿÿ
+Pjavascript:S1117¤".'elem' is already declared in the upper scope.(À¿Ìÿÿÿÿÿ
+Vjavascript:S1135Ç"4Complete the task associated to this "TODO" comment.(’ÚÊãúÿÿÿÿ
+~javascript:S1488Ë"\Immediately return this expression instead of assigning it to the temporary variable "page".(ÕÀù—şÿÿÿÿ
+qjavascript:S3776Û"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(¸‹Óô
+vjavascript:S3776ã"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(ª—èÿÿÿÿÿ
+ijavascript:S4138è"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(‚–ı¬
+?javascript:S2189†""'ch' is not modified in this loop.(êÈ‡ı
+djavascript:S1994ú"GThis loop's stop condition tests "" but the incrementer updates "a, b".(«È¦
+Qjavascript:S1135æ"4Complete the task associated to this "TODO" comment.(Šãùè
+qjavascript:S3776ú"TRefactor this function to reduce its Cognitive Complexity from 37 to the 15 allowed.(Ü¹Á¶
+Vjavascript:S1135ˆ"4Complete the task associated to this "TODO" comment.(Ş§¨ùùÿÿÿÿ
+Wjavascript:S1121¡";Extract the assignment of "that.node" from this expression.(ä¨à>
+Xjavascript:S1121¤";Extract the assignment of "that.node" from this expression.(¶°‡à
+Mjavascript:S1117¯"+'e' is already declared in the upper scope.(ĞêŠİûÿÿÿÿ
+Xjavascript:S1121´";Extract the assignment of "that.edge" from this expression.(ü¢¹Î
+]javascript:S1121¸";Extract the assignment of "that.edge" from this expression.(ÆœÂøÿÿÿÿ
+vjavascript:S3776¦"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(ñôĞºúÿÿÿÿ
+Sjavascript:S1481§"6Remove the declaration of the unused 'label' variable.(²ä›Ñ
+[javascript:S1121¾">Extract the assignment of "this.hovered" from this expression.(°œ›ö
+Tjavascript:S1121Í"7Extract the assignment of "label" from this expression.(šÁ°‰
+Vjavascript:S1481›"4Remove the declaration of the unused 'evt' variable.(Î˜£®øÿÿÿÿ
+Sjavascript:S1854›"1Remove this useless assignment to variable "evt".(Î˜£®øÿÿÿÿ
+Zjavascript:S1481Æ"8Remove the declaration of the unused 'nStyles' variable.(®†ñÌøÿÿÿÿ
+Wjavascript:S1854Æ"5Remove this useless assignment to variable "nStyles".(®†ñÌøÿÿÿÿ
+qjavascript:S3776é"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(ó®õŸ
+vjavascript:S3776ƒ"TRefactor this function to reduce its Cognitive Complexity from 42 to the 15 allowed.(ñôĞºúÿÿÿÿ
+qjavascript:S3776¦"TRefactor this function to reduce its Cognitive Complexity from 77 to the 15 allowed.(ˆè²Ô
+Wjavascript:S1121¬":Extract the assignment of "this.pos" from this expression.(ƒ¾ƒ©
+Wjavascript:S1121ƒ":Extract the assignment of "this.ctx" from this expression.(­©Ò­
+Xjavascript:S1121‰";Extract the assignment of "this.size" from this expression.(ü°Ö‰
+yjavascript:S2703‘"\Add the "let", "const" or "var" keyword to this declaration of "height" to make it explicit.(¡È¶
+Vjavascript:S1135Ê"4Complete the task associated to this "TODO" comment.(Ã÷…“şÿÿÿÿ
+Yjavascript:S1481Û"7Remove the declaration of the unused 'canvas' variable.(Ô¡Ï¹ûÿÿÿÿ
+Vjavascript:S1854Û"4Remove this useless assignment to variable "canvas".(Ô¡Ï¹ûÿÿÿÿ
+Vjavascript:S1135é"4Complete the task associated to this "TODO" comment.(áéä›øÿÿÿÿ
+Sjavascript:S3800¦"6Refactor this function to always return the same type.(‚­áø
+Sjavascript:S3800‚"6Refactor this function to always return the same type.(È¥ˆ
+vjavascript:S1488‘"YImmediately return this expression instead of assigning it to the temporary variable "a".(ùˆ…ù
+Sjavascript:S3800ù"6Refactor this function to always return the same type.(Š›ÙŒ
+Xjavascript:S3800É"6Refactor this function to always return the same type.(“š·×üÿÿÿÿ
+Mjavascript:S1117ó"+'p' is already declared in the upper scope.(ÕÕ„ˆıÿÿÿÿ
+qjavascript:S3776Ñ "TRefactor this function to reduce its Cognitive Complexity from 57 to the 15 allowed.(ˆè²Ô
+ajavascript:S3358é "DExtract this nested ternary operation into an independent statement.(ïĞ‰ÿ
+Ijavascript:S1940™%"'Use the opposite operator (!=) instead.(Á—«şÿÿÿÿ
+ijavascript:S4138œ%"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Â¢Ë 
+\javascript:S1515Å&"?Make sure this function is not called after the loop completes.(¿øÊù
+Ijavascript:S1125Ç&"'Remove the unnecessary boolean literal.(Î±ˆ£ÿÿÿÿÿ
+Ijavascript:S1125ó&"'Remove the unnecessary boolean literal.(Î±ˆ£ÿÿÿÿÿ
+Pjavascript:S1117'".'node' is already declared in the upper scope.(ˆ¬µ¼ûÿÿÿÿ
+Vjavascript:S1117'"4'levelBegin' is already declared in the upper scope.(ˆ¬µ¼ûÿÿÿÿ
+Tjavascript:S1117'"2'levelEnd' is already declared in the upper scope.(ˆ¬µ¼ûÿÿÿÿ
+Hjavascript:S1117'"+'d' is already declared in the upper scope.(é¿®»
+Rjavascript:S1481„("5Remove the declaration of the unused 'that' variable.(§ºÈÇ
+Ojavascript:S1854„("2Remove this useless assignment to variable "that".(§ºÈÇ
+qjavascript:S3776ß)"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÌÆÔ
+vjavascript:S3776Ä*"TRefactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.(æĞ²Éùÿÿÿÿ
+vjavascript:S3776®+"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(´˜§üùÿÿÿÿ
+vjavascript:S2703Ä+"ZAdd the "let", "const" or "var" keyword to this declaration of "that" to make it explicit.(Ö‡­=
+rjavascript:S3776™,"URefactor this function to reduce its Cognitive Complexity from 124 to the 15 allowed.(’ú‰ê
+Vjavascript:S1135,"4Complete the task associated to this "TODO" comment.(–Ô üÿÿÿÿ
+Jjavascript:S1117¬,".'prop' is already declared in the upper scope.(¹ø‘
+;javascript:S2814í,"'adj' is already defined.(¯ï–şÿÿÿÿ
+3javascript:S1116 -"Unnecessary semicolon.(Ò­”
+qjavascript:S3776¾-"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(ä‡‰ø
+vjavascript:S3776ø-"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ïç•ùÿÿÿÿ
+pjavascript:S3776“."TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(Õ™©>
+;javascript:S2814¤."'adj' is already defined.(¿Ù¾Ëıÿÿÿÿ
+vjavascript:S3776á2"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(›­´Øıÿÿÿÿ
+xjavascript:S1488œ3"[Immediately return this expression instead of assigning it to the temporary variable "out".(÷™ì£
+=javascript:S2814²3"'sense' is already defined.(›Òö°ùÿÿÿÿ
+Vjavascript:S1117²3"4'angleBegin' is already declared in the upper scope.(›Òö°ùÿÿÿÿ
+Tjavascript:S1117²3"2'angleEnd' is already declared in the upper scope.(›Òö°ùÿÿÿÿ
+ajavascript:S3358³3"DExtract this nested ternary operation into an independent statement.(€ıâ
+`javascript:S3358´3"DExtract this nested ternary operation into an independent statement.(ÄŒ]
+5javascript:S2814Ş4"'pi' is already defined.(¾Ùâñ
+vjavascript:S3776½5"TRefactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.(ööÕ¸şÿÿÿÿ
+Gjavascript:S1117å5"+'p' is already declared in the upper scope.(Ã¤ŠM
+Mjavascript:S1117è5"+'i' is already declared in the upper scope.(áô‡ßıÿÿÿÿ
+Mjavascript:S1117í5"+'p' is already declared in the upper scope.(«”‰şÿÿÿÿ
+Mjavascript:S1117ñ5"+'i' is already declared in the upper scope.(áô‡ßıÿÿÿÿ
+qjavascript:S3776¬6"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(ßíì 
+Vjavascript:S1135Ç6"4Complete the task associated to this "TODO" comment.(­µÇ£úÿÿÿÿ
+qjavascript:S3776û6"TRefactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.(à®¡Ü
+Pjavascript:S11177".'prop' is already declared in the upper scope.(œºÂûÿÿÿÿ
+Pjavascript:S1117™7".'prop' is already declared in the upper scope.(œºÂûÿÿÿÿ
+vjavascript:S3776Â7"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(®›ıøÿÿÿÿ
+Vjavascript:S1481È7"4Remove the declaration of the unused 'ctx' variable.(÷–Ùøÿÿÿÿ
+Sjavascript:S1854È7"1Remove this useless assignment to variable "ctx".(÷–Ùøÿÿÿÿ
+Vjavascript:S1481É7"4Remove the declaration of the unused 'min' variable.(øıƒ´ÿÿÿÿÿ
+Sjavascript:S1854É7"1Remove this useless assignment to variable "min".(øıƒ´ÿÿÿÿÿ
+6javascript:S2814Ê7"'opt' is already defined.(¢şıÆ
+vjavascript:S3776ï7"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(ØëÍÖıÿÿÿÿ
+Sjavascript:S1481ó7"7Remove the declaration of the unused 'config' variable.(ïÿ 
+Pjavascript:S1854ó7"4Remove this useless assignment to variable "config".(ïÿ 
+Qjavascript:S1481ô7"4Remove the declaration of the unused 'ctx' variable.(ôÊøˆ
+Njavascript:S1854ô7"1Remove this useless assignment to variable "ctx".(ôÊøˆ
+vjavascript:S3776ş8"TRefactor this function to reduce its Cognitive Complexity from 42 to the 15 allowed.(µà‡Øøÿÿÿÿ
+=javascript:S2814Ğ9"'color' is already defined.(–ô¥Æÿÿÿÿÿ
+Qjavascript:S1481œ:"4Remove the declaration of the unused 'pos' variable.(­Äæ
+Njavascript:S1854œ:"1Remove this useless assignment to variable "pos".(­Äæ
+bjavascript:S1121ã:"EExtract the assignment of "this.labelContainer" from this expression.(Şùøì
+]javascript:S1121ÿ:"AExtract the assignment of "this.labels[id]" from this expression.(ıõ¶.
+Qjavascript:S1481İ;"4Remove the declaration of the unused 'lab' variable.(û«›à
+Jjavascript:S1117ß;"-'lab' is already declared in the upper scope.(‹Şíñ
+“javascript:S2681ù;"vThis line will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(§¼Éç
+Wjavascript:S1121¢<"5Extract the assignment of "tag" from this expression.(Ãò«Ñúÿÿÿÿ
+Wjavascript:S1121Ô<"5Extract the assignment of "tag" from this expression.(Ãò«Ñúÿÿÿÿ
+qjavascript:S3776…="TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(…û†İ
+vjavascript:S3776¸="TRefactor this function to reduce its Cognitive Complexity from 54 to the 15 allowed.(–Ñ°¨üÿÿÿÿ
+Ojavascript:S1117½="-'ans' is already declared in the upper scope.(Ñ•ó²ùÿÿÿÿ
+Pjavascript:S1117½=".'json' is already declared in the upper scope.(Ñ•ó²ùÿÿÿÿ
+4javascript:S2685Â="Avoid arguments.callee.(“ûõ£
+Ojavascript:S1117È="-'ans' is already declared in the upper scope.(Ñ•ó²ùÿÿÿÿ
+Pjavascript:S1117È=".'json' is already declared in the upper scope.(Ñ•ó²ùÿÿÿÿ
+Mjavascript:S1117Ê="+'i' is already declared in the upper scope.(ÊÄŞïüÿÿÿÿ
+Mjavascript:S1117Ê="+'l' is already declared in the upper scope.(ÊÄŞïüÿÿÿÿ
+6javascript:S2814?"'ans' is already defined.(§ÅÆ±
+Ijavascript:S1117‚?"-'ans' is already declared in the upper scope.(ƒé”|
+;javascript:S2814?"'ans' is already defined.(œ³Ç¬şÿÿÿÿ
+qjavascript:S3776Ã?"TRefactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.(²ıÄÛ
+Qjavascript:S1135Ö?"4Complete the task associated to this "TODO" comment.(Ê÷„Ô
+rjavascript:S3776‹@"URefactor this function to reduce its Cognitive Complexity from 149 to the 15 allowed.(ºş«­
+Qjavascript:S1854Ô@"/Remove this useless assignment to variable "i".(–´—æüÿÿÿÿ
+Njavascript:S1117Ú@",'es' is already declared in the upper scope.(Êİä‰ıÿÿÿÿ
+Kjavascript:S1854Ş@"/Remove this useless assignment to variable "i".(ÖœØu
+8javascript:S1116à@"Unnecessary semicolon.(Åñ­õşÿÿÿÿ
+Ijavascript:S1117æ@",'es' is already declared in the upper scope.(û½àî
+Ojavascript:S1117é@"-'ans' is already declared in the upper scope.(ˆ‰©Œøÿÿÿÿ
+Qjavascript:S1854ê@"/Remove this useless assignment to variable "i".(Â°Øæşÿÿÿÿ
+8javascript:S1116ì@"Unnecessary semicolon.(Åñ­õşÿÿÿÿ
+Rjavascript:S1481‰A"6Remove the declaration of the unused 'cnode' variable.(˜Ÿ
+Ojavascript:S1854‰A"3Remove this useless assignment to variable "cnode".(˜Ÿ
+Pjavascript:S1117A".'node' is already declared in the upper scope.(£¾²íøÿÿÿÿ
+Gjavascript:S1117A"+'s' is already declared in the upper scope.(–›ë
+Tjavascript:S1481¤A"7Remove the declaration of the unused 'ptrees' variable.(½üÛæ
+Jjavascript:S1117ÛA"-'orn' is already declared in the upper scope.(—øùı
+Xjavascript:S930İA"7This function expects 5 arguments, but 6 were provided.(ãõÏÑûÿÿÿÿ
+Pjavascript:S1117àA".'node' is already declared in the upper scope.(û´Ò úÿÿÿÿ
+rjavascript:S3776®B"URefactor this function to reduce its Cognitive Complexity from 181 to the 15 allowed.(–—ã¯
+Hjavascript:S1117¼B"+'n' is already declared in the upper scope.(˜œıÍ
+Hjavascript:S1117ÆB"+'n' is already declared in the upper scope.(ÂŒ
+njavascript:S4138ÊB"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Ú·ºÿÿÿÿÿ
+8javascript:S1116ÑB"Unnecessary semicolon.(ôŸìúÿÿÿÿ
+Ojavascript:S1854ÕB"2Remove this useless assignment to variable "node".(Û±ç¢
+kjavascript:S1871ÚB"NThis branch's code block is the same as the block for the branch on line 8536.(Âò¶ü
+8javascript:S1116ßB"Unnecessary semicolon.(ôŸìúÿÿÿÿ
+Kjavascript:S1117ÏD".'node' is already declared in the upper scope.(Ì¶³Ë
+8javascript:S1116ÚD"Unnecessary semicolon.(ôŸìúÿÿÿÿ
+Ojavascript:S1117„E"2'rootNode' is already declared in the upper scope.(ë—÷
+Wjavascript:S1481‹F"5Remove the declaration of the unused 'root' variable.(’Ÿª’üÿÿÿÿ
+Tjavascript:S1854‹F"2Remove this useless assignment to variable "root".(’Ÿª’üÿÿÿÿ
+vjavascript:S3776¡G"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(¹¼Ñ¸üÿÿÿÿ
+Qjavascript:S1481¼G"4Remove the declaration of the unused 'viz' variable.(ğÚê
+Njavascript:S1854¼G"1Remove this useless assignment to variable "viz".(ğÚê
+njavascript:S4138ĞG"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(½»ªşÿÿÿÿ
+Qjavascript:S1135ÑG"4Complete the task associated to this "TODO" comment.(”Åãø
+Djavascript:S1125ÖG"'Remove the unnecessary boolean literal.(š©ùö
+vjavascript:S3776H"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ë¨ğøÿÿÿÿ
+Mjavascript:S1117’H"+'n' is already declared in the upper scope.(œÍ¹ÿÿÿÿÿ
+qjavascript:S3776 H"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(Æ¬„ê
+Rjavascript:S1481¡H"5Remove the declaration of the unused 'root' variable.(ä¤Èâ
+Ojavascript:S1854¡H"2Remove this useless assignment to variable "root".(ä¤Èâ
+vjavascript:S3776°H"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(•È±¼ıÿÿÿÿ
+ajavascript:S1515¾H"?Make sure this function is not called after the loop completes.(¹öã¿üÿÿÿÿ
+Qjavascript:S1135¿H"4Complete the task associated to this "TODO" comment.(î¿»£
+pjavascript:S1871ÆH"NThis branch's code block is the same as the block for the branch on line 9283.(Âşõûÿÿÿÿ
+qjavascript:S3776I"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(âÎ…¯
+Qjavascript:S1135I"4Complete the task associated to this "TODO" comment.(Àª” 
+vjavascript:S3776ÎI"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(å¿ğ§üÿÿÿÿ
+Njavascript:S1117ÏI",'$C' is already declared in the upper scope.(Å’èãıÿÿÿÿ
+Hjavascript:S3696âI"&Expected an error object to be thrown.(÷À¯Ëøÿÿÿÿ
+Hjavascript:S3696ïI"&Expected an error object to be thrown.(÷À¯Ëøÿÿÿÿ
+Njavascript:S1117şI",'$C' is already declared in the upper scope.(Å’èãıÿÿÿÿ
+Hjavascript:S3696ŒJ"&Expected an error object to be thrown.(÷À¯Ëøÿÿÿÿ
+Ljavascript:S1117¡J"/'level' is already declared in the upper scope.(âÙ™Í
+Kjavascript:S1117¡J".'node' is already declared in the upper scope.(âÙ™Í
+vjavascript:S3776ßJ"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ë‰êŞúÿÿÿÿ
+Hjavascript:S3696K"&Expected an error object to be thrown.(÷À¯Ëøÿÿÿÿ
+qjavascript:S3776ĞK"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(ü­øã
+Hjavascript:S3696€L"&Expected an error object to be thrown.(÷À¯Ëøÿÿÿÿ
+vjavascript:S3776µN"TRefactor this function to reduce its Cognitive Complexity from 68 to the 15 allowed.(…¸Îöùÿÿÿÿ
+Hjavascript:S1117¾N"+'x' is already declared in the upper scope.(‰‹ğÜ
+Hjavascript:S1117¾N"+'y' is already declared in the upper scope.(‰‹ğÜ
+Mjavascript:S1117¿N"+'x' is already declared in the upper scope.(¡Üàúÿÿÿÿ
+Mjavascript:S1117¿N"+'y' is already declared in the upper scope.(¡Üàúÿÿÿÿ
+=javascript:S2814èN"'color' is already defined.(—›ÏÈøÿÿÿÿ
+Xjavascript:S3800O"6Refactor this function to always return the same type.(ê€ÁÊøÿÿÿÿ
+vjavascript:S3776ÒO"TRefactor this function to reduce its Cognitive Complexity from 76 to the 15 allowed.(¾É¿‡üÿÿÿÿ
+Yjavascript:S1481ÁP"7Remove the declaration of the unused 'height' variable.(®Ôèÿÿÿÿÿ
+Vjavascript:S1854ÁP"4Remove this useless assignment to variable "height".(®Ôèÿÿÿÿÿ
+Vjavascript:S1481ÇP"9Remove the declaration of the unused 'domStyle' variable.(µê‚ä
+Sjavascript:S1854ÇP"6Remove this useless assignment to variable "domStyle".(µê‚ä
+[javascript:S1481ŒQ"9Remove the declaration of the unused 'acumLeft' variable.(Ü÷Ğöúÿÿÿÿ
+\javascript:S1481ŒQ":Remove the declaration of the unused 'acumRight' variable.(Ü÷Ğöúÿÿÿÿ
+vjavascript:S3776ÈQ"TRefactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.(ƒÓıûÿÿÿÿ
+Mjavascript:S1117áQ"+'i' is already declared in the upper scope.(¹´ºÒûÿÿÿÿ
+Mjavascript:S1117ëQ"+'i' is already declared in the upper scope.(¹´ºÒûÿÿÿÿ
+qjavascript:S3776ÓR"TRefactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.(¶‘ãå
+Mjavascript:S1117ÛR"+'n' is already declared in the upper scope.(Üëåøûÿÿÿÿ
+qjavascript:S3776³S"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(¨şŸú
+Hjavascript:S1117ÍS"+'n' is already declared in the upper scope.(‘²Ş™
+Hjavascript:S1117ÖS"+'n' is already declared in the upper scope.(‘²Ş™
+vjavascript:S3776²T"TRefactor this function to reduce its Cognitive Complexity from 78 to the 15 allowed.(…¸Îöùÿÿÿÿ
+Xjavascript:S3800‘U"6Refactor this function to always return the same type.(ê€ÁÊøÿÿÿÿ
+vjavascript:S3776‘U"TRefactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.(ê€ÁÊøÿÿÿÿ
+Ujavascript:S1481™U"3Remove the declaration of the unused 'rx' variable.(“É«Óşÿÿÿÿ
+Rjavascript:S1854™U"0Remove this useless assignment to variable "rx".(“É«Óşÿÿÿÿ
+;javascript:S2814·U"'intersec' is already defined.(Õˆßó
+vjavascript:S3776ÆU"TRefactor this function to reduce its Cognitive Complexity from 81 to the 15 allowed.(…¸Îöùÿÿÿÿ
+Xjavascript:S3800§V"6Refactor this function to always return the same type.(ê€ÁÊøÿÿÿÿ
+vjavascript:S3776§V"TRefactor this function to reduce its Cognitive Complexity from 37 to the 15 allowed.(ê€ÁÊøÿÿÿÿ
+Ujavascript:S1481°V"3Remove the declaration of the unused 'rx' variable.(“É«Óşÿÿÿÿ
+Rjavascript:S1854°V"0Remove this useless assignment to variable "rx".(“É«Óşÿÿÿÿ
+8javascript:S2814ÍV"'limit' is already defined.(×÷ŞŠ
+vjavascript:S3776ıV"TRefactor this function to reduce its Cognitive Complexity from 83 to the 15 allowed.(¾É¿‡üÿÿÿÿ
+Kjavascript:S1117æW".'horz' is already declared in the upper scope.(¿î“¤
+Vjavascript:S1481ìW"9Remove the declaration of the unused 'domStyle' variable.(µê‚ä
+Sjavascript:S1854ìW"6Remove this useless assignment to variable "domStyle".(µê‚ä
+vjavascript:S3776°X"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ï§É“şÿÿÿÿ
+Qjavascript:S1481ÂX"5Remove the declaration of the unused 'acum' variable.(ÌÕ
+vjavascript:S3776‹Y"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(ƒÓıûÿÿÿÿ
+|javascript:S4144ÖY"ZUpdate this function so that its implementation is not identical to the one on line 10620.(Ï øáıÿÿÿÿ
+qjavascript:S3776•Z"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(¨şŸú
+Hjavascript:S1117²Z"+'n' is already declared in the upper scope.(‘²Ş™
+Hjavascript:S1117»Z"+'n' is already declared in the upper scope.(‘²Ş™
+vjavascript:S3776·["TRefactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.(Ê „ùÿÿÿÿ
+Sjavascript:S1481¼["7Remove the declaration of the unused 'config' variable.(Íï–`
+Pjavascript:S1854¼["4Remove this useless assignment to variable "config".(Íï–`
+Mjavascript:S1117Ò["+'i' is already declared in the upper scope.(¥¾ˆÒüÿÿÿÿ
+Mjavascript:S1117Ò["+'l' is already declared in the upper scope.(¥¾ˆÒüÿÿÿÿ
+Ijavascript:S1117Ó[",'pi' is already declared in the upper scope.(ËËÆ€
+fjavascript:S3358Ô["DExtract this nested ternary operation into an independent statement.(ï¥…ûÿÿÿÿÿ
+Mjavascript:S1117ç["+'i' is already declared in the upper scope.(¥¾ˆÒüÿÿÿÿ
+Mjavascript:S1117ç["+'l' is already declared in the upper scope.(¥¾ˆÒüÿÿÿÿ
+Njavascript:S1117è[",'pi' is already declared in the upper scope.(¨ÕÉıúÿÿÿÿ
+qjavascript:S3776ğ]"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÕĞ·
+Rjavascript:S1481ñ]"5Remove the declaration of the unused 'that' variable.(Ä¾îĞ
+Ojavascript:S1854ñ]"2Remove this useless assignment to variable "that".(Ä¾îĞ
+qjavascript:S3776”^"TRefactor this function to reduce its Cognitive Complexity from 95 to the 15 allowed.(ŸÖÃÌ
+Ujavascript:S1481ï^"3Remove the declaration of the unused 'ld' variable.(Éù‹íüÿÿÿÿ
+:javascript:S2814ò^"'ld' is already defined.(ƒš«øÿÿÿÿ
+Ujavascript:S1481ò^"3Remove the declaration of the unused 'ld' variable.(ƒš«øÿÿÿÿ
+Rjavascript:S1854ò^"0Remove this useless assignment to variable "ld".(ƒš«øÿÿÿÿ
+9javascript:S2814÷^"'x' is already defined.(¬ÙÆÒøÿÿÿÿ
+9javascript:S2814÷^"'y' is already defined.(¬ÙÆÒøÿÿÿÿ
+>javascript:S2814û^"'thetap' is already defined.(œ´ÕÁüÿÿÿÿ
+Qjavascript:S1135óa"4Complete the task associated to this "TODO" comment.(ğ¿Ö£
+vjavascript:S3776b"TRefactor this function to reduce its Cognitive Complexity from 51 to the 15 allowed.(…¸Îöùÿÿÿÿ
+Vjavascript:S1481‚b"4Remove the declaration of the unused 'pos' variable.( ›ÿ’øÿÿÿÿ
+Sjavascript:S1854‚b"1Remove this useless assignment to variable "pos".( ›ÿ’øÿÿÿÿ
+Gjavascript:S1117£b"+'i' is already declared in the upper scope.(•õ¯
+Ujavascript:S1481®b"8Remove the declaration of the unused 'p1coord' variable.(È“‹Â
+Rjavascript:S1854®b"5Remove this useless assignment to variable "p1coord".(È“‹Â
+Zjavascript:S1481°b"8Remove the declaration of the unused 'p2coord' variable.(õöúöùÿÿÿÿ
+Wjavascript:S1854°b"5Remove this useless assignment to variable "p2coord".(õöúöùÿÿÿÿ
+Zjavascript:S1481²b"8Remove the declaration of the unused 'p3coord' variable.(ìêãıÿÿÿÿ
+Wjavascript:S1854²b"5Remove this useless assignment to variable "p3coord".(ìêãıÿÿÿÿ
+Ujavascript:S1481´b"8Remove the declaration of the unused 'p4coord' variable.(ï¬¡æ
+Rjavascript:S1854´b"5Remove this useless assignment to variable "p4coord".(ï¬¡æ
+Tjavascript:S1481Éb"2Remove the declaration of the unused 's' variable.(–âÇÿÿÿÿÿ
+Qjavascript:S1854Éb"/Remove this useless assignment to variable "s".(–âÇÿÿÿÿÿ
+Xjavascript:S3800æb"6Refactor this function to always return the same type.(İµ³Æûÿÿÿÿ
+vjavascript:S3776æb"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(İµ³Æûÿÿÿÿ
+vjavascript:S3776šc"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(¾É¿‡üÿÿÿÿ
+wjavascript:S4144»c"ZUpdate this function so that its implementation is not identical to the one on line 11174.(ß½Ï‚
+wjavascript:S4144Àc"ZUpdate this function so that its implementation is not identical to the one on line 11179.(ø‹˜¥
+]javascript:S1481ßc";Remove the declaration of the unused 'showLabels' variable.(Ş¿Œ“úÿÿÿÿ
+Zjavascript:S1854ßc"8Remove this useless assignment to variable "showLabels".(Ş¿Œ“úÿÿÿÿ
+6javascript:S2814íc"'pos' is already defined.(˜û˜ú
+vjavascript:S3776Úd"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(ƒÓıûÿÿÿÿ
+|javascript:S4144ÿd"ZUpdate this function so that its implementation is not identical to the one on line 11449.(¸ØÏ°şÿÿÿÿ
+|javascript:S4144†e"ZUpdate this function so that its implementation is not identical to the one on line 11456.(Üëåøûÿÿÿÿ
+|javascript:S4144œe"ZUpdate this function so that its implementation is not identical to the one on line 10620.(Ï øáıÿÿÿÿ
+qjavascript:S3776Ñe"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(¨şŸú
+Hjavascript:S1117ãe"+'n' is already declared in the upper scope.(‘²Ş™
+Hjavascript:S1117ëe"+'n' is already declared in the upper scope.(‘²Ş™
+Xjavascript:S1481šf"6Remove the declaration of the unused 'offst' variable.(ù¥¯³ûÿÿÿÿ
+Ujavascript:S1854šf"3Remove this useless assignment to variable "offst".(ù¥¯³ûÿÿÿÿ
+qjavascript:S3776÷f"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(ŞÌû
+qjavascript:S3776h"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(§È­Á
+fjavascript:S3358h"DExtract this nested ternary operation into an independent statement.(æêøÿÿÿÿ
+fjavascript:S3358h"DExtract this nested ternary operation into an independent statement.(æêøÿÿÿÿ
+4javascript:S2814èh"'w' is already defined.(ÔÃÉñ
+Yjavascript:S1481­j"7Remove the declaration of the unused 'offset' variable.(Ñ–ÇÜÿÿÿÿÿ
+Vjavascript:S1854­j"4Remove this useless assignment to variable "offset".(Ñ–ÇÜÿÿÿÿÿ
+kjavascript:S107Âj"JMethod 'computeSubtree' has too many parameters (8). Maximum allowed is 7.(öÛÔ¥øÿÿÿÿ
+ajavascript:S1481Çj"?Remove the declaration of the unused 'prevNodeLength' variable.(‹¡®ñúÿÿÿÿ
+qjavascript:S3776ük"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(¹ñÂ×
+vjavascript:S3776¹l"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(©ıüÿÿÿÿ
+€javascript:S2703Ïl"^Add the "let", "const" or "var" keyword to this declaration of "callback" to make it explicit.(Òõäüûÿÿÿÿ
+qjavascript:S3776‚m"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(™à
+vjavascript:S3776ºm"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(¹¼Ñ¸üÿÿÿÿ
+Kjavascript:S1117òm".'root' is already declared in the upper scope.(³øøö
+@javascript:S125‚p"Remove this commented out code.(Ùœ‰òøÿÿÿÿ
+Hjavascript:S1117”p"+'p' is already declared in the upper scope.(­ŒÔ
+qjavascript:S3776œp"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(æ±ô¸
+3javascript:S2814ãp"'p' is already defined.(åëˆ
+wjavascript:S4144út"ZUpdate this function so that its implementation is not identical to the one on line 12498.(Úèş‹
+wjavascript:S4144ÿt"ZUpdate this function so that its implementation is not identical to the one on line 12503.(©¤ ´
+wjavascript:S4144†u"ZUpdate this function so that its implementation is not identical to the one on line 12510.(Úèş‹
+wjavascript:S4144u"ZUpdate this function so that its implementation is not identical to the one on line 12518.(©¤ ´
+vjavascript:S3776°v"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(˜™ğüÿÿÿÿ
+7javascript:S2814Áv"'that' is already defined.(Ä¾îĞ
+vjavascript:S3776ğv"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(ó½£‘ûÿÿÿÿ
+Mjavascript:S1117…w"+'n' is already declared in the upper scope.(§´ä†ıÿÿÿÿ
+Vjavascript:S1135w"4Complete the task associated to this "TODO" comment.(×ìÀüÿÿÿÿ
+Qjavascript:S1135—w"4Complete the task associated to this "TODO" comment.(—ÏŞ›
+vjavascript:S3776±w"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(©ıüÿÿÿÿ
+|javascript:S4144Åw"ZUpdate this function so that its implementation is not identical to the one on line 13904.(îĞ®Æûÿÿÿÿ
+|javascript:S4144Éw"ZUpdate this function so that its implementation is not identical to the one on line 13908.(îĞ®Æûÿÿÿÿ
+|javascript:S4144Íx"ZUpdate this function so that its implementation is not identical to the one on line 14001.(¸Æä¨øÿÿÿÿ
+vjavascript:S3776×x"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(¹¼Ñ¸üÿÿÿÿ
+{javascript:S4144×x"YUpdate this function so that its implementation is not identical to the one on line 9121.(¹¼Ñ¸üÿÿÿÿ
+{javascript:S4144âx"YUpdate this function so that its implementation is not identical to the one on line 9129.(‚äãüÿÿÿÿ
+Yjavascript:S1481Éy"7Remove the declaration of the unused 'height' variable.(®Ôèÿÿÿÿÿ
+Vjavascript:S1854Éy"4Remove this useless assignment to variable "height".(®Ôèÿÿÿÿÿ
+|javascript:S4144šz"ZUpdate this function so that its implementation is not identical to the one on line 15585.(¸Æä¨øÿÿÿÿ
+qjavascript:S3776çz"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(½­İ…
+|javascript:S4144À|"ZUpdate this function so that its implementation is not identical to the one on line 11946.(¬ä­üÿÿÿÿ
+wjavascript:S4144´~"ZUpdate this function so that its implementation is not identical to the one on line 14762.(ü­øã
+wjavascript:S4144ç~"ZUpdate this function so that its implementation is not identical to the one on line 14813.(ü­øã
+|javascript:S4144œ"ZUpdate this function so that its implementation is not identical to the one on line 14865.(…¸Îöùÿÿÿÿ
+|javascript:S4144¡"ZUpdate this function so that its implementation is not identical to the one on line 14870.(İµ³Æûÿÿÿÿ
+|javascript:S4144¨"ZUpdate this function so that its implementation is not identical to the one on line 14877.(…¸Îöùÿÿÿÿ
+|javascript:S4144®"ZUpdate this function so that its implementation is not identical to the one on line 14883.(İµ³Æûÿÿÿÿ
+|javascript:S4144¶"ZUpdate this function so that its implementation is not identical to the one on line 14891.(…¸Îöùÿÿÿÿ
+|javascript:S4144»"ZUpdate this function so that its implementation is not identical to the one on line 14896.(İµ³Æûÿÿÿÿ
+|javascript:S4144Â"ZUpdate this function so that its implementation is not identical to the one on line 14903.(…¸Îöùÿÿÿÿ
+|javascript:S4144È"ZUpdate this function so that its implementation is not identical to the one on line 14909.(İµ³Æûÿÿÿÿ
+|javascript:S4144Ğ"ZUpdate this function so that its implementation is not identical to the one on line 14917.(…¸Îöùÿÿÿÿ
+|javascript:S4144Õ"ZUpdate this function so that its implementation is not identical to the one on line 14922.(İµ³Æûÿÿÿÿ
+|javascript:S4144Ü"ZUpdate this function so that its implementation is not identical to the one on line 14929.(…¸Îöùÿÿÿÿ
+|javascript:S4144á"ZUpdate this function so that its implementation is not identical to the one on line 14934.(İµ³Æûÿÿÿÿ
+xjavascript:S4144…€"ZUpdate this function so that its implementation is not identical to the one on line 12498.(Úèş‹
+xjavascript:S4144Š€"ZUpdate this function so that its implementation is not identical to the one on line 12503.(©¤ ´
+xjavascript:S4144‘€"ZUpdate this function so that its implementation is not identical to the one on line 12510.(Úèş‹
+xjavascript:S4144™€"ZUpdate this function so that its implementation is not identical to the one on line 12518.(©¤ ´
+wjavascript:S3776ù‚"TRefactor this function to reduce its Cognitive Complexity from 50 to the 15 allowed.(Õ¥áÈùÿÿÿÿ

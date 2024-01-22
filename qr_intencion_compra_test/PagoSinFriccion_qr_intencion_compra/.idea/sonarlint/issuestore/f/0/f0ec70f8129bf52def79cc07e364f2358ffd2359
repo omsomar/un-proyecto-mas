@@ -1,0 +1,49 @@
+
+Ojavascript:S1481\"3Remove the declaration of the unused 'yp' variable.(á¤Òè
+Ljavascript:S1854\"0Remove this useless assignment to variable "yp".(á¤Òè
+mjavascript:S4138i"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ñ¸ğˆÿÿÿÿÿ
+Tjavascript:S1481|"3Remove the declaration of the unused 'xp' variable.(ÅÒ»ôûÿÿÿÿ
+Qjavascript:S1854|"0Remove this useless assignment to variable "xp".(ÅÒ»ôûÿÿÿÿ
+njavascript:S4138‚"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ñ¸ğˆÿÿÿÿÿ
+vjavascript:S3776Ã"TRefactor this function to reduce its Cognitive Complexity from 84 to the 15 allowed.(Øë®ùÿÿÿÿ
+Tjavascript:S1481Ä"7Remove the declaration of the unused 'legend' variable.(µ±®
+Qjavascript:S1854Ä"4Remove this useless assignment to variable "legend".(µ±®
+Sjavascript:S1854"1Remove this useless assignment to variable "pad".(”›Ü–øÿÿÿÿ
+Rjavascript:S1854£"0Remove this useless assignment to variable "tr".(²’Ûãùÿÿÿÿ
+Njavascript:S1854¤"1Remove this useless assignment to variable "td1".(òï¸×
+Sjavascript:S1854¥"1Remove this useless assignment to variable "td2".(¾Üí…úÿÿÿÿ
+4javascript:S2814¸"'a' is already defined.(Î½ëÃ
+9javascript:S2814¹"'b' is already defined.(Ëé–ßÿÿÿÿÿ
+9javascript:S2814¾"'a' is already defined.(Ùı«Ãüÿÿÿÿ
+9javascript:S2814¿"'b' is already defined.(Ëé–ßÿÿÿÿÿ
+9javascript:S2814Ã"'a' is already defined.(Ùı«Ãüÿÿÿÿ
+4javascript:S2814Ä"'b' is already defined.(º›âø
+9javascript:S2814È"'a' is already defined.(Ùı«Ãüÿÿÿÿ
+4javascript:S2814É"'b' is already defined.(‡ù·Æ
+4javascript:S2814Í"'a' is already defined.(Î½ëÃ
+4javascript:S2814Î"'b' is already defined.(‡ù·Æ
+4javascript:S2814Ò"'a' is already defined.(üÆé
+4javascript:S2814Ó"'b' is already defined.(‡ù·Æ
+4javascript:S2814×"'a' is already defined.(üÆé
+4javascript:S2814Ø"'b' is already defined.(º›âø
+9javascript:S2814Ü"'a' is already defined.(ÛÔæ¦ÿÿÿÿÿ
+4javascript:S2814İ"'b' is already defined.(¨ô—š
+9javascript:S2814æ"'a' is already defined.(•ƒÁ¡úÿÿÿÿ
+9javascript:S2814ç"'b' is already defined.(Ëé–ßÿÿÿÿÿ
+4javascript:S2814ì"'a' is already defined.(Î½ëÃ
+9javascript:S2814í"'b' is already defined.(Óõ¸‘úÿÿÿÿ
+9javascript:S2814ò"'a' is already defined.(Úù–¸ûÿÿÿÿ
+9javascript:S2814ó"'b' is already defined.(Ëé–ßÿÿÿÿÿ
+9javascript:S2814÷"'a' is already defined.(Úù–¸ûÿÿÿÿ
+4javascript:S2814ø"'b' is already defined.(º›âø
+9javascript:S2814ü"'a' is already defined.(Úù–¸ûÿÿÿÿ
+4javascript:S2814ı"'b' is already defined.(‡ù·Æ
+4javascript:S2814"'a' is already defined.(Î½ëÃ
+4javascript:S2814‚"'b' is already defined.(¾üÁü
+9javascript:S2814†"'a' is already defined.(•ƒÁ¡úÿÿÿÿ
+4javascript:S2814‡"'b' is already defined.(‡ù·Æ
+9javascript:S2814‹"'a' is already defined.(•ƒÁ¡úÿÿÿÿ
+4javascript:S2814Œ"'b' is already defined.(º›âø
+9javascript:S2814"'a' is already defined.(ÛÔæ¦ÿÿÿÿÿ
+4javascript:S2814‘"'b' is already defined.(¨ô—š
+ijavascript:S4138¥"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ä›Ëê

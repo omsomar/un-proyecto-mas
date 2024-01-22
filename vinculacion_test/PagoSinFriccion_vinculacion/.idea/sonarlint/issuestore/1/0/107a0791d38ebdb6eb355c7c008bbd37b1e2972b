@@ -1,0 +1,49 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(šêäÿşÿÿÿÿ8²Ë·š„0
+o
+java:S37762"RRefactor this method to reduce its Cognitive Complexity from 82 to the 15 allowed.(®·Î8¸Ë·š„0
+_
+java:S1858x"="get" returns a string, there's no need to call "toString()".(ó¬Çıÿÿÿÿ8ÇË·š„0
+_
+java:S1858}"="get" returns a string, there's no need to call "toString()".(ó¬Çıÿÿÿÿ8ÈË·š„0
+V	java:S106—"9Replace this use of System.out or System.err by a logger.(º¾âé8â¬ë›„0
+[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(İÙÒ“ÿÿÿÿÿ8ç¬ë›„0
+[	java:S106¬"9Replace this use of System.out or System.err by a logger.(ˆıŒùÿÿÿÿ8ê¬ë›„0
+U	java:S106Û"9Replace this use of System.out or System.err by a logger.(‚›8‚­ë›„0
+j
+java:S1192"MDefine a constant instead of duplicating this literal "numDocumento" 3 times.(ô±å¥8ŞË·š„0
+t
+java:S11927"RDefine a constant instead of duplicating this literal "nombreRespTecnico" 6 times.(ÖÈ’ ùÿÿÿÿ8ŞË·š„0
+i
+java:S1192 "LDefine a constant instead of duplicating this literal "cantCuentas" 4 times.(ÛÓæ…8ŞË·š„0
+i
+java:S11925"LDefine a constant instead of duplicating this literal "razonSocial" 5 times.(¿Õş8ßË·š„0
+m
+java:S1192*"PDefine a constant instead of duplicating this literal "estructuradoPor" 3 times.(¦óá8ßË·š„0
+x
+java:S1192¤"[Define a constant instead of duplicating this literal "daily_transactional_report" 3 times.(ä”‡8ßË·š„0
+k
+java:S1192"NDefine a constant instead of duplicating this literal "tipoDocumento" 3 times.(»Á…·8ßË·š„0
+n
+java:S1192,"LDefine a constant instead of duplicating this literal "cantCorreos" 3 times.(ú”øÿÿÿÿ8ßË·š„0
+j
+java:S11924"MDefine a constant instead of duplicating this literal "codigoAsesor" 5 times.(ıŞĞÏ8ßË·š„0
+u
+java:S11929"SDefine a constant instead of duplicating this literal "celularRespTecnico" 6 times.(è—“«ùÿÿÿÿ8ßË·š„0
+j
+java:S1192+"NDefine a constant instead of duplicating this literal "opcionEntrega" 3 times.(¦ï8ßË·š„0
+q
+java:S11926"ODefine a constant instead of duplicating this literal "nombreRteLegal" 5 times.(“Ëõİıÿÿÿÿ8ßË·š„0
+m
+java:S1192·"ODefine a constant instead of duplicating this literal "id_vinculation" 4 times.(Âşç8ßË·š„0
+d
+java:S1192¿"FDefine a constant instead of duplicating this literal "email" 4 times.(Ö–”Ä8ßË·š„0
+h
+java:S1192~"FDefine a constant instead of duplicating this literal "false" 9 times.(ˆìæ¹ûÿÿÿÿ8ßË·š„0
+e
+java:S1192Ş"NDefine a constant instead of duplicating this literal "Plan Avanzado" 3 times.(‰ÓÃ©
+q
+java:S1192#"ODefine a constant instead of duplicating this literal "numAccionistas" 3 times.(«•¡ƒûÿÿÿÿ8ßË·š„0
+o
+java:S11928"RDefine a constant instead of duplicating this literal "correoRespTecnico" 6 times.(½çûÇ8ßË·š„0

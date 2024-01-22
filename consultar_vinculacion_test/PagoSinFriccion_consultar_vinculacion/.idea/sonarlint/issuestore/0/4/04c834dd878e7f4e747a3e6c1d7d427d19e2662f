@@ -1,0 +1,20 @@
+
+n
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 125 to the 15 allowed.(Žð‹îûÿÿÿÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(•ô›‚
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(º¤Û“þÿÿÿÿ
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(­Í¥àúÿÿÿÿ
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(ä®Œ„
+2
+java:S1116•"Remove this empty statement.(‡£·<
+T	java:S106¿"9Replace this use of System.out or System.err by a logger.(¯ÆÈ˜ýÿÿÿÿ
+T	java:S106À"9Replace this use of System.out or System.err by a logger.(ñŠßœüÿÿÿÿ
+T	java:S106Î"9Replace this use of System.out or System.err by a logger.(ïÏàŸþÿÿÿÿ
+]
+java:S1126Ð"AReplace this if-then-else statement by a single return statement.(¹Ã¤þÿÿÿÿ
+Z
+java:S1155¸">Use isEmpty() to check whether the collection is empty or not.(ËÐ±Øÿÿÿÿÿ
+U
+java:S1155§">Use isEmpty() to check whether the collection is empty or not.(ªðçð
+Z
+java:S1155Á">Use isEmpty() to check whether the collection is empty or not.(žñà§þÿÿÿÿ

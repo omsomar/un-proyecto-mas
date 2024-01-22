@@ -1,0 +1,76 @@
+
+Z	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
+LWeb:ImgWithoutAltCheck."%Add an "alt" attribute to this image.(üÀõÆúÿÿÿÿ
+CWeb:BoldAndItalicTagsCheckI"Replace this <i> tag by <em>.(Î”şç
+CWeb:BoldAndItalicTagsCheckL"Replace this <i> tag by <em>.(µŞ‹•
+CWeb:BoldAndItalicTagsCheckO"Replace this <i> tag by <em>.(¨ê­
+BWeb:BoldAndItalicTagsCheckR"Replace this <i> tag by <em>.(Õê‚?
+CWeb:BoldAndItalicTagsCheckU"Replace this <i> tag by <em>.(ÖÅÒî
+OWeb:TableWithoutCaptionCheck^" Add a description to this table.(ê˜Ğ‚8üÚ†Ï/
+A	Web:S5256^"%Add "<th>" headers to this "<table>".(ê˜Ğ‚8üÚ†Ï/
+OWeb:BoldAndItalicTagsCheckc"Replace this <i> tag by <em>.(âƒƒâùÿÿÿÿ8üÚ†Ï/
+K	Web:S1827o"*Remove this deprecated "valign" attribute.(ï¤•ùÿÿÿÿ8üÚ†Ï/
+JWeb:BoldAndItalicTagsCheckr"Replace this <i> tag by <em>.(«¹Û‘8üÚ†Ï/
+JWeb:BoldAndItalicTagsChecky"Replace this <i> tag by <em>.(«¹Û‘8üÚ†Ï/
+KWeb:BoldAndItalicTagsCheck€"Replace this <i> tag by <em>.(«¹Û‘8üÚ†Ï/
+PWeb:TableWithoutCaptionCheckŠ" Add a description to this table.(ê˜Ğ‚8üÚ†Ï/
+B	Web:S5256Š"%Add "<th>" headers to this "<table>".(ê˜Ğ‚8ıÚ†Ï/
+PWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(ÁØûÿÿÿÿ8ıÚ†Ï/
+UWeb:TableWithoutCaptionCheck°" Add a description to this table.(¿‰˜ÿÿÿÿÿ8ıÚ†Ï/
+t Web:TableHeaderHasIdOrScopeCheck³";Add either an 'id' or a 'scope' attribute to this <th> tag.(©Ã¿ºÿÿÿÿÿ8ıÚ†Ï/
+t Web:TableHeaderHasIdOrScopeCheck´";Add either an 'id' or a 'scope' attribute to this <th> tag.(„âıåşÿÿÿÿ8ıÚ†Ï/
+t Web:TableHeaderHasIdOrScopeCheckµ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ığÆ‡úÿÿÿÿ8ıÚ†Ï/
+PWeb:TableWithoutCaptionCheckÆ" Add a description to this table.(¥‰ì¶8ıÚ†Ï/
+F	Web:S1827È")Remove this deprecated "width" attribute.(ëğ›Á8ıÚ†Ï/
+o Web:TableHeaderHasIdOrScopeCheckÈ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ëğ›Á8ıÚ†Ï/
+F	Web:S1827Ë")Remove this deprecated "width" attribute.(™Õ‡ñ8ıÚ†Ï/
+o Web:TableHeaderHasIdOrScopeCheckË";Add either an 'id' or a 'scope' attribute to this <th> tag.(™Õ‡ñ8ıÚ†Ï/
+K	Web:S1827Î")Remove this deprecated "width" attribute.(ôÊªÈùÿÿÿÿ8ıÚ†Ï/
+t Web:TableHeaderHasIdOrScopeCheckÎ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ôÊªÈùÿÿÿÿ8ıÚ†Ï/
+F	Web:S1827Ï")Remove this deprecated "width" attribute.(¸Î‡8ıÚ†Ï/
+o Web:TableHeaderHasIdOrScopeCheckÏ";Add either an 'id' or a 'scope' attribute to this <th> tag.(¸Î‡8ıÚ†Ï/
+K	Web:S1827Õ")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ8ıÚ†Ï/
+J	Web:S1827Ö"(Remove this deprecated "name" attribute.(şÅƒŸûÿÿÿÿ8şÚ†Ï/
+KWeb:BoldAndItalicTagsCheckÙ"Replace this <i> tag by <em>.(Ê–Ş¦8şÚ†Ï/
+F	Web:S1827è")Remove this deprecated "width" attribute.(ï‹àŒ8şÚ†Ï/
+F	Web:S1827é")Remove this deprecated "width" attribute.(ÉáÙÔ8şÚ†Ï/
+PWeb:TableWithoutCaptionCheckí" Add a description to this table.(°¬è8şÚ†Ï/
+B	Web:S5256í"%Add "<th>" headers to this "<table>".(°¬è8şÚ†Ï/
+K	Web:S1827ğ")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ8şÚ†Ï/
+PWeb:BoldAndItalicTagsCheckó"Replace this <i> tag by <em>.(Œíõ¨ùÿÿÿÿ8şÚ†Ï/
+F	Web:S1827ı")Remove this deprecated "width" attribute.(—›Š™8şÚ†Ï/
+F	Web:S1827ş")Remove this deprecated "width" attribute.(£Ë®ı8şÚ†Ï/
+K	Web:S1827")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ8şÚ†Ï/
+KWeb:BoldAndItalicTagsCheck„"Replace this <i> tag by <em>.(†ÚÔ—8şÚ†Ï/
+UWeb:TableWithoutCaptionCheck‰" Add a description to this table.(ıêşŒıÿÿÿÿ8şÚ†Ï/
+t Web:TableHeaderHasIdOrScopeCheck‰";Add either an 'id' or a 'scope' attribute to this <th> tag.(ıêşŒıÿÿÿÿ8şÚ†Ï/
+t Web:TableHeaderHasIdOrScopeCheck‰";Add either an 'id' or a 'scope' attribute to this <th> tag.(ıêşŒıÿÿÿÿ8ÿÚ†Ï/
+F	Web:S1827")Remove this deprecated "width" attribute.(Á…¡ğ8ÿÚ†Ï/
+F	Web:S1827")Remove this deprecated "width" attribute.(¾š³Ü8ÿÚ†Ï/
+K	Web:S1827’")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ8ÿÚ†Ï/
+KWeb:BoldAndItalicTagsCheck•"Replace this <i> tag by <em>.(†ÚÔ—8ÿÚ†Ï/
+F	Web:S1827Ÿ")Remove this deprecated "width" attribute.(Á…¡ğ8ÿÚ†Ï/
+K	Web:S1827 ")Remove this deprecated "width" attribute.(ÖíÆãúÿÿÿÿ8ÿÚ†Ï/
+K	Web:S1827£")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ8ÿÚ†Ï/
+PWeb:BoldAndItalicTagsCheck¦"Replace this <i> tag by <em>.(Œíõ¨ùÿÿÿÿ8ÿÚ†Ï/
+F	Web:S1827ä")Remove this deprecated "width" attribute.(—›Š™8ÿÚ†Ï/
+K	Web:S1827å")Remove this deprecated "width" attribute.( ”ì§üÿÿÿÿ8ÿÚ†Ï/
+K	Web:S1827ê")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ8ÿÚ†Ï/
+KWeb:BoldAndItalicTagsCheckí"Replace this <i> tag by <em>.(†ÚÔ—8ÿÚ†Ï/
+F	Web:S1827÷")Remove this deprecated "width" attribute.(Á…¡ğ8ÿÚ†Ï/
+K	Web:S1827ø")Remove this deprecated "width" attribute.(´ğçìıÿÿÿÿ8ÿÚ†Ï/
+K	Web:S1827û")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ8ÿÚ†Ï/
+PWeb:BoldAndItalicTagsCheckş"Replace this <i> tag by <em>.(Œíõ¨ùÿÿÿÿ8ÿÚ†Ï/
+F	Web:S1827ˆ")Remove this deprecated "width" attribute.(—›Š™8ÿÚ†Ï/
+F	Web:S1827‰")Remove this deprecated "width" attribute.(¿Ä¥ô8ÿÚ†Ï/
+K	Web:S1827Œ")Remove this deprecated "width" attribute.(ô¼òàÿÿÿÿÿ8ÿÚ†Ï/
+PWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(Œíõ¨ùÿÿÿÿ8ÿÚ†Ï/
+F	Web:S1827™")Remove this deprecated "width" attribute.(—›Š™8ÿÚ†Ï/
+K	Web:S1827š")Remove this deprecated "width" attribute.(ç¼ÙËûÿÿÿÿ8€Û†Ï/
+F	Web:S1827£")Remove this deprecated "width" attribute.(ÍÿŠ§8€Û†Ï/
+E	Web:S1827¤")Remove this deprecated "width" attribute.(Å¼î-8€Û†Ï/
+MWeb:ImgWithoutAltCheckÜ"%Add an "alt" attribute to this image.(‡â‘¢üÿÿÿÿ
+MWeb:ImgWithoutAltCheckß"%Add an "alt" attribute to this image.(Õ±ì…øÿÿÿÿ
+MWeb:ImgWithoutAltChecká"%Add an "alt" attribute to this image.(ì¥™õùÿÿÿÿ
+GWeb:ImgWithoutAltCheckâ"%Add an "alt" attribute to this image.(ç°¶G
+MWeb:ImgWithoutAltCheckã"%Add an "alt" attribute to this image.(ˆíŸÔıÿÿÿÿ

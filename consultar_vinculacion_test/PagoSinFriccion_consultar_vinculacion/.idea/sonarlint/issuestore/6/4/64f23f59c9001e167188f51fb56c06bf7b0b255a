@@ -1,0 +1,22 @@
+
+V	java:S106‹"9Replace this use of System.out or System.err by a logger.(¡‡·ì8±¯¿Ñˆ0
+ƒ
+java:S1192O"hDefine a constant instead of duplicating this literal "AND  vin.legal_repr_document_number = '" 3 times.( êªéûÿÿÿÿ
+u
+java:S1192]"ZDefine a constant instead of duplicating this literal "AND ca.account_number = '" 4 times.(á‡õƒıÿÿÿÿ
+~
+java:S1192H"cDefine a constant instead of duplicating this literal " 00:00:00.000000'::timestamp AND '" 9 times.(ËÁ¨„ıÿÿÿÿ
+b
+java:S1192H"GDefine a constant instead of duplicating this literal "WHERE " 3 times.(ËÁ¨„ıÿÿÿÿ
+g
+java:S1192H"LDefine a constant instead of duplicating this literal " BETWEEN '" 11 times.(ËÁ¨„ıÿÿÿÿ
+y
+java:S1192H"WDefine a constant instead of duplicating this literal " 23:59:59'::timestamp " 9 times.(ËÁ¨„ıÿÿÿÿ8¢¢°œ…0
+z
+java:S1192j"XDefine a constant instead of duplicating this literal "AND ca.account_type = '" 3 times.(Â°ÉÚûÿÿÿÿ8Ç§ëÜ†0
+€
+java:S1192S"eDefine a constant instead of duplicating this literal "WHERE vin.commerce_document_type = '" 4 times.(´ßÍîşÿÿÿÿ
+€
+java:S1192T"eDefine a constant instead of duplicating this literal "AND vin.commerce_document_number = '" 4 times.(¸äÙ²øÿÿÿÿ
+w
+java:S1192i"ZDefine a constant instead of duplicating this literal "AND vin.commerce_name = '" 3 times.(†ÀÊ«8—×êÜ†0

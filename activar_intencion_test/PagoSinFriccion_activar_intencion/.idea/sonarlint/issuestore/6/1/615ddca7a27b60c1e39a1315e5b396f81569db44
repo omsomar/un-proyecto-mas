@@ -1,0 +1,19 @@
+
+ajavascript:S905s"FExpected an assignment or function call and instead saw an expression.(¸°Ö
+ajavascript:S905t"FExpected an assignment or function call and instead saw an expression.(¿‰Ğ¨
+pjavascript:S3776{"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(´§¬¤
+ijavascript:S4138Š"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(¢íÊ°
+ijavascript:S4138”"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(¢íÊ°
+4javascript:S2814”"'j' is already defined.(¢íÊ°
+qjavascript:S3776¡"TRefactor this function to reduce its Cognitive Complexity from 98 to the 15 allowed.(Õ›Ø£
+Yjavascript:S1481¯"7Remove the declaration of the unused 'shadow' variable.(ˆ‡åÊùÿÿÿÿ
+Vjavascript:S1854¯"4Remove this useless assignment to variable "shadow".(ˆ‡åÊùÿÿÿÿ
+Rjavascript:S1481°"5Remove the declaration of the unused 'fill' variable.(ŒòºÁ
+Ojavascript:S1854°"2Remove this useless assignment to variable "fill".(ŒòºÁ
+[javascript:S1481±">Remove the declaration of the unused 'fillAndStroke' variable.(—Á€ú
+Xjavascript:S1854±";Remove this useless assignment to variable "fillAndStroke".(—Á€ú
+9javascript:S2814º"'i' is already defined.(Îáêûÿÿÿÿ
+Ajavascript:S2814Ê"'dinterval' is already defined.(Â”Èèúÿÿÿÿ
+9javascript:S2814Ş"'i' is already defined.(ıÈ…Òøÿÿÿÿ
+Ljavascript:S1854¾"/Remove this useless assignment to variable "h".(ëÄâ‡
+;javascript:S125ó"Remove this commented out code.(Óˆıú

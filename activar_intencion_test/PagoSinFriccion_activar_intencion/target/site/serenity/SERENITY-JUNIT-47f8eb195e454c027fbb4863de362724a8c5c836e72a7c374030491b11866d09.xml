@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Crear dos intenciones de compra para el mismo QR" skipped="0" tests="1" time="14.45" timestamp="2022-04-25 04:56:36"><testcase name="Crear más de una intención de compra para el mismo QR y verificar que solo la última intención sea la que quede pendiente"/></testsuite>

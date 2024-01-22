@@ -1,0 +1,24 @@
+co/com/bancolombia/certificacion/vinculacion/runners/VinculacionNoValida.java
+ co.com.bancolombia.certificacion.vinculacion.runners.VinculacionNoValida
+co/com/bancolombia/certificacion/vinculacion/runners/VinculacionValidacionFallida.java
+ co.com.bancolombia.certificacion.vinculacion.runners.VinculacionValidacionFallida
+co/com/bancolombia/certificacion/vinculacion/stepdefinitions/VinculacionValidacionPendienteStepDefinition.java
+ co.com.bancolombia.certificacion.vinculacion.stepdefinitions.VinculacionValidacionPendienteStepDefinition
+co/com/bancolombia/certificacion/vinculacion/runners/VinculacionValidacionExitosa.java
+ co.com.bancolombia.certificacion.vinculacion.runners.VinculacionValidacionExitosa
+co/com/bancolombia/certificacion/vinculacion/runners/GuardarVinculacionExitosa.java
+ co.com.bancolombia.certificacion.vinculacion.runners.GuardarVinculacionExitosa
+co/com/bancolombia/certificacion/vinculacion/runners/VinculacionValidacionPendiente.java
+ co.com.bancolombia.certificacion.vinculacion.runners.VinculacionValidacionPendiente
+co/com/bancolombia/certificacion/vinculacion/runners/VinculacionValidacionExitosaRevision.java
+ co.com.bancolombia.certificacion.vinculacion.runners.VinculacionValidacionExitosaRevision
+co/com/bancolombia/certificacion/vinculacion/stepdefinitions/VinculacionNoValidaStepDefinition.java
+ co.com.bancolombia.certificacion.vinculacion.stepdefinitions.VinculacionNoValidaStepDefinition
+co/com/bancolombia/certificacion/vinculacion/runners/VinculacionNegociacionFallida.java
+ co.com.bancolombia.certificacion.vinculacion.runners.VinculacionNegociacionFallida
+co/com/bancolombia/certificacion/vinculacion/stepdefinitions/GuardarVinculacionStepDefinition.java
+ co.com.bancolombia.certificacion.vinculacion.stepdefinitions.GuardarVinculacionStepDefinition
+co/com/bancolombia/certificacion/vinculacion/stepdefinitions/VinculacionNegocFallidaStepDefinition.java
+ co.com.bancolombia.certificacion.vinculacion.stepdefinitions.VinculacionNegocFallidaStepDefinition
+co/com/bancolombia/certificacion/vinculacion/stepdefinitions/VinculacionExitosaStepDefinition.java
+ co.com.bancolombia.certificacion.vinculacion.stepdefinitions.VinculacionExitosaStepDefinition

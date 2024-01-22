@@ -1,0 +1,2774 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Paginación del servicio listar las notificaciones</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Paginación del servicio listar las notificaciones</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Paginación del servicio listar las notificaciones</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">35.297s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Validar la navegación por los resultados de las distintas páginas obtenidas en el listado de notificaciones</td>
+<td class="success">27.666s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar total de páginas obtenidas en el listar notificaciones</td>
+<td class="success">4.942s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar total de páginas obtenidas en el listar notificaciones</td>
+<td class="success">2.689s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;paginationKey&quot;: &quot;0&quot;,
+    &quot;paginationSize&quot;: &quot;30&quot;,
+    &quot;startDate&quot;: &quot;2021-09-18&quot;,
+    &quot;endDate&quot;: &quot;2021-09-24&quot;
+}
+HTTP/1.1 200 OK
+Date: Tue, 19 Oct 2021 17:14:42 GMT
+Content-Type: application/json
+Content-Length: 19875
+Connection: keep-alive
+x-envoy-upstream-service-time: 469
+server: undefined
+
+{
+    &quot;pagination&quot;: {
+        &quot;totalPages&quot;: 1,
+        &quot;totalElements&quot;: 57
+    },
+    &quot;data&quot;: [
+        {
+            &quot;transferVoucher&quot;: &quot;I12556504426&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR425470664&quot;,
+            &quot;transferAmount&quot;: 5500.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T16:26:28&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: &quot;22d4f625-0e91-4d68-bcc9-bc180bd072bd&quot;,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR640908433&quot;,
+            &quot;transferAmount&quot;: 2880.5,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T14:53:53&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;7c6e2d5a-b285-4221-a543-cec9554e9112&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I54653569155&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I42039248679&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I46251888848&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1008788765&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR873628890&quot;,
+            &quot;transferAmount&quot;: 10.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T11:17:50&quot;,
+            &quot;transferReference&quot;: &quot;&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40671266007&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989674261&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40614261004&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;c4f48365-4b4c-49fa-b962-d46f578a85b1&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I43019384821&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR152159831&quot;,
+            &quot;transferAmount&quot;: 6000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T10:25:50&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;2b6d6557-69a3-44ec-88ae-2dcc02b5290e&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;632261687299&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-21T17:01:31&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670214026&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1020491410&quot;,
+                &quot;payerReference&quot;: &quot;apto 312 torre 3&quot;,
+                &quot;accountNumber&quot;: &quot;------0080&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;3b8c2efc-bc4c-4336-9514-3681b2b260a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I26636595939&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I43353057773&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1008788765&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR838110397&quot;,
+            &quot;transferAmount&quot;: 10.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T09:42:28&quot;,
+            &quot;transferReference&quot;: &quot;&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40671266007&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989674261&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40614261004&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;c4f48365-4b4c-49fa-b962-d46f578a85b1&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR409521771&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;Error&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T15:45:38&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I10920378481&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I97995125981&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR199719092&quot;,
+            &quot;transferAmount&quot;: 8000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T10:50:15&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: &quot;b1367c9c-aab7-4a71-af3c-8a681bc2f646&quot;,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;2b6d6557-69a3-44ec-88ae-2dcc02b5290e&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I71326824819&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;632261604763&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-21T17:00:11&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670214026&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1020491410&quot;,
+                &quot;payerReference&quot;: &quot;apto 312 torre 3&quot;,
+                &quot;accountNumber&quot;: &quot;------0080&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;3b8c2efc-bc4c-4336-9514-3681b2b260a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR998765872&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T16:07:54&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR252699894&quot;,
+            &quot;transferAmount&quot;: 15000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T16:21:25&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: &quot;f3364c19-dade-4ecc-a73a-45d598e9966c&quot;,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I10406218926&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I55248257557&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR379788399&quot;,
+            &quot;transferAmount&quot;: 2880.5,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T14:44:41&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ab8f2c3c-a147-46f2-bcd2-089337b54016&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I60396036068&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1008788765&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I75348004750&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1008788765&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I13872910457&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR132365186&quot;,
+            &quot;transferAmount&quot;: 10.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T09:37:11&quot;,
+            &quot;transferReference&quot;: &quot;&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40671266007&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989674261&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40614261004&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;c4f48365-4b4c-49fa-b962-d46f578a85b1&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR515481537&quot;,
+            &quot;transferAmount&quot;: 8000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T10:23:49&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;2b6d6557-69a3-44ec-88ae-2dcc02b5290e&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR662244805&quot;,
+            &quot;transferAmount&quot;: 8000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;Error&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-22T17:21:49&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;2b6d6557-69a3-44ec-88ae-2dcc02b5290e&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;paginationKey&quot;: &quot;1&quot;,
+    &quot;paginationSize&quot;: &quot;30&quot;,
+    &quot;startDate&quot;: &quot;2021-09-18&quot;,
+    &quot;endDate&quot;: &quot;2021-09-24&quot;
+}
+HTTP/1.1 200 OK
+Date: Tue, 19 Oct 2021 17:14:48 GMT
+Content-Type: application/json
+Content-Length: 17917
+Connection: keep-alive
+x-envoy-upstream-service-time: 464
+server: undefined
+
+{
+    &quot;pagination&quot;: {
+        &quot;totalPages&quot;: 1,
+        &quot;totalElements&quot;: 57
+    },
+    &quot;data&quot;: [
+        {
+            &quot;transferVoucher&quot;: &quot;I93037941205&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR32082069&quot;,
+            &quot;transferAmount&quot;: 9999.99,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T14:40:52&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: &quot;67019722&quot;,
+            &quot;idIntention&quot;: &quot;eb9549a8-0eb0-4902-8df1-37a6927dc2ab&quot;,
+            &quot;commerceInvoiceId&quot;: &quot;00011223345&quot;,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;1045cb0a-00e9-4619-afbf-8cff94d0150e&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR143016117&quot;,
+            &quot;transferAmount&quot;: 10.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T11:18:52&quot;,
+            &quot;transferReference&quot;: &quot;&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40671266007&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989674261&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40614261004&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;c4f48365-4b4c-49fa-b962-d46f578a85b1&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;632262019862&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-21T17:07:05&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670214026&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1035427682&quot;,
+                &quot;payerReference&quot;: &quot;apto 312 torre 3&quot;,
+                &quot;accountNumber&quot;: &quot;------1117&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;3b8c2efc-bc4c-4336-9514-3681b2b260a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR579573729&quot;,
+            &quot;transferAmount&quot;: 15000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;Error&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T15:41:32&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR572308514&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;Error&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T15:42:15&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR50831928&quot;,
+            &quot;transferAmount&quot;: 8000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;Error&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-22T17:23:35&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;2b6d6557-69a3-44ec-88ae-2dcc02b5290e&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I88489731535&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I30552111877&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1008788765&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I96925659899&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;632325864955&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-22T10:51:10&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670214026&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1037627340&quot;,
+                &quot;payerReference&quot;: &quot;apto 312 torre 3&quot;,
+                &quot;accountNumber&quot;: &quot;------0060&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;3b8c2efc-bc4c-4336-9514-3681b2b260a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I48657044045&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR623762769&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T16:02:08&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I24512110036&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR73385116&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;Error&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T15:38:36&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR750026020&quot;,
+            &quot;transferAmount&quot;: 8000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T10:19:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;2b6d6557-69a3-44ec-88ae-2dcc02b5290e&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I7007353047&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1008788765&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I47192718115&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1008788765&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR768542151&quot;,
+            &quot;transferAmount&quot;: 10.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;Error&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T11:21:16&quot;,
+            &quot;transferReference&quot;: &quot;&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40671266007&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989674261&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40614261004&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;c4f48365-4b4c-49fa-b962-d46f578a85b1&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I51414535594&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR780492037&quot;,
+            &quot;transferAmount&quot;: 15000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T16:09:08&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR696725226&quot;,
+            &quot;transferAmount&quot;: 8000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T10:49:16&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: &quot;b1367c9c-aab7-4a71-af3c-8a681bc2f646&quot;,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989674261&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40614261004&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;2b6d6557-69a3-44ec-88ae-2dcc02b5290e&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR286969727&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;Error&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T15:39:27&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I90710603434&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR77212182&quot;,
+            &quot;transferAmount&quot;: 10000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T17:33:31&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: &quot;db6bfb53-bc24-4a3e-a121-0dca26146625&quot;,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;2ac8cbff-4a8f-4e8c-9666-5f70a1d31969&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR90524958&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;Error&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T15:40:39&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I98914316527&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;paginationKey&quot;: &quot;0&quot;,
+    &quot;paginationSize&quot;: &quot;30&quot;,
+    &quot;startDate&quot;: &quot;2021-09-18&quot;,
+    &quot;endDate&quot;: &quot;2021-09-24&quot;
+}
+HTTP/1.1 200 OK
+Date: Tue, 19 Oct 2021 17:14:51 GMT
+Content-Type: application/json
+Content-Length: 19875
+Connection: keep-alive
+x-envoy-upstream-service-time: 523
+server: undefined
+
+{
+    &quot;pagination&quot;: {
+        &quot;totalPages&quot;: 1,
+        &quot;totalElements&quot;: 57
+    },
+    &quot;data&quot;: [
+        {
+            &quot;transferVoucher&quot;: &quot;I12556504426&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR425470664&quot;,
+            &quot;transferAmount&quot;: 5500.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T16:26:28&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: &quot;22d4f625-0e91-4d68-bcc9-bc180bd072bd&quot;,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR640908433&quot;,
+            &quot;transferAmount&quot;: 2880.5,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T14:53:53&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;7c6e2d5a-b285-4221-a543-cec9554e9112&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I54653569155&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I42039248679&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I46251888848&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1008788765&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR873628890&quot;,
+            &quot;transferAmount&quot;: 10.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T11:17:50&quot;,
+            &quot;transferReference&quot;: &quot;&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40671266007&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989674261&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40614261004&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;c4f48365-4b4c-49fa-b962-d46f578a85b1&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I43019384821&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR152159831&quot;,
+            &quot;transferAmount&quot;: 6000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T10:25:50&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;2b6d6557-69a3-44ec-88ae-2dcc02b5290e&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;632261687299&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-21T17:01:31&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670214026&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1020491410&quot;,
+                &quot;payerReference&quot;: &quot;apto 312 torre 3&quot;,
+                &quot;accountNumber&quot;: &quot;------0080&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;3b8c2efc-bc4c-4336-9514-3681b2b260a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I26636595939&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I43353057773&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1008788765&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR838110397&quot;,
+            &quot;transferAmount&quot;: 10.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T09:42:28&quot;,
+            &quot;transferReference&quot;: &quot;&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40671266007&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989674261&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40614261004&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;c4f48365-4b4c-49fa-b962-d46f578a85b1&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR409521771&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;Error&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T15:45:38&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I10920378481&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I97995125981&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR199719092&quot;,
+            &quot;transferAmount&quot;: 8000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T10:50:15&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: &quot;b1367c9c-aab7-4a71-af3c-8a681bc2f646&quot;,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;2b6d6557-69a3-44ec-88ae-2dcc02b5290e&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I71326824819&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;632261604763&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-21T17:00:11&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670214026&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1020491410&quot;,
+                &quot;payerReference&quot;: &quot;apto 312 torre 3&quot;,
+                &quot;accountNumber&quot;: &quot;------0080&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;3b8c2efc-bc4c-4336-9514-3681b2b260a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR998765872&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T16:07:54&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR252699894&quot;,
+            &quot;transferAmount&quot;: 15000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T16:21:25&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: &quot;f3364c19-dade-4ecc-a73a-45d598e9966c&quot;,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;57ee117f-c502-480f-90b8-6633b22ac6a9&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I10406218926&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I55248257557&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR379788399&quot;,
+            &quot;transferAmount&quot;: 2880.5,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T14:44:41&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ab8f2c3c-a147-46f2-bcd2-089337b54016&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I60396036068&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1008788765&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I75348004750&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1008788765&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;I13872910457&quot;,
+            &quot;transferAmount&quot;: 5000.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-24T09:31:13&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40610213004&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989688317&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;------7020&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;ac4dcb71-abd3-4655-90c2-c6e170ccd430&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;429&quot;,
+                &quot;description&quot;: &quot;Too Many Requests&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR132365186&quot;,
+            &quot;transferAmount&quot;: 10.0,
+            &quot;transferDescription&quot;: &quot;1507&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T09:37:11&quot;,
+            &quot;transferReference&quot;: &quot;&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40671266007&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989674261&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40614261004&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;c4f48365-4b4c-49fa-b962-d46f578a85b1&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR515481537&quot;,
+            &quot;transferAmount&quot;: 8000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-23T10:23:49&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;2b6d6557-69a3-44ec-88ae-2dcc02b5290e&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;QR662244805&quot;,
+            &quot;transferAmount&quot;: 8000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;Error&quot;,
+            &quot;transferDate&quot;: &quot;2021-09-22T17:21:49&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;2b6d6557-69a3-44ec-88ae-2dcc02b5290e&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://mp-vpn-qa.apps.ambientesbc.com/pago-sin-friccion/api/v1/info-transaction-qr/get-notification
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;paginationKey&quot;: &quot;0&quot;,
+    &quot;paginationSize&quot;: &quot;2&quot;,
+    &quot;startDate&quot;: &quot;2021-10-01&quot;,
+    &quot;endDate&quot;: &quot;2021-10-13&quot;
+}
+HTTP/1.1 200 OK
+Date: Tue, 19 Oct 2021 17:14:53 GMT
+Content-Type: application/json
+Content-Length: 1417
+Connection: keep-alive
+x-envoy-upstream-service-time: 174
+server: undefined
+
+{
+    &quot;pagination&quot;: {
+        &quot;totalPages&quot;: 8,
+        &quot;totalElements&quot;: 18
+    },
+    &quot;data&quot;: [
+        {
+            &quot;transferVoucher&quot;: &quot;QR613797564&quot;,
+            &quot;transferAmount&quot;: 2000.0,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-10-04T14:51:31&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: null,
+            &quot;idIntention&quot;: null,
+            &quot;commerceInvoiceId&quot;: null,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;71aa33ab-ca8d-47c6-87d3-90f5f08eb403&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;404&quot;,
+                &quot;description&quot;: &quot;Not Found&quot;
+            }
+        },
+        {
+            &quot;transferVoucher&quot;: &quot;442231&quot;,
+            &quot;transferAmount&quot;: 7500.87,
+            &quot;transferDescription&quot;: &quot;007&quot;,
+            &quot;transferState&quot;: &quot;approved&quot;,
+            &quot;transferDate&quot;: &quot;2021-10-06T17:03:42&quot;,
+            &quot;transferReference&quot;: &quot;QR - Papas El Mompri&quot;,
+            &quot;destinationAccountNumber&quot;: &quot;40670264005&quot;,
+            &quot;transferCodeResponse&quot;: null,
+            &quot;transferDescriptionResponse&quot;: null,
+            &quot;customerLoyaltyId&quot;: &quot;67019722&quot;,
+            &quot;idIntention&quot;: &quot;59ed30f2-40c0-4c7d-a106-b8926acbed9d&quot;,
+            &quot;commerceInvoiceId&quot;: &quot;00011223345&quot;,
+            &quot;clientInformation&quot;: {
+                &quot;documentType&quot;: &quot;CC&quot;,
+                &quot;documentNumber&quot;: &quot;1989641978&quot;,
+                &quot;payerReference&quot;: &quot;Apto - 1936&quot;,
+                &quot;accountNumber&quot;: &quot;40611978000&quot;
+            },
+            &quot;qrInfo&quot;: {
+                &quot;idQR&quot;: &quot;439c623f-b9c9-4487-9185-9eb2d789f395&quot;,
+                &quot;pointOfSale&quot;: &quot;CEOH Piso 4 Puesto 1587&quot;
+            },
+            &quot;responseNotification&quot;: {
+                &quot;code&quot;: &quot;200&quot;,
+                &quot;description&quot;: &quot;OK&quot;
+            }
+        }
+    ]
+}
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Validar la navegación por los resultados de las distintas páginas obtenidas en el listado de notificaciones
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Validar total de páginas obtenidas en el listar notificaciones
+----------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Validar total de páginas obtenidas en el listar notificaciones
+----------------------------------------------------------------------------
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at Oct 19, 2021 12:25:12 PM</p>
+</div>
+</div>
+</body>
+</html>
